@@ -22,7 +22,7 @@ Date,Year,Block,Sub_Plot,Treatment,ID,Group,Species,Coverage
 2023-10-30,2,1,1,W,1-1-W,Grass,Paspalum setaceum,0
 2023-10-30,2,1,1,W,1-1-W,Grass,Andropogon ternarius,0
 2023-10-30,2,1,2,C,1-2-C,Bare,Bareground,1
-2023-10-30,2,1,2,C,1-2-C,Grass,Cynodon dactylon,10
+2023-10-30,2,1,2,C,1-2-C,Grass,Cynodon dactylon,9
 2023-10-30,2,1,2,C,1-2-C,Grass,Paspalum notatum,2
 2023-10-30,2,1,2,C,1-2-C,Forb,Pityopsis trayci,0
 2023-10-30,2,1,2,C,1-2-C,Forb,Lactuca canadensis,0
@@ -493,25 +493,25 @@ Date,Year,Block,Sub_Plot,Treatment,ID,Group,Species,Coverage
 2023-10-30,2,1,23,LM,1-23-LM,Grass,Andropogon ternarius,0
 2023-10-30,2,1,23,LM,1-23-LM,Forb,Galactia spp.,0
 2023-10-30,2,1,23,LM,1-23-LM,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,24,LM,1-24-LH,Grass,Cynodon dactylon,6
-2023-10-30,2,1,24,LM,1-24-LH,Forb,Pityopsis trayci,7
-2023-10-30,2,1,24,LM,1-24-LH,Forb,Dalea pinnata,4
-2023-10-30,2,1,24,LM,1-24-LH,Sedge,Cyperus spp.,3
-2023-10-30,2,1,24,LM,1-24-LH,Grass,Sorghastrum secundum,6
-2023-10-30,2,1,24,LM,1-24-LH,Forb,Richardia spp.,0
-2023-10-30,2,1,24,LM,1-24-LH,Grass,Andropogon virginicus,0
-2023-10-30,2,1,24,LM,1-24-LH,Grass,Paspalum notatum,3
-2023-10-30,2,1,24,LM,1-24-LH,Bare,Bareground,3
-2023-10-30,2,1,24,LM,1-24-LH,Grass,Eragrostis spectabilis,8
-2023-10-30,2,1,24,LM,1-24-LH,Forb,Oenothera laciniata,6
-2023-10-30,2,1,24,LM,1-24-LH,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,24,LM,1-24-LH,Forb,Rumex hastatulus,0
-2023-10-30,2,1,24,LM,1-24-LH,Forb,Bidens alba,0
-2023-10-30,2,1,24,LM,1-24-LH,Forb,Oxalis corniculata,0
-2023-10-30,2,1,24,LM,1-24-LH,Grass,Paspalum setaceum,0
-2023-10-30,2,1,24,LM,1-24-LH,Grass,Andropogon ternarius,0
-2023-10-30,2,1,24,LM,1-24-LH,Forb,Galactia spp.,0
-2023-10-30,2,1,24,LM,1-24-LH,Forb,Gamochaeta spp.,0
+2023-10-30,2,1,24,LH,1-24-LH,Grass,Cynodon dactylon,6
+2023-10-30,2,1,24,LH,1-24-LH,Forb,Pityopsis trayci,7
+2023-10-30,2,1,24,LH,1-24-LH,Forb,Dalea pinnata,4
+2023-10-30,2,1,24,LH,1-24-LH,Sedge,Cyperus spp.,3
+2023-10-30,2,1,24,LH,1-24-LH,Grass,Sorghastrum secundum,6
+2023-10-30,2,1,24,LH,1-24-LH,Forb,Richardia spp.,0
+2023-10-30,2,1,24,LH,1-24-LH,Grass,Andropogon virginicus,0
+2023-10-30,2,1,24,LH,1-24-LH,Grass,Paspalum notatum,3
+2023-10-30,2,1,24,LH,1-24-LH,Bare,Bareground,3
+2023-10-30,2,1,24,LH,1-24-LH,Grass,Eragrostis spectabilis,8
+2023-10-30,2,1,24,LH,1-24-LH,Forb,Oenothera laciniata,6
+2023-10-30,2,1,24,LH,1-24-LH,Forb,Indigofera hirsuta,0
+2023-10-30,2,1,24,LH,1-24-LH,Forb,Rumex hastatulus,0
+2023-10-30,2,1,24,LH,1-24-LH,Forb,Bidens alba,0
+2023-10-30,2,1,24,LH,1-24-LH,Forb,Oxalis corniculata,0
+2023-10-30,2,1,24,LH,1-24-LH,Grass,Paspalum setaceum,0
+2023-10-30,2,1,24,LH,1-24-LH,Grass,Andropogon ternarius,0
+2023-10-30,2,1,24,LH,1-24-LH,Forb,Galactia spp.,0
+2023-10-30,2,1,24,LH,1-24-LH,Forb,Gamochaeta spp.,0
 2023-10-30,2,2,1,C,2-1-C,Grass,Cynodon dactylon,7
 2023-10-30,2,2,1,C,2-1-C,Sedge,Cyperus spp.,4
 2023-10-30,2,2,1,C,2-1-C,Forb,Indigofera hirsuta,5

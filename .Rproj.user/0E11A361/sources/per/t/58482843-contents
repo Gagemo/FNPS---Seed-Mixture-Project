@@ -101,11 +101,11 @@ Change_Abundance <- Abundance_w %>%
   dplyr::select(ID_, Treatment, Species, 
                 Coverage.x, Coverage.y) %>%
   group_by(ID_, Treatment, Species) %>% 
-  mutate(Change_abundance = Coverage.y - Coverage.x) %>%
+  mutate(Change_abundance = Coverage.y - Coverage.x) 
   filter(Change_abundance != 0)
 
-Change_Abundance_H = filter(Change_Abundance, Change_abundance >= 5)
-Change_Abundance_L = filter(Change_Abundance, Change_abundance <= -5)
+Change_Abundance_H = filter(Change_Abundance, Change_abundance >= 0)
+Change_Abundance_L = filter(Change_Abundance, Change_abundance <= 0)
 
 Change_Abundance = full_join(Change_Abundance_H, Change_Abundance_L)
 
@@ -130,13 +130,14 @@ Data_change = as.matrix(Data_change[, -1])
 
 
 speciesHEAT = pheatmap(Data_change, show_rownames=T, cluster_cols=F, 
-                       cluster_rows=F, annotation_row = Treat, fontsize = 20,
+                       cluster_rows=F, annotation_row = Treat, fontsize = 14,
                        border_color = "black", display_numbers = FALSE,
-                       cellheight=16, cellwidth = 20,
+                       cellheight=10, cellwidth = 20,
                        color=colorRampPalette(c("blue", "white", "red"))(50))
 speciesHEAT
 
-png(file = "Figures/Chapter 2 - Treatment/Heat.png", 
+png(file = "Figures/Heat.png", 
     units="cm", width=20, height=20, res=100)
 speciesHEAT
 dev.off()
+
