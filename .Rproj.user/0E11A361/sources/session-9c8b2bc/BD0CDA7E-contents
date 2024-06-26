@@ -1,0 +1,337 @@
+################################################################################
+################################################################################
+#########################   FNPS - Seed Mixture   ##############################
+#########################    Change in Cover      ##############################
+#########################  University of Florida  ##############################
+#########################     Gage LaPierre       ##############################
+#########################      2022 - 2023        ##############################
+################################################################################
+################################################################################
+
+######################### Clears Environment & History  ########################
+rm(list=ls(all=TRUE))
+cat("\014") 
+
+#########################     Installs Packages   ##############################
+list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont", "plotrix", 
+                      "ggsignif", "multcompView", "ggpubr", "rstatix", "labdsv",
+                      "tables")
+new.packages <- list.of.packages[!(list.of.packages %in% 
+                                     installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
+##########################     Loads Packages     ##############################
+library(tidyverse)
+library(vegan)
+library(labdsv)
+library(agricolae)
+library(extrafont)
+library(ggsignif)
+library(multcompView)
+library(ggpubr)
+library(plotrix)
+library(rstatix)
+library(tables)
+
+##########################     Read in  Data       #############################
+Data = read.csv("Data/FNPS - Seed Mixture Project - 2021-2023.csv")
+
+Data$Coverage = as.numeric(Data$Coverage)
+
+# Reclasifys coverage data (CV) from 1-10 scale to percent scale #
+Data <- mutate(Data, Coverage = case_when(
+  grepl(1, Coverage) ~ 0.1,
+  grepl(2, Coverage) ~ 0.5,
+  grepl(3, Coverage) ~ 1.5,
+  grepl(4, Coverage) ~ 3.5,
+  grepl(5, Coverage) ~ 7.5,
+  grepl(6, Coverage) ~ 17.5,
+  grepl(7, Coverage) ~ 37.5,
+  grepl(8, Coverage) ~ 62.5,
+  grepl(9, Coverage) ~ 85,
+  grepl(10, Coverage) ~ 97.5
+))
+
+str(Data)
+summary(Data)
+
+Data$YID <- paste(Data$Year,Data$ID)
+Data$ID_ <- paste(Data$Treatment, Data$ID)
+
+# Orders years and treatments so that they display in same sequence in graphs #
+Data$Year = factor(Data$Year, levels=c('1','2'))
+Data$Treatment = factor(Data$Treatment, levels=c('C','W', 'BH','BM', 'LH', 'LM'))
+
+#Renames values in Treatment treatments for heat map later #
+Data$Treatment <- recode(Data$Treatment, 
+                    C ="Control", W = "Wiregrass", BH = "Broomsedge High", 
+                    BM = "Broomsedge Medium", LH = "Lovegrass High", 
+                    LM = "Lovegrass Medium")
+
+#################### Species abundances ########################################
+# Creates and joins  data year 22 & 23 to make long data format #
+Two_Abundance <- Data[which(Data$Year == "1"),]
+Three_Abundance <- Data[which(Data$Year == "2"),]
+
+Abundance_w <- full_join(Two_Abundance, Three_Abundance, 
+                         by = c('ID_', "Treatment", 'Species'))
+Abundance_w = arrange(Abundance_w, Treatment)
+
+# Turns NA values into zeros #
+Abundance_w$Coverage.x <- ifelse(is.na(Abundance_w$Coverage.x), 0, 
+                                 Abundance_w$Coverage.x)
+Abundance_w$Coverage.y <- ifelse(is.na(Abundance_w$Coverage.y), 0, 
+                                 Abundance_w$Coverage.y)
+
+# Change abundance to reflect percentage change from (Year 1) to (Year 2)  #
+Change_Abundance <- Abundance_w %>% 
+  dplyr::select(ID_, Treatment, Species, 
+                Coverage.x, Coverage.y) %>%
+  group_by(ID_, Treatment, Species) %>% 
+  mutate(Change_abundance = Coverage.y - Coverage.x)
+
+##################################  COVER CAHNGES ##############################
+ES = 
+  Change_Abundance[which(Change_Abundance$Species == "Eragrostis spectabilis"),]
+ES<-as.data.frame(ES)
+ES$Treatment<-factor(ES$Treatment)
+
+# Check Assumptions #
+model  <- lm(Change_abundance ~ Treatment, data = ES)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+
+# Test for Significance #
+anova_ES = ES %>% anova_test(Change_abundance ~ Treatment) %>% 
+  add_significance()
+anova_ES
+
+lm(formula = Change_abundance ~ Treatment, ES)
+tukey_ES <- ES %>% 
+  tukey_hsd(Change_abundance ~ Treatment) %>% 
+  add_significance() %>% 
+  add_xy_position()
+tukey_ES
+
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=ES)
+tmp
+
+love_change_Box = 
+  ggplot(ES, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
+  geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+  geom_point(aes(fill=Treatment), size = 3, 
+             position = position_jitterdodge(), alpha = 0.7) +
+  stat_pvalue_manual(tukey_ES,size = 8, bracket.size = 1, hide.ns = T)+
+  labs(subtitle = get_test_label(anova_ES, detailed = TRUE),
+       caption = get_pwc_label(tukey_ES)) +
+  ylim(-70,50) +
+  theme_classic() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.background = element_blank(),
+        plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+        text=element_text(size=16),
+        axis.title.x = element_text(size=15, face="bold", colour = "black"),    
+        axis.title.y = element_text(size=15, face="bold", colour = "black"),   
+        axis.text.x=element_text(size=15, face = "bold", color = "black"),
+        axis.text.y=element_text(size=15, face = "bold", color = "black"),
+        strip.text.x = 
+          element_text(size = 15, colour = "black", face = "bold"),
+        legend.position = "none") +
+  guides(fill = guide_legend(label.position = "bottom")) +
+  labs(x = "", y = "Change in Coverage", title = "Eragrostis spectabilis")
+love_change_Box
+ggsave("Figures/Lovechange.png", 
+       width = 10, height = 7)
+
+################################################################################
+########################### Indiangrass ########################################
+################################################################################
+SS = 
+  Change_Abundance[which(Change_Abundance$Species == "Sorghastrum secundum"),]
+SS<-as.data.frame(SS)
+SS$Treatment<-factor(SS$Treatment)
+
+# Check Assumptions #
+model  <- lm(Change_abundance ~ Treatment, data = SS)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+
+# Test for Significance #
+anova_SS = SS %>% anova_test(Change_abundance ~ Treatment) %>% 
+  add_significance()
+summary(anova_SS)
+
+tukey_SS <- SS %>% 
+  tukey_hsd(Change_abundance ~ Treatment) %>% 
+  add_significance() %>% 
+  add_xy_position()
+tukey_SS
+
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=SS )
+tmp
+
+SS_change_Box = 
+  ggplot(SS, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
+  geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+  geom_point(aes(fill=Treatment), size = 3, 
+             position = position_jitterdodge(), alpha = 0.7) +
+  stat_pvalue_manual(tukey_SS,size = 8, bracket.size = 1, hide.ns = T)+
+  labs(subtitle = get_test_label(anova_SS, detailed = TRUE),
+       caption = get_pwc_label(tukey_SS)) +
+  theme_classic() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.background = element_blank(),
+        plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+        text=element_text(size=16),
+        axis.title.x = element_text(size=15, face="bold", colour = "black"),    
+        axis.title.y = element_text(size=15, face="bold", colour = "black"),   
+        axis.text.x=element_text(size=15, face = "bold", color = "black"),
+        axis.text.y=element_text(size=15, face = "bold", color = "black"),
+        strip.text.x = 
+          element_text(size = 15, colour = "black", face = "bold"),
+        legend.position = "none") +
+  guides(fill = guide_legend(label.position = "bottom")) +
+  labs(x = "", y = "Change in Coverage", title = "Sorghastrum secundum")
+SS_change_Box
+ggsave("Figures/change_indian.png", 
+       width = 10, height = 7)
+
+################################################################################
+########################### Pityopsis ##########################################
+################################################################################
+Pt = 
+  Change_Abundance[which(Change_Abundance$Species == "Pityopsis trayci"),]
+Pt<-as.data.frame(Pt)
+Pt$Treatment<-factor(Pt$Treatment)
+
+# Check Assumptions #
+model  <- lm(Change_abundance ~ Treatment, data = Pt)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+
+# Test for Significance #
+anova_Pt = Pt %>% anova_test(Change_abundance ~ Treatment) %>% 
+  add_significance()
+summary(anova_Pt)
+
+tukey_Pt <- Pt %>% 
+  tukey_hsd(Change_abundance ~ Treatment) %>% 
+  add_significance() %>% 
+  add_xy_position()
+tukey_Pt
+
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=Pt)
+tmp
+
+Pt_change_Box = 
+  ggplot(Pt, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
+  geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+  geom_point(aes(fill=Treatment), size = 3, 
+             position = position_jitterdodge(), alpha = 0.7) +
+  stat_pvalue_manual(tukey_Pt,size = 8, bracket.size = 1, hide.ns = T)+
+  labs(subtitle = get_test_label(anova_Pt, detailed = TRUE),
+       caption = get_pwc_label(tukey_Pt)) +
+  theme_classic() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.background = element_blank(),
+        plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+        text=element_text(size=16),
+        axis.title.x = element_text(size=15, face="bold", colour = "black"),    
+        axis.title.y = element_text(size=15, face="bold", colour = "black"),   
+        axis.text.x=element_text(size=15, face = "bold", color = "black"),
+        axis.text.y=element_text(size=15, face = "bold", color = "black"),
+        strip.text.x = 
+          element_text(size = 15, colour = "black", face = "bold"),
+        legend.position = "none") +
+  guides(fill = guide_legend(label.position = "bottom")) +
+  labs(x = "", y = "Change in Coverage", title = "Pityopsis graminifolia")
+Pt_change_Box
+ggsave("Figures/change_Pityopsis.png", 
+       width = 10, height = 7)
+
+################################################################################
+############################### Liatris ########################################
+################################################################################
+Liatris = 
+  Change_Abundance[which(Change_Abundance$Species == "Liatris gracilis"),]
+Liatris<-as.data.frame(Liatris)
+Liatris$Treatment<-factor(Liatris$Treatment)
+
+# Check Assumptions #
+model  <- lm(Change_abundance ~ Treatment, data = Liatris)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+
+# Test for Significance #
+anova_Liatris = Liatris %>% kruskal_test(Change_abundance ~ Treatment) %>% 
+  add_significance()
+summary(anova_Liatris)
+
+tukey_Liatris <- Liatris %>% 
+  dunn_test(Change_abundance ~ Treatment) %>% 
+  add_significance() %>% 
+  add_xy_position()
+tukey_Liatris
+summary(tukey_Liatris)
+
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=Liatris)
+tmp
+
+Liatris_change_Box = 
+  ggplot(Liatris, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
+  geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+  geom_point(aes(fill=Treatment), size = 3, 
+             position = position_jitterdodge(), alpha = 0.7) +
+  stat_pvalue_manual(tukey_Liatris,size = 8, bracket.size = 1, hide.ns = T)+
+  labs(subtitle = get_test_label(anova_Liatris, detailed = TRUE),
+       caption = get_pwc_label(tukey_Liatris)) +
+  ylim(0, 50) +
+  theme_classic() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.background = element_blank(),
+        plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+        text=element_text(size=16),
+        axis.title.x = element_text(size=15, face="bold", colour = "black"),    
+        axis.title.y = element_text(size=15, face="bold", colour = "black"),   
+        axis.text.x=element_text(size=15, face = "bold", color = "black"),
+        axis.text.y=element_text(size=15, face = "bold", color = "black"),
+        strip.text.x = 
+          element_text(size = 15, colour = "black", face = "bold"),
+        legend.position = "none") +
+  guides(fill = guide_legend(label.position = "bottom")) +
+  labs(x = "", y = "Change in Coverage", title = "Liatris gracilis")
+Liatris_change_Box
+ggsave("Figures/change_Liatris.png", 
+       width = 10, height = 7)
+
+################## Save Figures Above using ggarrange ##########################
+Change = 
+  ggarrange(love_change_Box, SS_change_Box, 
+            Pt_change_Box, Liatris_change_Box, ncol = 2, nrow = 2)
+annotate_figure(Change, top = text_grob("", color = "black", 
+                                        face = "bold", size = 25))
+ggsave("Figures/Change.png", 
+       width = 12, height = 8)
+
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=Liatris )
+tmp
