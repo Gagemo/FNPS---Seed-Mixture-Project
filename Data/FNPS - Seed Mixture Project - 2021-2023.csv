@@ -1,6 +1,6 @@
 Date,Year,Block,Sub_Plot,Treatment,ID,Group,Species,Coverage
 2023-10-30,2,1,1,W,1-1-W,Bare,Bareground,1
-2023-10-30,2,1,1,W,1-1-W,Grass,Cynodon dactylon,9
+2023-10-30,2,1,1,W,1-1-W,Grass,Cynodon dactylon,10
 2023-10-30,2,1,1,W,1-1-W,Grass,Paspalum notatum,4
 2023-10-30,2,1,1,W,1-1-W,Forb,Pityopsis trayci,5
 2023-10-30,2,1,1,W,1-1-W,Forb,Lactuca canadensis,0
@@ -266,7 +266,7 @@ Date,Year,Block,Sub_Plot,Treatment,ID,Group,Species,Coverage
 2023-10-30,2,1,13,LM,1-13-LM,Bare,Bareground,1
 2023-10-30,2,1,13,LM,1-13-LM,Grass,Cynodon dactylon,6
 2023-10-30,2,1,13,LM,1-13-LM,Grass,Paspalum notatum,3
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Pityopsis trayci,10
+2023-10-30,2,1,13,LM,1-13-LM,Forb,Pityopsis trayci,9
 2023-10-30,2,1,13,LM,1-13-LM,Forb,Lactuca canadensis,0
 2023-10-30,2,1,13,LM,1-13-LM,Forb,Oxalis corniculata,0
 2023-10-30,2,1,13,LM,1-13-LM,Grass,Eragrostis spectabilis,4

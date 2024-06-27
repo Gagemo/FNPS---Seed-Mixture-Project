@@ -34,7 +34,7 @@ Data$Coverage = as.numeric(Data$Coverage)
 
 # Reclasifys coverage data (CV) from 1-10 scale to percent scale #
 Data <- mutate(Data, Coverage = case_when(
-  grepl(0, Coverage) ~ 0,
+  grepl(10, Coverage) ~ 97.5,
   grepl(1, Coverage) ~ 0.1,
   grepl(2, Coverage) ~ 0.5,
   grepl(3, Coverage) ~ 1.5,
@@ -44,7 +44,7 @@ Data <- mutate(Data, Coverage = case_when(
   grepl(7, Coverage) ~ 37.5,
   grepl(8, Coverage) ~ 62.5,
   grepl(9, Coverage) ~ 85,
-  grepl(10, Coverage) ~ 97.5
+  grepl(0, Coverage) ~ 0,
 ))
 
 str(Data)
@@ -102,7 +102,6 @@ Change_Abundance <- Abundance_w %>%
                 Coverage.x, Coverage.y) %>%
   group_by(ID_, Treatment, Species) %>% 
   mutate(Change_abundance = Coverage.y - Coverage.x) 
-  filter(Change_abundance != 0)
 
 Change_Abundance_H = filter(Change_Abundance, Change_abundance >= 0)
 Change_Abundance_L = filter(Change_Abundance, Change_abundance <= 0)
@@ -130,9 +129,9 @@ Data_change = as.matrix(Data_change[, -1])
 
 
 speciesHEAT = pheatmap(Data_change, show_rownames=T, cluster_cols=F, 
-                       cluster_rows=F, annotation_row = Treat, fontsize = 14,
+                       cluster_rows=F, annotation_row = Treat, fontsize = 10,
                        border_color = "black", display_numbers = FALSE,
-                       cellheight=10, cellwidth = 20,
+                       cellheight=10, cellwidth = 28,
                        color=colorRampPalette(c("blue", "white", "red"))(50))
 speciesHEAT
 
