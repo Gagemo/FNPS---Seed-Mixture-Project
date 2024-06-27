@@ -40,6 +40,7 @@ Data$Coverage = as.numeric(Data$Coverage)
 
 # Reclasifys coverage data (CV) from 1-10 scale to percent scale #
 Data <- mutate(Data, Coverage = case_when(
+  grepl(10, Coverage) ~ 97.5,
   grepl(1, Coverage) ~ 0.1,
   grepl(2, Coverage) ~ 0.5,
   grepl(3, Coverage) ~ 1.5,
@@ -49,9 +50,8 @@ Data <- mutate(Data, Coverage = case_when(
   grepl(7, Coverage) ~ 37.5,
   grepl(8, Coverage) ~ 62.5,
   grepl(9, Coverage) ~ 85,
-  grepl(10, Coverage) ~ 97.5
+  grepl(0, Coverage) ~ 0,
 ))
-
 str(Data)
 summary(Data)
 
