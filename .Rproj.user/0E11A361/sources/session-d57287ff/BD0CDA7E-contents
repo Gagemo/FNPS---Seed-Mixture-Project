@@ -63,10 +63,10 @@ Data$Year = factor(Data$Year, levels=c('1','2'))
 Data$Treatment = factor(Data$Treatment, levels=c('C','W', 'BH','BM', 'LH', 'LM'))
 
 #Renames values in Treatment treatments for heat map later #
-Data$Treatment <- recode(Data$Treatment, 
-                    C ="Control", W = "Wiregrass", BH = "Broomsedge High", 
-                    BM = "Broomsedge Medium", LH = "Lovegrass High", 
-                    LM = "Lovegrass Medium")
+#Data$Treatment <- recode(Data$Treatment, 
+#                    C ="Control", W = "Wiregrass", BH = "Broomsedge High", 
+#                    BM = "Broomsedge Medium", LH = "Lovegrass High", 
+#                    LM = "Lovegrass Medium")
 
 #################### Species abundances ########################################
 # Creates and joins  data year 22 & 23 to make long data format #
@@ -207,6 +207,64 @@ ggsave("Figures/change_indian.png",
        width = 10, height = 7)
 
 ################################################################################
+########################### Broomsedge #########################################
+################################################################################
+AV = 
+  Change_Abundance[which(Change_Abundance$Species == "Andropogon virginicus"),]
+AV<-as.data.frame(AV)
+AV$Treatment<-factor(AV$Treatment)
+
+# Check Assumptions #
+model  <- lm(Change_abundance ~ Treatment, data = AV)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+
+# Test for Significance #
+anova_AV = AV %>% anova_test(Change_abundance ~ Treatment) %>% 
+  add_significance()
+summary(anova_AV)
+
+tukey_AV <- AV %>% 
+  tukey_hsd(Change_abundance ~ Treatment) %>% 
+  add_significance() %>% 
+  add_xy_position()
+tukey_AV
+
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=AV )
+tmp
+
+AV_change_Box = 
+  ggplot(AV, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
+  geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+  geom_point(aes(fill=Treatment), size = 3, 
+             position = position_jitterdodge(), alpha = 0.7) +
+  stat_pvalue_manual(tukey_AV,size = 8, bracket.size = 1, hide.ns = T)+
+  labs(subtitle = get_test_label(anova_AV, detailed = TRUE),
+       caption = get_pwc_label(tukey_AV)) +
+  theme_classic() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.background = element_blank(),
+        plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+        text=element_text(size=16),
+        axis.title.x = element_text(size=15, face="bold", colour = "black"),    
+        axis.title.y = element_text(size=15, face="bold", colour = "black"),   
+        axis.text.x=element_text(size=15, face = "bold", color = "black"),
+        axis.text.y=element_text(size=15, face = "bold", color = "black"),
+        strip.text.x = 
+          element_text(size = 15, colour = "black", face = "bold"),
+        legend.position = "none") +
+  guides(fill = guide_legend(label.position = "bottom")) +
+  labs(x = "", y = "Change in Coverage", title = "A. virginicus")
+AV_change_Box
+ggsave("Figures/change_Brooms.png", 
+       width = 10, height = 7)
+
+################################################################################
 ########################### Pityopsis ##########################################
 ################################################################################
 Pt = 
@@ -335,3 +393,4 @@ ggsave("Figures/Change.png",
 
 tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=Liatris )
 tmp
+
