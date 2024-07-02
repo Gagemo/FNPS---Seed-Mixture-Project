@@ -127,7 +127,6 @@ PN_change_Box =
   stat_pvalue_manual(tukey_PN,size = 8, bracket.size = 1, hide.ns = T)+
   labs(subtitle = get_test_label(anova_PN, detailed = TRUE),
        caption = get_pwc_label(tukey_PN)) +
-  ylim(-70,50) +
   theme_classic() +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
