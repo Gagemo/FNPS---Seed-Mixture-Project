@@ -1,10 +1,10 @@
 ################################################################################
 ################################################################################
 #########################   FNPS - Seed Mixture   ##############################
-######################### Coverage of Seeded Grasses############################
+#########################     Seeded Forb Cover   ##############################
 #########################  University of Florida  ##############################
 #########################     Gage LaPierre       ##############################
-#########################      2021 - 2023        ##############################
+#########################      2022 - 2023        ##############################
 ################################################################################
 ################################################################################
 
@@ -13,33 +13,30 @@ rm(list=ls(all=TRUE))
 cat("\014") 
 
 #########################     Installs Packages   ##############################
-list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont", 
-                      "ggsignif", "multcompView", "ggpubr", "rstatix",
-                      "vegan", "labdsv")
+list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont", "plotrix", 
+                      "ggsignif", "multcompView", "ggpubr", "rstatix", "labdsv",
+                      "tables")
 new.packages <- list.of.packages[!(list.of.packages %in% 
                                      installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 
 ##########################     Loads Packages     ##############################
-library(extrafont)
-#font_import()
-loadfonts(device = "win")
 library(tidyverse)
 library(vegan)
+library(labdsv)
 library(agricolae)
+library(extrafont)
 library(ggsignif)
 library(multcompView)
 library(ggpubr)
+library(plotrix)
 library(rstatix)
-library(vegan)
-library(labdsv)
+library(tables)
 
-####################### Read in 2021 - 2023 Data  ##############################
+##########################     Read in  Data       #############################
 Data = read.csv("Data/FNPS - Seed Mixture Project - 2021-2023.csv")
-Data$Coverage = as.numeric(Data$Coverage)
 
-str(Data)
-summary(Data)
+Data$Coverage = as.numeric(Data$Coverage)
 
 # Reclasifys coverage data (CV) from 1-10 scale to percent scale #
 Data <- mutate(Data, Coverage = case_when(
@@ -55,20 +52,11 @@ Data <- mutate(Data, Coverage = case_when(
   grepl(9, Coverage) ~ 85,
   grepl(0, Coverage) ~ 0,
 ))
+str(Data)
+summary(Data)
 
-Data = filter(Data, Species == "Aristida beyrichiana" | Species == "Andropogon virginicus" |
-              Species == "Eragrostis spectabilis")
-ES = filter(Data, Treatment == "LH" | Treatment == "LM") %>%
-  filter(Species == "Eragrostis spectabilis")
-AV = filter(Data, Treatment == "BH" | Treatment == "BM") %>%
-  filter(Species == "Andropogon virginicus")
-W = filter(Data, Treatment == "W") %>%
-  filter(Species == "Aristida beyrichiana")
-C = filter(Data, Treatment == "C") %>%
-  filter(Species == "Aristida beyrichiana" | Species == "Andropogon virginicus" 
-| Species == "Eragrostis spectabilis")
-
-Data = bind_rows(ES, AV, W, C)
+Data = filter(Data, Species == "Dalea pinnata" | Species == "Liatris gracilis" |
+                Species == "Pityopsis trayci")
 
 # Creates data sets by year #
 Data_22 = filter(Data, Year == 1)
@@ -91,12 +79,12 @@ Data_22$Treatment= as.factor(Data_22$Treatment)
 Data_22 %>% levene_test(Coverage ~ Treatment)
 
 # Test for Significance #
-anova_22 = Data_22 %>% kruskal_test(Coverage ~ Treatment) %>% 
+anova_22 = Data_22 %>% anova_test(Coverage ~ Treatment) %>% 
   add_significance()
 summary(anova_22)
 
 tukey_22 <- Data_22 %>% 
-  dunn_test(Coverage ~ Treatment) %>% 
+  tukey_hsd(Coverage ~ Treatment) %>% 
   add_significance() %>% 
   add_xy_position()
 tukey_22
@@ -114,30 +102,30 @@ Data_23$Treatment= as.factor(Data_23$Treatment)
 Data_23 %>% levene_test(Coverage ~ Treatment)
 
 # Test for Significance #
-anova_23 = Data_23 %>% kruskal_test(Coverage ~ Treatment) %>% 
+anova_23 = Data_23 %>% anova_test(Coverage ~ Treatment) %>% 
   add_significance()
 summary(anova_23)
 
 tukey_23 <- Data_23 %>% 
-  dunn_test(Coverage ~ Treatment) %>% 
+  tukey_hsd(Coverage ~ Treatment) %>% 
   add_significance() %>% 
   add_xy_position()
 tukey_23
 
 ################################################################################
-#################### Create Box Plot Across Years ##############################
+################ Create Box Plot Across Years ##################################
 ################################################################################
 
-##  Coverage 2022 Box plot ##
+## Lovegrass Coverage 2022 Box plot ##
 Box22 = 
-  ggplot(Data_22, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(Data_22, aes(x = Treatment, y = Coverage), colour = Species) +
   geom_boxplot(aes(fill=Species), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), 
              position = position_jitterdodge(), size = 2, alpha = 0.5) +
   stat_pvalue_manual(tukey_22,size = 8, bracket.size = 1, hide.ns = T)+
   labs(subtitle = get_test_label(anova_22,
-                                  detailed = TRUE),
-        caption = get_pwc_label(tukey_22)) +
+                                 detailed = TRUE),
+       caption = get_pwc_label(tukey_22)) +
   theme_classic() +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
@@ -153,22 +141,18 @@ Box22 =
           element_text(size = 20, colour = "black", face = "bold"),
         legend.position = "none") +
   guides(fill = guide_legend(label.position = "bottom")) +
-  labs(x = "", y = "% coverage", title = "2022")
+  labs(x = "", y = "% Coverage", title = "2022")
 Box22
 
-ggsave("Figures/box22.png", 
+ggsave("Figures/forb_box22.png", 
        width = 12, height = 8)
 
 ## Lovegrass Coverage 2023 Boxplot ##
 Box23 = 
-  ggplot(Data_23, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(Data_23, aes(x = Treatment, y = Coverage), colour = Species) +
   geom_boxplot(aes(fill=Species), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), 
              position = position_jitterdodge(), size = 2, alpha = 0.5) +
-  stat_pvalue_manual(tukey_23,size = 8, bracket.size = 1, hide.ns = T)+
-  labs(subtitle = get_test_label(anova_23,
-                                 detailed = TRUE),
-       caption = get_pwc_label(tukey_23)) +
   theme_classic() +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
@@ -186,14 +170,14 @@ Box23 =
           element_text(size = 15, colour = "black", face = "bold"),
         legend.position = "none") +
   guides(fill = guide_legend(label.position = "bottom")) +
-  labs(x = "", y = "% coverage", title = "2023")
+  labs(x = "", y = "% Coverage", title = "2023")
 Box23
 
-ggsave("Figures/box23.png", 
+ggsave("Figures/Ptbox23.png", 
        width = 12, height = 8)
 
 ################## Save Figures Above using ggarrange ##########################
 ggarrange(Box22, Box23, ncol = 2, nrow = 1)
-ggsave("Figures/22-23_Box.png", 
+ggsave("Figures/22-23_ForbBox.png", 
        width = 12, height = 10)
 

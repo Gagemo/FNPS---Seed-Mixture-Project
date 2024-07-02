@@ -57,12 +57,12 @@ Data <- mutate(Data, Coverage = case_when(
   grepl(0, Coverage) ~ 0,
 ))
 
-DP = filter(Data, Species == "Dalea pinnata")
-summary(DP)
+Data = filter(Data, Species == "Dalea pinnata")
+summary(Data)
 
 # Creates data sets by year #
-DP_22 = filter(DP, Year == 1)
-DP_23 = filter(DP, Year == 2)
+Data_22 = filter(Data, Year == 1)
+Data_23 = filter(Data, Year == 2)
 
 ################################################################################
 ################ Test for Significance across years ############################
@@ -70,22 +70,22 @@ DP_23 = filter(DP, Year == 2)
 
 ############################### 2022 Data ######################################
 # Check Assumptions #
-model  <- lm(Coverage ~ Treatment, data = DP_22)
+model  <- lm(Coverage ~ Treatment, data = Data_22)
 # Create a QQ plot of residuals
 ggqqplot(residuals(model))
 # Compute Shapiro-Wilk test of normality
 shapiro_test(residuals(model))
 plot(model, 1)
 # Compute Levene's Test
-DP_22$Treatment= as.factor(DP_22$Treatment)
-DP_22 %>% levene_test(Coverage ~ Treatment)
+Data_22$Treatment= as.factor(Data_22$Treatment)
+Data_22 %>% levene_test(Coverage ~ Treatment)
 
 # Test for Significance #
-anova_22 = DP_22 %>% anova_test(Coverage ~ Treatment) %>% 
+anova_22 = Data_22 %>% anova_test(Coverage ~ Treatment) %>% 
   add_significance()
 summary(anova_22)
 
-tukey_22 <- DP_22 %>% 
+tukey_22 <- Data_22 %>% 
   tukey_hsd(Coverage ~ Treatment) %>% 
   add_significance() %>% 
   add_xy_position()
@@ -93,22 +93,22 @@ tukey_22
 
 ############################### 2023 Data ######################################
 # Check Assumptions #
-model  <- lm(Coverage ~ Treatment, data = DP_23)
+model  <- lm(Coverage ~ Treatment, data = Data_23)
 # Create a QQ plot of residuals
 ggqqplot(residuals(model))
 # Compute Shapiro-Wilk test of normality
 shapiro_test(residuals(model))
 plot(model, 1)
 # Compute Levene's Test
-DP_23$Treatment= as.factor(DP_23$Treatment)
-DP_23 %>% levene_test(Coverage ~ Treatment)
+Data_23$Treatment= as.factor(Data_23$Treatment)
+Data_23 %>% levene_test(Coverage ~ Treatment)
 
 # Test for Significance #
-anova_23 = DP_23 %>% anova_test(Coverage ~ Treatment) %>% 
+anova_23 = Data_23 %>% anova_test(Coverage ~ Treatment) %>% 
   add_significance()
 summary(anova_23)
 
-tukey_23 <- DP_23 %>% 
+tukey_23 <- Data_23 %>% 
   tukey_hsd(Coverage ~ Treatment) %>% 
   add_significance() %>% 
   add_xy_position()
@@ -119,8 +119,8 @@ tukey_23
 ################################################################################
 
 ## Lovegrass Coverage 2022 Box plot ##
-DPBox22 = 
-  ggplot(DP_22, aes(x = Treatment, y = Coverage), colour = Treatment) +
+DataBox22 = 
+  ggplot(Data_22, aes(x = Treatment, y = Coverage), colour = Treatment) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), 
              position = position_jitterdodge(), size = 2, alpha = 0.5) +
@@ -145,14 +145,14 @@ DPBox22 =
         legend.position = "none") +
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "D. pinnata % Coverage", title = "2022")
-DPBox22
+DataBox22
 
 ggsave("Figures/DP_box22.png", 
        width = 12, height = 8)
 
-## Lovegrass Coverage 2023 Boxplot ##
-DPBox23 = 
-  ggplot(DP_23, aes(x = Treatment, y = Coverage), colour = Treatment) +
+## DP Coverage 2023 Boxplot ##
+DataBox23 = 
+  ggplot(Data_23, aes(x = Treatment, y = Coverage), colour = Treatment) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), 
              position = position_jitterdodge(), size = 2, alpha = 0.5) +
@@ -179,13 +179,13 @@ DPBox23 =
         legend.position = "none") +
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "D. pinnata % Coverage", title = "2023")
-DPBox23
+DataBox23
 
 ggsave("Figures/DPbox23.png", 
        width = 12, height = 8)
 
 ################## Save Figures Above using ggarrange ##########################
-ggarrange(DPBox22, DPBox23, ncol = 2, nrow = 1)
+ggarrange(DataBox22, DataBox23, ncol = 2, nrow = 1)
 ggsave("Figures/22-23_DPBox.png", 
        width = 12, height = 10)
 

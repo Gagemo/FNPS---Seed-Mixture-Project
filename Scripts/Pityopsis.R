@@ -37,7 +37,6 @@ library(labdsv)
 ####################### Read in 2021 - 2023 Data  ##############################
 Data = read.csv("Data/FNPS - Seed Mixture Project - 2021-2023.csv")
 Data$Coverage = as.numeric(Data$Coverage)
-Data$Plot = as.character(Data$Plot)
 
 str(Data)
 summary(Data)

@@ -37,7 +37,6 @@ library(labdsv)
 ####################### Read in 2021 - 2023 Data  ##############################
 Data = read.csv("Data/FNPS - Seed Mixture Project - 2021-2023.csv")
 Data$Coverage = as.numeric(Data$Coverage)
-Data$Plot = as.character(Data$Plot)
 
 str(Data)
 summary(Data)
@@ -57,12 +56,12 @@ Data <- mutate(Data, Coverage = case_when(
   grepl(0, Coverage) ~ 0,
 ))
 
-LG = filter(Data, Species == "Liatris gracilis")
-summary(LG)
+Data = filter(Data, Species == "Liatris gracilis")
+summary(Data)
 
 # Creates data sets by year #
-LG_22 = filter(LG, Year == 1)
-LG_23 = filter(LG, Year == 2)
+Data_22 = filter(Data, Year == 1)
+Data_23 = filter(Data, Year == 2)
 
 ################################################################################
 ################ Test for Significance across years ############################
@@ -70,22 +69,22 @@ LG_23 = filter(LG, Year == 2)
 
 ############################### 2022 Data ######################################
 # Check Assumptions #
-model  <- lm(Coverage ~ Treatment, data = LG_22)
+model  <- lm(Coverage ~ Treatment, data = Data_22)
 # Create a QQ plot of residuals
 ggqqplot(residuals(model))
 # Compute Shapiro-Wilk test of normality
 shapiro_test(residuals(model))
 plot(model, 1)
 # Compute Levene's Test
-LG_22$Treatment= as.factor(LG_22$Treatment)
-LG_22 %>% levene_test(Coverage ~ Treatment)
+Data_22$Treatment= as.factor(Data_22$Treatment)
+Data_22 %>% levene_test(Coverage ~ Treatment)
 
 # Test for Significance #
-anova_22 = LG_22 %>% anova_test(Coverage ~ Treatment) %>% 
+anova_22 = Data_22 %>% anova_test(Coverage ~ Treatment) %>% 
   add_significance()
 summary(anova_22)
 
-tukey_22 <- LG_22 %>% 
+tukey_22 <- Data_22 %>% 
   tukey_hsd(Coverage ~ Treatment) %>% 
   add_significance() %>% 
   add_xy_position()
@@ -93,22 +92,22 @@ tukey_22
 
 ############################### 2023 Data ######################################
 # Check Assumptions #
-model  <- lm(Coverage ~ Treatment, data = LG_23)
+model  <- lm(Coverage ~ Treatment, data = Data_23)
 # Create a QQ plot of residuals
 ggqqplot(residuals(model))
 # Compute Shapiro-Wilk test of normality
 shapiro_test(residuals(model))
 plot(model, 1)
 # Compute Levene's Test
-LG_23$Treatment= as.factor(LG_23$Treatment)
-LG_23 %>% levene_test(Coverage ~ Treatment)
+Data_23$Treatment= as.factor(Data_23$Treatment)
+Data_23 %>% levene_test(Coverage ~ Treatment)
 
 # Test for Significance #
-anova_23 = LG_23 %>% anova_test(Coverage ~ Treatment) %>% 
+anova_23 = Data_23 %>% anova_test(Coverage ~ Treatment) %>% 
   add_significance()
 summary(anova_23)
 
-tukey_23 <- LG_23 %>% 
+tukey_23 <- Data_23 %>% 
   tukey_hsd(Coverage ~ Treatment) %>% 
   add_significance() %>% 
   add_xy_position()
@@ -119,8 +118,8 @@ tukey_23
 ################################################################################
 
 ## Lovegrass Coverage 2022 Box plot ##
-LGBox22 = 
-  ggplot(LG_22, aes(x = Treatment, y = Coverage), colour = Treatment) +
+DataBox22 = 
+  ggplot(Data_22, aes(x = Treatment, y = Coverage), colour = Treatment) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), 
              position = position_jitterdodge(), size = 2, alpha = 0.5) +
@@ -145,14 +144,14 @@ LGBox22 =
         legend.position = "none") +
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "L. gracilis % Coverage", title = "2022")
-LGBox22
+DataBox22
 
 ggsave("Figures/LG_box22.png", 
        width = 12, height = 8)
 
 ## Lovegrass Coverage 2023 Boxplot ##
-LGBox23 = 
-  ggplot(LG_23, aes(x = Treatment, y = Coverage), colour = Treatment) +
+DataBox23 = 
+  ggplot(Data_23, aes(x = Treatment, y = Coverage), colour = Treatment) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), 
              position = position_jitterdodge(), size = 2, alpha = 0.5) +
@@ -179,13 +178,13 @@ LGBox23 =
         legend.position = "none") +
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "L. gracilis % Coverage", title = "2023")
-LGBox23
+DataBox23
 
 ggsave("Figures/LG_box23.png", 
        width = 12, height = 8)
 
 ################## Save Figures Above using ggarrange ##########################
-ggarrange(LGBox22, LGBox23, ncol = 2, nrow = 1)
+ggarrange(DataBox22, DataBox23, ncol = 2, nrow = 1)
 ggsave("Figures/22-23_LGBox.png", 
        width = 12, height = 10)
 
