@@ -1,1515 +1,1533 @@
-Date,Year,Block,Sub_Plot,Treatment,ID,Group,Species,Coverage
-2023-10-30,2,1,1,W,1-1-W,Bare,Bareground,1
-2023-10-30,2,1,1,W,1-1-W,Grass,Cynodon dactylon,10
-2023-10-30,2,1,1,W,1-1-W,Grass,Paspalum notatum,4
-2023-10-30,2,1,1,W,1-1-W,Forb,Pityopsis trayci,5
-2023-10-30,2,1,1,W,1-1-W,Forb,Lactuca canadensis,0
-2023-10-30,2,1,1,W,1-1-W,Forb,Oxalis corniculata,1
-2023-10-30,2,1,1,W,1-1-W,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,1,W,1-1-W,Grass,Dichondra spp.,0
-2023-10-30,2,1,1,W,1-1-W,Grass,Andropogon virginicus,0
-2023-10-30,2,1,1,W,1-1-W,Sedge,Cyperus spp.,4
-2023-10-30,2,1,1,W,1-1-W,Forb,Dalea pinnata,0
-2023-10-30,2,1,1,W,1-1-W,Forb,Liatris gracilis,0
-2023-10-30,2,1,1,W,1-1-W,Grass,Sorghastrum secundum,0
-2023-10-30,2,1,1,W,1-1-W,Forb,Richardia spp.,4
-2023-10-30,2,1,1,W,1-1-W,Forb,Galactia spp.,0
-2023-10-30,2,1,1,W,1-1-W,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,1,W,1-1-W,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,1,W,1-1-W,Forb,Oenothera laciniata,0
-2023-10-30,2,1,1,W,1-1-W,Forb,Rumex hastatulus,0
-2023-10-30,2,1,1,W,1-1-W,Forb,Bidens alba,0
-2023-10-30,2,1,1,W,1-1-W,Grass,Paspalum setaceum,0
-2023-10-30,2,1,1,W,1-1-W,Grass,Andropogon ternarius,0
-2023-10-30,2,1,2,C,1-2-C,Bare,Bareground,1
-2023-10-30,2,1,2,C,1-2-C,Grass,Cynodon dactylon,9
-2023-10-30,2,1,2,C,1-2-C,Grass,Paspalum notatum,2
-2023-10-30,2,1,2,C,1-2-C,Forb,Pityopsis trayci,0
-2023-10-30,2,1,2,C,1-2-C,Forb,Lactuca canadensis,0
-2023-10-30,2,1,2,C,1-2-C,Forb,Oxalis corniculata,1
-2023-10-30,2,1,2,C,1-2-C,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,2,C,1-2-C,Grass,Dichondra spp.,0
-2023-10-30,2,1,2,C,1-2-C,Grass,Andropogon virginicus,0
-2023-10-30,2,1,2,C,1-2-C,Sedge,Cyperus spp.,2
-2023-10-30,2,1,2,C,1-2-C,Forb,Dalea pinnata,0
-2023-10-30,2,1,2,C,1-2-C,Forb,Liatris gracilis,0
-2023-10-30,2,1,2,C,1-2-C,Grass,Sorghastrum secundum,0
-2023-10-30,2,1,2,C,1-2-C,Forb,Richardia spp.,0
-2023-10-30,2,1,2,C,1-2-C,Forb,Galactia spp.,0
-2023-10-30,2,1,2,C,1-2-C,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,2,C,1-2-C,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,2,C,1-2-C,Forb,Oenothera laciniata,0
-2023-10-30,2,1,2,C,1-2-C,Forb,Rumex hastatulus,0
-2023-10-30,2,1,2,C,1-2-C,Forb,Bidens alba,0
-2023-10-30,2,1,2,C,1-2-C,Grass,Paspalum setaceum,0
-2023-10-30,2,1,2,C,1-2-C,Grass,Andropogon ternarius,0
-2023-10-30,2,1,3,LM,1-3-LM,Bare,Bareground,1
-2023-10-30,2,1,3,LM,1-3-LM,Grass,Cynodon dactylon,6
-2023-10-30,2,1,3,LM,1-3-LM,Grass,Paspalum notatum,2
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Pityopsis trayci,8
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Lactuca canadensis,0
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Oxalis corniculata,0
-2023-10-30,2,1,3,LM,1-3-LM,Grass,Eragrostis spectabilis,8
-2023-10-30,2,1,3,LM,1-3-LM,Grass,Dichondra spp.,0
-2023-10-30,2,1,3,LM,1-3-LM,Grass,Andropogon virginicus,0
-2023-10-30,2,1,3,LM,1-3-LM,Sedge,Cyperus spp.,4
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Dalea pinnata,0
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Liatris gracilis,1
-2023-10-30,2,1,3,LM,1-3-LM,Grass,Sorghastrum secundum,3
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Richardia spp.,0
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Galactia spp.,0
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Oenothera laciniata,4
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Rumex hastatulus,0
-2023-10-30,2,1,3,LM,1-3-LM,Forb,Bidens alba,0
-2023-10-30,2,1,3,LM,1-3-LM,Grass,Paspalum setaceum,0
-2023-10-30,2,1,3,LM,1-3-LM,Grass,Andropogon ternarius,0
-2023-10-30,2,1,4,BM,1-4-BM,Bare,Bareground,1
-2023-10-30,2,1,4,BM,1-4-BM,Grass,Cynodon dactylon,7
-2023-10-30,2,1,4,BM,1-4-BM,Grass,Paspalum notatum,0
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Pityopsis trayci,8
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Lactuca canadensis,0
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Oxalis corniculata,0
-2023-10-30,2,1,4,BM,1-4-BM,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,4,BM,1-4-BM,Grass,Dichondra spp.,0
-2023-10-30,2,1,4,BM,1-4-BM,Grass,Andropogon virginicus,5
-2023-10-30,2,1,4,BM,1-4-BM,Sedge,Cyperus spp.,3
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Dalea pinnata,5
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Liatris gracilis,2
-2023-10-30,2,1,4,BM,1-4-BM,Grass,Sorghastrum secundum,7
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Richardia spp.,0
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Galactia spp.,0
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Indigofera hirsuta,4
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Oenothera laciniata,0
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Rumex hastatulus,0
-2023-10-30,2,1,4,BM,1-4-BM,Forb,Bidens alba,0
-2023-10-30,2,1,4,BM,1-4-BM,Grass,Paspalum setaceum,0
-2023-10-30,2,1,4,BM,1-4-BM,Grass,Andropogon ternarius,0
-2023-10-30,2,1,5,LH,1-5-LH,Bare,Bareground,1
-2023-10-30,2,1,5,LH,1-5-LH,Grass,Cynodon dactylon,4
-2023-10-30,2,1,5,LH,1-5-LH,Grass,Paspalum notatum,0
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Pityopsis trayci,8
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Lactuca canadensis,0
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Oxalis corniculata,1
-2023-10-30,2,1,5,LH,1-5-LH,Grass,Eragrostis spectabilis,9
-2023-10-30,2,1,5,LH,1-5-LH,Grass,Dichondra spp.,0
-2023-10-30,2,1,5,LH,1-5-LH,Grass,Andropogon virginicus,0
-2023-10-30,2,1,5,LH,1-5-LH,Sedge,Cyperus spp.,2
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Dalea pinnata,5
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Liatris gracilis,3
-2023-10-30,2,1,5,LH,1-5-LH,Grass,Sorghastrum secundum,7
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Richardia spp.,0
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Galactia spp.,0
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Oenothera laciniata,1
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Rumex hastatulus,0
-2023-10-30,2,1,5,LH,1-5-LH,Forb,Bidens alba,0
-2023-10-30,2,1,5,LH,1-5-LH,Grass,Paspalum setaceum,0
-2023-10-30,2,1,5,LH,1-5-LH,Grass,Andropogon ternarius,0
-2023-10-30,2,1,6,BH,1-6-BH,Bare,Bareground,1
-2023-10-30,2,1,6,BH,1-6-BH,Grass,Cynodon dactylon,7
-2023-10-30,2,1,6,BH,1-6-BH,Grass,Paspalum notatum,5
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Pityopsis trayci,8
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Lactuca canadensis,0
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Oxalis corniculata,0
-2023-10-30,2,1,6,BH,1-6-BH,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,6,BH,1-6-BH,Grass,Dichondra spp.,0
-2023-10-30,2,1,6,BH,1-6-BH,Grass,Andropogon virginicus,5
-2023-10-30,2,1,6,BH,1-6-BH,Sedge,Cyperus spp.,3
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Dalea pinnata,3
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Liatris gracilis,3
-2023-10-30,2,1,6,BH,1-6-BH,Grass,Sorghastrum secundum,4
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Richardia spp.,0
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Galactia spp.,0
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Oenothera laciniata,3
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Rumex hastatulus,0
-2023-10-30,2,1,6,BH,1-6-BH,Forb,Bidens alba,0
-2023-10-30,2,1,6,BH,1-6-BH,Grass,Paspalum setaceum,0
-2023-10-30,2,1,6,BH,1-6-BH,Grass,Andropogon ternarius,0
-2023-10-30,2,1,7,BH,1-7-BH,Bare,Bareground,1
-2023-10-30,2,1,7,BH,1-7-BH,Grass,Cynodon dactylon,7
-2023-10-30,2,1,7,BH,1-7-BH,Grass,Paspalum notatum,3
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Pityopsis trayci,8
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Lactuca canadensis,1
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Oxalis corniculata,1
-2023-10-30,2,1,7,BH,1-7-BH,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,7,BH,1-7-BH,Grass,Dichondra spp.,0
-2023-10-30,2,1,7,BH,1-7-BH,Grass,Andropogon virginicus,4
-2023-10-30,2,1,7,BH,1-7-BH,Sedge,Cyperus spp.,2
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Dalea pinnata,8
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Liatris gracilis,3
-2023-10-30,2,1,7,BH,1-7-BH,Grass,Sorghastrum secundum,3
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Richardia spp.,0
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Galactia spp.,1
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Oenothera laciniata,3
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Rumex hastatulus,0
-2023-10-30,2,1,7,BH,1-7-BH,Forb,Bidens alba,0
-2023-10-30,2,1,7,BH,1-7-BH,Grass,Paspalum setaceum,0
-2023-10-30,2,1,7,BH,1-7-BH,Grass,Andropogon ternarius,0
-2023-10-30,2,1,8,LH,1-8-LH,Bare,Bareground,1
-2023-10-30,2,1,8,LH,1-8-LH,Grass,Cynodon dactylon,4
-2023-10-30,2,1,8,LH,1-8-LH,Grass,Paspalum notatum,0
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Pityopsis trayci,8
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Lactuca canadensis,0
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Oxalis corniculata,0
-2023-10-30,2,1,8,LH,1-8-LH,Grass,Eragrostis spectabilis,9
-2023-10-30,2,1,8,LH,1-8-LH,Grass,Dichondra spp.,0
-2023-10-30,2,1,8,LH,1-8-LH,Grass,Andropogon virginicus,0
-2023-10-30,2,1,8,LH,1-8-LH,Sedge,Cyperus spp.,3
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Dalea pinnata,5
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Liatris gracilis,3
-2023-10-30,2,1,8,LH,1-8-LH,Grass,Sorghastrum secundum,6
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Richardia spp.,0
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Galactia spp.,2
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Oenothera laciniata,2
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Rumex hastatulus,0
-2023-10-30,2,1,8,LH,1-8-LH,Forb,Bidens alba,0
-2023-10-30,2,1,8,LH,1-8-LH,Grass,Paspalum setaceum,0
-2023-10-30,2,1,8,LH,1-8-LH,Grass,Andropogon ternarius,3
-2023-10-30,2,1,9,W,1-9-W,Bare,Bareground,1
-2023-10-30,2,1,9,W,1-9-W,Grass,Cynodon dactylon,5
-2023-10-30,2,1,9,W,1-9-W,Grass,Paspalum notatum,3
-2023-10-30,2,1,9,W,1-9-W,Forb,Pityopsis trayci,8
-2023-10-30,2,1,9,W,1-9-W,Forb,Lactuca canadensis,1
-2023-10-30,2,1,9,W,1-9-W,Forb,Oxalis corniculata,1
-2023-10-30,2,1,9,W,1-9-W,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,9,W,1-9-W,Grass,Dichondra spp.,2
-2023-10-30,2,1,9,W,1-9-W,Grass,Andropogon virginicus,0
-2023-10-30,2,1,9,W,1-9-W,Sedge,Cyperus spp.,3
-2023-10-30,2,1,9,W,1-9-W,Forb,Dalea pinnata,5
-2023-10-30,2,1,9,W,1-9-W,Forb,Liatris gracilis,3
-2023-10-30,2,1,9,W,1-9-W,Grass,Sorghastrum secundum,4
-2023-10-30,2,1,9,W,1-9-W,Forb,Richardia spp.,0
-2023-10-30,2,1,9,W,1-9-W,Forb,Galactia spp.,0
-2023-10-30,2,1,9,W,1-9-W,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,9,W,1-9-W,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,9,W,1-9-W,Forb,Oenothera laciniata,3
-2023-10-30,2,1,9,W,1-9-W,Forb,Rumex hastatulus,0
-2023-10-30,2,1,9,W,1-9-W,Forb,Bidens alba,0
-2023-10-30,2,1,9,W,1-9-W,Grass,Paspalum setaceum,0
-2023-10-30,2,1,9,W,1-9-W,Grass,Andropogon ternarius,4
-2023-10-30,2,1,10,LM,1-10-LM,Bare,Bareground,1
-2023-10-30,2,1,10,LM,1-10-LM,Grass,Cynodon dactylon,6
-2023-10-30,2,1,10,LM,1-10-LM,Grass,Paspalum notatum,2
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Pityopsis trayci,8
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Lactuca canadensis,0
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Oxalis corniculata,1
-2023-10-30,2,1,10,LM,1-10-LM,Grass,Eragrostis spectabilis,8
-2023-10-30,2,1,10,LM,1-10-LM,Grass,Dichondra spp.,2
-2023-10-30,2,1,10,LM,1-10-LM,Grass,Andropogon virginicus,0
-2023-10-30,2,1,10,LM,1-10-LM,Sedge,Cyperus spp.,3
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Dalea pinnata,5
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Liatris gracilis,3
-2023-10-30,2,1,10,LM,1-10-LM,Grass,Sorghastrum secundum,5
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Richardia spp.,2
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Galactia spp.,1
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Oenothera laciniata,0
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Rumex hastatulus,0
-2023-10-30,2,1,10,LM,1-10-LM,Forb,Bidens alba,0
-2023-10-30,2,1,10,LM,1-10-LM,Grass,Paspalum setaceum,0
-2023-10-30,2,1,10,LM,1-10-LM,Grass,Andropogon ternarius,0
-2023-10-30,2,1,11,BM,1-11-BM,Bare,Bareground,1
-2023-10-30,2,1,11,BM,1-11-BM,Grass,Cynodon dactylon,6
-2023-10-30,2,1,11,BM,1-11-BM,Grass,Paspalum notatum,2
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Pityopsis trayci,7
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Lactuca canadensis,0
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Oxalis corniculata,2
-2023-10-30,2,1,11,BM,1-11-BM,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,11,BM,1-11-BM,Grass,Dichondra spp.,0
-2023-10-30,2,1,11,BM,1-11-BM,Grass,Andropogon virginicus,4
-2023-10-30,2,1,11,BM,1-11-BM,Sedge,Cyperus spp.,2
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Dalea pinnata,4
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Liatris gracilis,3
-2023-10-30,2,1,11,BM,1-11-BM,Grass,Sorghastrum secundum,5
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Richardia spp.,2
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Galactia spp.,0
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Oenothera laciniata,0
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Rumex hastatulus,0
-2023-10-30,2,1,11,BM,1-11-BM,Forb,Bidens alba,0
-2023-10-30,2,1,11,BM,1-11-BM,Grass,Paspalum setaceum,0
-2023-10-30,2,1,11,BM,1-11-BM,Grass,Andropogon ternarius,0
-2023-10-30,2,1,12,C,1-12-C,Bare,Bareground,1
-2023-10-30,2,1,12,C,1-12-C,Grass,Cynodon dactylon,9
-2023-10-30,2,1,12,C,1-12-C,Grass,Paspalum notatum,6
-2023-10-30,2,1,12,C,1-12-C,Forb,Pityopsis trayci,0
-2023-10-30,2,1,12,C,1-12-C,Forb,Lactuca canadensis,0
-2023-10-30,2,1,12,C,1-12-C,Forb,Oxalis corniculata,3
-2023-10-30,2,1,12,C,1-12-C,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,12,C,1-12-C,Grass,Dichondra spp.,0
-2023-10-30,2,1,12,C,1-12-C,Grass,Andropogon virginicus,0
-2023-10-30,2,1,12,C,1-12-C,Sedge,Cyperus spp.,5
-2023-10-30,2,1,12,C,1-12-C,Forb,Dalea pinnata,0
-2023-10-30,2,1,12,C,1-12-C,Forb,Liatris gracilis,0
-2023-10-30,2,1,12,C,1-12-C,Grass,Sorghastrum secundum,0
-2023-10-30,2,1,12,C,1-12-C,Forb,Richardia spp.,4
-2023-10-30,2,1,12,C,1-12-C,Forb,Galactia spp.,0
-2023-10-30,2,1,12,C,1-12-C,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,12,C,1-12-C,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,12,C,1-12-C,Forb,Oenothera laciniata,5
-2023-10-30,2,1,12,C,1-12-C,Forb,Rumex hastatulus,0
-2023-10-30,2,1,12,C,1-12-C,Forb,Bidens alba,0
-2023-10-30,2,1,12,C,1-12-C,Grass,Paspalum setaceum,0
-2023-10-30,2,1,12,C,1-12-C,Grass,Andropogon ternarius,0
-2023-10-30,2,1,13,LM,1-13-LM,Bare,Bareground,1
-2023-10-30,2,1,13,LM,1-13-LM,Grass,Cynodon dactylon,6
-2023-10-30,2,1,13,LM,1-13-LM,Grass,Paspalum notatum,3
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Pityopsis trayci,9
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Lactuca canadensis,0
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Oxalis corniculata,0
-2023-10-30,2,1,13,LM,1-13-LM,Grass,Eragrostis spectabilis,4
-2023-10-30,2,1,13,LM,1-13-LM,Grass,Dichondra spp.,0
-2023-10-30,2,1,13,LM,1-13-LM,Grass,Andropogon virginicus,0
-2023-10-30,2,1,13,LM,1-13-LM,Sedge,Cyperus spp.,3
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Dalea pinnata,4
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Liatris gracilis,4
-2023-10-30,2,1,13,LM,1-13-LM,Grass,Sorghastrum secundum,3
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Richardia spp.,0
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Galactia spp.,0
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Oenothera laciniata,0
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Rumex hastatulus,0
-2023-10-30,2,1,13,LM,1-13-LM,Forb,Bidens alba,0
-2023-10-30,2,1,13,LM,1-13-LM,Grass,Paspalum setaceum,0
-2023-10-30,2,1,13,LM,1-13-LM,Grass,Andropogon ternarius,0
-2023-10-30,2,1,14,BM,1-14-BM,Bare,Bareground,1
-2023-10-30,2,1,14,BM,1-14-BM,Grass,Cynodon dactylon,7
-2023-10-30,2,1,14,BM,1-14-BM,Grass,Paspalum notatum,0
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Pityopsis trayci,8
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Lactuca canadensis,0
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Oxalis corniculata,0
-2023-10-30,2,1,14,BM,1-14-BM,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,14,BM,1-14-BM,Grass,Dichondra spp.,0
-2023-10-30,2,1,14,BM,1-14-BM,Grass,Andropogon virginicus,5
-2023-10-30,2,1,14,BM,1-14-BM,Sedge,Cyperus spp.,3
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Dalea pinnata,3
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Liatris gracilis,4
-2023-10-30,2,1,14,BM,1-14-BM,Grass,Sorghastrum secundum,2
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Richardia spp.,0
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Galactia spp.,0
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Oenothera laciniata,0
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Rumex hastatulus,0
-2023-10-30,2,1,14,BM,1-14-BM,Forb,Bidens alba,0
-2023-10-30,2,1,14,BM,1-14-BM,Grass,Paspalum setaceum,0
-2023-10-30,2,1,14,BM,1-14-BM,Grass,Andropogon ternarius,2
-2023-10-30,2,1,15,LH,1-15-LH,Bare,Bareground,1
-2023-10-30,2,1,15,LH,1-15-LH,Grass,Cynodon dactylon,5
-2023-10-30,2,1,15,LH,1-15-LH,Grass,Paspalum notatum,0
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Pityopsis trayci,8
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Lactuca canadensis,0
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Oxalis corniculata,0
-2023-10-30,2,1,15,LH,1-15-LH,Grass,Eragrostis spectabilis,8
-2023-10-30,2,1,15,LH,1-15-LH,Grass,Dichondra spp.,0
-2023-10-30,2,1,15,LH,1-15-LH,Grass,Andropogon virginicus,0
-2023-10-30,2,1,15,LH,1-15-LH,Sedge,Cyperus spp.,3
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Dalea pinnata,4
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Liatris gracilis,1
-2023-10-30,2,1,15,LH,1-15-LH,Grass,Sorghastrum secundum,5
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Richardia spp.,0
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Galactia spp.,1
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Oenothera laciniata,4
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Rumex hastatulus,0
-2023-10-30,2,1,15,LH,1-15-LH,Forb,Bidens alba,0
-2023-10-30,2,1,15,LH,1-15-LH,Grass,Paspalum setaceum,0
-2023-10-30,2,1,15,LH,1-15-LH,Grass,Andropogon ternarius,0
-2023-10-30,2,1,16,W,1-16-W,Bare,Bareground,1
-2023-10-30,2,1,16,W,1-16-W,Grass,Cynodon dactylon,7
-2023-10-30,2,1,16,W,1-16-W,Grass,Paspalum notatum,0
-2023-10-30,2,1,16,W,1-16-W,Forb,Pityopsis trayci,7
-2023-10-30,2,1,16,W,1-16-W,Forb,Lactuca canadensis,1
-2023-10-30,2,1,16,W,1-16-W,Forb,Oxalis corniculata,3
-2023-10-30,2,1,16,W,1-16-W,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,16,W,1-16-W,Grass,Dichondra spp.,0
-2023-10-30,2,1,16,W,1-16-W,Grass,Andropogon virginicus,0
-2023-10-30,2,1,16,W,1-16-W,Sedge,Cyperus spp.,5
-2023-10-30,2,1,16,W,1-16-W,Forb,Dalea pinnata,0
-2023-10-30,2,1,16,W,1-16-W,Forb,Liatris gracilis,0
-2023-10-30,2,1,16,W,1-16-W,Grass,Sorghastrum secundum,5
-2023-10-30,2,1,16,W,1-16-W,Forb,Richardia spp.,0
-2023-10-30,2,1,16,W,1-16-W,Forb,Galactia spp.,0
-2023-10-30,2,1,16,W,1-16-W,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,16,W,1-16-W,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,16,W,1-16-W,Forb,Oenothera laciniata,0
-2023-10-30,2,1,16,W,1-16-W,Forb,Rumex hastatulus,0
-2023-10-30,2,1,16,W,1-16-W,Forb,Bidens alba,0
-2023-10-30,2,1,16,W,1-16-W,Grass,Paspalum setaceum,0
-2023-10-30,2,1,16,W,1-16-W,Grass,Andropogon ternarius,0
-2023-10-30,2,1,17,C,1-17-C,Bare,Bareground,1
-2023-10-30,2,1,17,C,1-17-C,Grass,Cynodon dactylon,9
-2023-10-30,2,1,17,C,1-17-C,Grass,Paspalum notatum,5
-2023-10-30,2,1,17,C,1-17-C,Forb,Pityopsis trayci,0
-2023-10-30,2,1,17,C,1-17-C,Forb,Lactuca canadensis,0
-2023-10-30,2,1,17,C,1-17-C,Forb,Oxalis corniculata,0
-2023-10-30,2,1,17,C,1-17-C,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,17,C,1-17-C,Grass,Dichondra spp.,0
-2023-10-30,2,1,17,C,1-17-C,Grass,Andropogon virginicus,6
-2023-10-30,2,1,17,C,1-17-C,Sedge,Cyperus spp.,5
-2023-10-30,2,1,17,C,1-17-C,Forb,Dalea pinnata,0
-2023-10-30,2,1,17,C,1-17-C,Forb,Liatris gracilis,0
-2023-10-30,2,1,17,C,1-17-C,Grass,Sorghastrum secundum,0
-2023-10-30,2,1,17,C,1-17-C,Forb,Richardia spp.,0
-2023-10-30,2,1,17,C,1-17-C,Forb,Galactia spp.,0
-2023-10-30,2,1,17,C,1-17-C,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,17,C,1-17-C,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,17,C,1-17-C,Forb,Oenothera laciniata,0
-2023-10-30,2,1,17,C,1-17-C,Forb,Rumex hastatulus,0
-2023-10-30,2,1,17,C,1-17-C,Forb,Bidens alba,0
-2023-10-30,2,1,17,C,1-17-C,Grass,Paspalum setaceum,0
-2023-10-30,2,1,17,C,1-17-C,Grass,Andropogon ternarius,0
-2023-10-30,2,1,18,BH,1-18-BH,Bare,Bareground,1
-2023-10-30,2,1,18,BH,1-18-BH,Grass,Cynodon dactylon,8
-2023-10-30,2,1,18,BH,1-18-BH,Grass,Paspalum notatum,4
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Pityopsis trayci,6
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Lactuca canadensis,0
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Oxalis corniculata,1
-2023-10-30,2,1,18,BH,1-18-BH,Grass,Eragrostis spectabilis,2
-2023-10-30,2,1,18,BH,1-18-BH,Grass,Dichondra spp.,3
-2023-10-30,2,1,18,BH,1-18-BH,Grass,Andropogon virginicus,0
-2023-10-30,2,1,18,BH,1-18-BH,Sedge,Cyperus spp.,2
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Dalea pinnata,0
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Liatris gracilis,0
-2023-10-30,2,1,18,BH,1-18-BH,Grass,Sorghastrum secundum,0
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Richardia spp.,4
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Galactia spp.,1
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Gamochaeta spp.,1
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Oenothera laciniata,4
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Rumex hastatulus,0
-2023-10-30,2,1,18,BH,1-18-BH,Forb,Bidens alba,0
-2023-10-30,2,1,18,BH,1-18-BH,Grass,Paspalum setaceum,4
-2023-10-30,2,1,18,BH,1-18-BH,Grass,Andropogon ternarius,0
-2023-10-30,2,1,19,C,1-19-C,Bare,Bareground,1
-2023-10-30,2,1,19,C,1-19-C,Grass,Cynodon dactylon,9
-2023-10-30,2,1,19,C,1-19-C,Grass,Paspalum notatum,5
-2023-10-30,2,1,19,C,1-19-C,Forb,Pityopsis trayci,0
-2023-10-30,2,1,19,C,1-19-C,Forb,Lactuca canadensis,0
-2023-10-30,2,1,19,C,1-19-C,Forb,Oxalis corniculata,4
-2023-10-30,2,1,19,C,1-19-C,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,19,C,1-19-C,Grass,Dichondra spp.,4
-2023-10-30,2,1,19,C,1-19-C,Grass,Andropogon virginicus,0
-2023-10-30,2,1,19,C,1-19-C,Sedge,Cyperus spp.,5
-2023-10-30,2,1,19,C,1-19-C,Forb,Dalea pinnata,0
-2023-10-30,2,1,19,C,1-19-C,Forb,Liatris gracilis,0
-2023-10-30,2,1,19,C,1-19-C,Grass,Sorghastrum secundum,0
-2023-10-30,2,1,19,C,1-19-C,Forb,Richardia spp.,4
-2023-10-30,2,1,19,C,1-19-C,Forb,Galactia spp.,0
-2023-10-30,2,1,19,C,1-19-C,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,19,C,1-19-C,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,19,C,1-19-C,Forb,Oenothera laciniata,0
-2023-10-30,2,1,19,C,1-19-C,Forb,Rumex hastatulus,0
-2023-10-30,2,1,19,C,1-19-C,Forb,Bidens alba,0
-2023-10-30,2,1,19,C,1-19-C,Grass,Paspalum setaceum,0
-2023-10-30,2,1,19,C,1-19-C,Grass,Andropogon ternarius,0
-2023-10-30,2,1,20,W,1-20-W,Grass,Cynodon dactylon,8
-2023-10-30,2,1,20,W,1-20-W,Forb,Pityopsis trayci,8
-2023-10-30,2,1,20,W,1-20-W,Forb,Dalea pinnata,4
-2023-10-30,2,1,20,W,1-20-W,Sedge,Cyperus spp.,3
-2023-10-30,2,1,20,W,1-20-W,Grass,Sorghastrum secundum,6
-2023-10-30,2,1,20,W,1-20-W,Forb,Richardia spp.,0
-2023-10-30,2,1,20,W,1-20-W,Grass,Andropogon virginicus,0
-2023-10-30,2,1,20,W,1-20-W,Grass,Paspalum notatum,4
-2023-10-30,2,1,20,W,1-20-W,Bare,Bareground,1
-2023-10-30,2,1,20,W,1-20-W,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,20,W,1-20-W,Forb,Oenothera laciniata,0
-2023-10-30,2,1,20,W,1-20-W,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,20,W,1-20-W,Forb,Rumex hastatulus,0
-2023-10-30,2,1,20,W,1-20-W,Forb,Bidens alba,0
-2023-10-30,2,1,20,W,1-20-W,Forb,Oxalis corniculata,0
-2023-10-30,2,1,20,W,1-20-W,Grass,Paspalum setaceum,0
-2023-10-30,2,1,20,W,1-20-W,Grass,Andropogon ternarius,0
-2023-10-30,2,1,20,W,1-20-W,Forb,Galactia spp.,0
-2023-10-30,2,1,20,W,1-20-W,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,21,BM,1-21-BM,Grass,Cynodon dactylon,9
-2023-10-30,2,1,21,BM,1-21-BM,Forb,Pityopsis trayci,4
-2023-10-30,2,1,21,BM,1-21-BM,Forb,Dalea pinnata,3
-2023-10-30,2,1,21,BM,1-21-BM,Sedge,Cyperus spp.,5
-2023-10-30,2,1,21,BM,1-21-BM,Grass,Sorghastrum secundum,0
-2023-10-30,2,1,21,BM,1-21-BM,Forb,Richardia spp.,5
-2023-10-30,2,1,21,BM,1-21-BM,Grass,Andropogon virginicus,0
-2023-10-30,2,1,21,BM,1-21-BM,Grass,Paspalum notatum,1
-2023-10-30,2,1,21,BM,1-21-BM,Bare,Bareground,0
-2023-10-30,2,1,21,BM,1-21-BM,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,21,BM,1-21-BM,Forb,Oenothera laciniata,0
-2023-10-30,2,1,21,BM,1-21-BM,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,21,BM,1-21-BM,Forb,Rumex hastatulus,0
-2023-10-30,2,1,21,BM,1-21-BM,Forb,Bidens alba,0
-2023-10-30,2,1,21,BM,1-21-BM,Forb,Oxalis corniculata,0
-2023-10-30,2,1,21,BM,1-21-BM,Grass,Paspalum setaceum,0
-2023-10-30,2,1,21,BM,1-21-BM,Grass,Andropogon ternarius,0
-2023-10-30,2,1,21,BM,1-21-BM,Forb,Galactia spp.,0
-2023-10-30,2,1,21,BM,1-21-BM,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,22,BH,1-22-BH,Grass,Cynodon dactylon,5
-2023-10-30,2,1,22,BH,1-22-BH,Forb,Pityopsis trayci,9
-2023-10-30,2,1,22,BH,1-22-BH,Forb,Dalea pinnata,0
-2023-10-30,2,1,22,BH,1-22-BH,Sedge,Cyperus spp.,3
-2023-10-30,2,1,22,BH,1-22-BH,Grass,Sorghastrum secundum,5
-2023-10-30,2,1,22,BH,1-22-BH,Forb,Richardia spp.,0
-2023-10-30,2,1,22,BH,1-22-BH,Grass,Andropogon virginicus,4
-2023-10-30,2,1,22,BH,1-22-BH,Grass,Paspalum notatum,0
-2023-10-30,2,1,22,BH,1-22-BH,Bare,Bareground,1
-2023-10-30,2,1,22,BH,1-22-BH,Grass,Eragrostis spectabilis,0
-2023-10-30,2,1,22,BH,1-22-BH,Forb,Oenothera laciniata,0
-2023-10-30,2,1,22,BH,1-22-BH,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,22,BH,1-22-BH,Forb,Rumex hastatulus,0
-2023-10-30,2,1,22,BH,1-22-BH,Forb,Bidens alba,0
-2023-10-30,2,1,22,BH,1-22-BH,Forb,Oxalis corniculata,0
-2023-10-30,2,1,22,BH,1-22-BH,Grass,Paspalum setaceum,0
-2023-10-30,2,1,22,BH,1-22-BH,Grass,Andropogon ternarius,0
-2023-10-30,2,1,22,BH,1-22-BH,Forb,Galactia spp.,0
-2023-10-30,2,1,22,BH,1-22-BH,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,23,LM,1-23-LM,Grass,Cynodon dactylon,4
-2023-10-30,2,1,23,LM,1-23-LM,Forb,Pityopsis trayci,7
-2023-10-30,2,1,23,LM,1-23-LM,Forb,Dalea pinnata,5
-2023-10-30,2,1,23,LM,1-23-LM,Sedge,Cyperus spp.,3
-2023-10-30,2,1,23,LM,1-23-LM,Grass,Sorghastrum secundum,7
-2023-10-30,2,1,23,LM,1-23-LM,Forb,Richardia spp.,0
-2023-10-30,2,1,23,LM,1-23-LM,Grass,Andropogon virginicus,0
-2023-10-30,2,1,23,LM,1-23-LM,Grass,Paspalum notatum,3
-2023-10-30,2,1,23,LM,1-23-LM,Bare,Bareground,1
-2023-10-30,2,1,23,LM,1-23-LM,Grass,Eragrostis spectabilis,8
-2023-10-30,2,1,23,LM,1-23-LM,Forb,Oenothera laciniata,0
-2023-10-30,2,1,23,LM,1-23-LM,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,23,LM,1-23-LM,Forb,Rumex hastatulus,0
-2023-10-30,2,1,23,LM,1-23-LM,Forb,Bidens alba,0
-2023-10-30,2,1,23,LM,1-23-LM,Forb,Oxalis corniculata,0
-2023-10-30,2,1,23,LM,1-23-LM,Grass,Paspalum setaceum,0
-2023-10-30,2,1,23,LM,1-23-LM,Grass,Andropogon ternarius,0
-2023-10-30,2,1,23,LM,1-23-LM,Forb,Galactia spp.,0
-2023-10-30,2,1,23,LM,1-23-LM,Forb,Gamochaeta spp.,0
-2023-10-30,2,1,24,LH,1-24-LH,Grass,Cynodon dactylon,6
-2023-10-30,2,1,24,LH,1-24-LH,Forb,Pityopsis trayci,7
-2023-10-30,2,1,24,LH,1-24-LH,Forb,Dalea pinnata,4
-2023-10-30,2,1,24,LH,1-24-LH,Sedge,Cyperus spp.,3
-2023-10-30,2,1,24,LH,1-24-LH,Grass,Sorghastrum secundum,6
-2023-10-30,2,1,24,LH,1-24-LH,Forb,Richardia spp.,0
-2023-10-30,2,1,24,LH,1-24-LH,Grass,Andropogon virginicus,0
-2023-10-30,2,1,24,LH,1-24-LH,Grass,Paspalum notatum,3
-2023-10-30,2,1,24,LH,1-24-LH,Bare,Bareground,3
-2023-10-30,2,1,24,LH,1-24-LH,Grass,Eragrostis spectabilis,8
-2023-10-30,2,1,24,LH,1-24-LH,Forb,Oenothera laciniata,6
-2023-10-30,2,1,24,LH,1-24-LH,Forb,Indigofera hirsuta,0
-2023-10-30,2,1,24,LH,1-24-LH,Forb,Rumex hastatulus,0
-2023-10-30,2,1,24,LH,1-24-LH,Forb,Bidens alba,0
-2023-10-30,2,1,24,LH,1-24-LH,Forb,Oxalis corniculata,0
-2023-10-30,2,1,24,LH,1-24-LH,Grass,Paspalum setaceum,0
-2023-10-30,2,1,24,LH,1-24-LH,Grass,Andropogon ternarius,0
-2023-10-30,2,1,24,LH,1-24-LH,Forb,Galactia spp.,0
-2023-10-30,2,1,24,LH,1-24-LH,Forb,Gamochaeta spp.,0
-2023-10-30,2,2,1,C,2-1-C,Grass,Cynodon dactylon,7
-2023-10-30,2,2,1,C,2-1-C,Sedge,Cyperus spp.,4
-2023-10-30,2,2,1,C,2-1-C,Forb,Indigofera hirsuta,5
-2023-10-30,2,2,1,C,2-1-C,Grass,Paspalum notatum,7
-2023-10-30,2,2,1,C,2-1-C,Forb,Erigeron canadensis,4
-2023-10-30,2,2,1,C,2-1-C,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,1,C,2-1-C,Grass,Andropogon virginicus,0
-2023-10-30,2,2,1,C,2-1-C,Forb,Pityopsis trayci,0
-2023-10-30,2,2,1,C,2-1-C,Grass,Sorghastrum secundum,0
-2023-10-30,2,2,1,C,2-1-C,Forb,Richardia spp.,0
-2023-10-30,2,2,2,W,2-2-W,Grass,Cynodon dactylon,9
-2023-10-30,2,2,2,W,2-2-W,Sedge,Cyperus spp.,4
-2023-10-30,2,2,2,W,2-2-W,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,2,W,2-2-W,Grass,Paspalum notatum,5
-2023-10-30,2,2,2,W,2-2-W,Forb,Erigeron canadensis,0
-2023-10-30,2,2,2,W,2-2-W,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,2,W,2-2-W,Grass,Andropogon virginicus,0
-2023-10-30,2,2,2,W,2-2-W,Forb,Pityopsis trayci,0
-2023-10-30,2,2,2,W,2-2-W,Grass,Sorghastrum secundum,0
-2023-10-30,2,2,2,W,2-2-W,Forb,Richardia spp.,0
-2023-10-30,2,2,3,BM,2-3-BM,Grass,Cynodon dactylon,9
-2023-10-30,2,2,3,BM,2-3-BM,Sedge,Cyperus spp.,5
-2023-10-30,2,2,3,BM,2-3-BM,Forb,Indigofera hirsuta,4
-2023-10-30,2,2,3,BM,2-3-BM,Grass,Paspalum notatum,4
-2023-10-30,2,2,3,BM,2-3-BM,Forb,Erigeron canadensis,3
-2023-10-30,2,2,3,BM,2-3-BM,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,3,BM,2-3-BM,Grass,Andropogon virginicus,3
-2023-10-30,2,2,3,BM,2-3-BM,Forb,Pityopsis trayci,0
-2023-10-30,2,2,3,BM,2-3-BM,Grass,Sorghastrum secundum,0
-2023-10-30,2,2,3,BM,2-3-BM,Forb,Richardia spp.,0
-2023-10-30,2,2,4,BH,2-4-BH,Grass,Cynodon dactylon,8
-2023-10-30,2,2,4,BH,2-4-BH,Sedge,Cyperus spp.,4
-2023-10-30,2,2,4,BH,2-4-BH,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,4,BH,2-4-BH,Grass,Paspalum notatum,3
-2023-10-30,2,2,4,BH,2-4-BH,Forb,Erigeron canadensis,0
-2023-10-30,2,2,4,BH,2-4-BH,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,4,BH,2-4-BH,Grass,Andropogon virginicus,4
-2023-10-30,2,2,4,BH,2-4-BH,Forb,Pityopsis trayci,7
-2023-10-30,2,2,4,BH,2-4-BH,Grass,Sorghastrum secundum,3
-2023-10-30,2,2,4,BH,2-4-BH,Forb,Richardia spp.,2
-2023-10-30,2,2,5,LM,2-5-LM,Grass,Cynodon dactylon,6
-2023-10-30,2,2,5,LM,2-5-LM,Sedge,Cyperus spp.,3
-2023-10-30,2,2,5,LM,2-5-LM,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,5,LM,2-5-LM,Grass,Paspalum notatum,4
-2023-10-30,2,2,5,LM,2-5-LM,Forb,Erigeron canadensis,0
-2023-10-30,2,2,5,LM,2-5-LM,Grass,Eragrostis spectabilis,5
-2023-10-30,2,2,5,LM,2-5-LM,Grass,Andropogon virginicus,0
-2023-10-30,2,2,5,LM,2-5-LM,Forb,Pityopsis trayci,8
-2023-10-30,2,2,5,LM,2-5-LM,Grass,Sorghastrum secundum,4
-2023-10-30,2,2,5,LM,2-5-LM,Forb,Richardia spp.,0
-2023-10-30,2,2,6,LH,2-6-LH,Grass,Cynodon dactylon,8
-2023-10-30,2,2,6,LH,2-6-LH,Sedge,Cyperus spp.,3
-2023-10-30,2,2,6,LH,2-6-LH,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,6,LH,2-6-LH,Grass,Paspalum notatum,3
-2023-10-30,2,2,6,LH,2-6-LH,Forb,Erigeron canadensis,0
-2023-10-30,2,2,6,LH,2-6-LH,Grass,Eragrostis spectabilis,4
-2023-10-30,2,2,6,LH,2-6-LH,Grass,Andropogon virginicus,0
-2023-10-30,2,2,6,LH,2-6-LH,Forb,Pityopsis trayci,4
-2023-10-30,2,2,6,LH,2-6-LH,Grass,Sorghastrum secundum,3
-2023-10-30,2,2,6,LH,2-6-LH,Forb,Richardia spp.,0
-2023-10-30,2,2,7,LM,2-7-LM,Grass,Cynodon dactylon,6
-2023-10-30,2,2,7,LM,2-7-LM,Sedge,Cyperus spp.,4
-2023-10-30,2,2,7,LM,2-7-LM,Forb,Indigofera hirsuta,5
-2023-10-30,2,2,7,LM,2-7-LM,Grass,Paspalum notatum,4
-2023-10-30,2,2,7,LM,2-7-LM,Forb,Erigeron canadensis,0
-2023-10-30,2,2,7,LM,2-7-LM,Grass,Eragrostis spectabilis,6
-2023-10-30,2,2,7,LM,2-7-LM,Grass,Andropogon virginicus,0
-2023-10-30,2,2,7,LM,2-7-LM,Forb,Pityopsis trayci,8
-2023-10-30,2,2,7,LM,2-7-LM,Grass,Sorghastrum secundum,5
-2023-10-30,2,2,7,LM,2-7-LM,Forb,Richardia spp.,0
-2023-10-30,2,2,8,BM,2-8-BM,Grass,Cynodon dactylon,6
-2023-10-30,2,2,8,BM,2-8-BM,Sedge,Cyperus spp.,5
-2023-10-30,2,2,8,BM,2-8-BM,Forb,Indigofera hirsuta,4
-2023-10-30,2,2,8,BM,2-8-BM,Grass,Paspalum notatum,7
-2023-10-30,2,2,8,BM,2-8-BM,Forb,Erigeron canadensis,0
-2023-10-30,2,2,8,BM,2-8-BM,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,8,BM,2-8-BM,Grass,Andropogon virginicus,4
-2023-10-30,2,2,8,BM,2-8-BM,Forb,Pityopsis trayci,7
-2023-10-30,2,2,8,BM,2-8-BM,Grass,Sorghastrum secundum,3
-2023-10-30,2,2,8,BM,2-8-BM,Forb,Richardia spp.,3
-2023-10-30,2,2,9,LH,2-9-LH,Grass,Cynodon dactylon,5
-2023-10-30,2,2,9,LH,2-9-LH,Sedge,Cyperus spp.,4
-2023-10-30,2,2,9,LH,2-9-LH,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,9,LH,2-9-LH,Grass,Paspalum notatum,4
-2023-10-30,2,2,9,LH,2-9-LH,Forb,Erigeron canadensis,0
-2023-10-30,2,2,9,LH,2-9-LH,Grass,Eragrostis spectabilis,9
-2023-10-30,2,2,9,LH,2-9-LH,Grass,Andropogon virginicus,0
-2023-10-30,2,2,9,LH,2-9-LH,Forb,Pityopsis trayci,4
-2023-10-30,2,2,9,LH,2-9-LH,Grass,Sorghastrum secundum,6
-2023-10-30,2,2,9,LH,2-9-LH,Forb,Richardia spp.,3
-2023-10-30,2,2,9,LH,2-9-LH,Woody,Quercus hemisphaerica,2
-2023-10-30,2,2,10,W,2-10-W,Grass,Cynodon dactylon,4
-2023-10-30,2,2,10,W,2-10-W,Sedge,Cyperus spp.,3
-2023-10-30,2,2,10,W,2-10-W,Forb,Indigofera hirsuta,4
-2023-10-30,2,2,10,W,2-10-W,Grass,Paspalum notatum,6
-2023-10-30,2,2,10,W,2-10-W,Forb,Erigeron canadensis,0
-2023-10-30,2,2,10,W,2-10-W,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,10,W,2-10-W,Grass,Andropogon virginicus,0
-2023-10-30,2,2,10,W,2-10-W,Forb,Pityopsis trayci,7
-2023-10-30,2,2,10,W,2-10-W,Grass,Sorghastrum secundum,5
-2023-10-30,2,2,10,W,2-10-W,Forb,Richardia spp.,3
-2023-10-30,2,2,11,C,2-11-C,Grass,Cynodon dactylon,7
-2023-10-30,2,2,11,C,2-11-C,Sedge,Cyperus spp.,3
-2023-10-30,2,2,11,C,2-11-C,Forb,Indigofera hirsuta,2
-2023-10-30,2,2,11,C,2-11-C,Grass,Paspalum notatum,8
-2023-10-30,2,2,11,C,2-11-C,Forb,Erigeron canadensis,3
-2023-10-30,2,2,11,C,2-11-C,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,11,C,2-11-C,Grass,Andropogon virginicus,0
-2023-10-30,2,2,11,C,2-11-C,Forb,Pityopsis trayci,0
-2023-10-30,2,2,11,C,2-11-C,Grass,Sorghastrum secundum,0
-2023-10-30,2,2,11,C,2-11-C,Forb,Richardia spp.,0
-2023-10-30,2,2,12,BH,2-12-BH,Grass,Cynodon dactylon,9
-2023-10-30,2,2,12,BH,2-12-BH,Sedge,Cyperus spp.,3
-2023-10-30,2,2,12,BH,2-12-BH,Forb,Indigofera hirsuta,5
-2023-10-30,2,2,12,BH,2-12-BH,Grass,Paspalum notatum,5
-2023-10-30,2,2,12,BH,2-12-BH,Forb,Erigeron canadensis,5
-2023-10-30,2,2,12,BH,2-12-BH,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,12,BH,2-12-BH,Grass,Andropogon virginicus,2
-2023-10-30,2,2,12,BH,2-12-BH,Forb,Pityopsis trayci,0
-2023-10-30,2,2,12,BH,2-12-BH,Grass,Sorghastrum secundum,0
-2023-10-30,2,2,12,BH,2-12-BH,Forb,Richardia spp.,0
-2023-10-30,2,2,13,BH,2-13-BH,Grass,Cynodon dactylon,6
-2023-10-30,2,2,13,BH,2-13-BH,Sedge,Cyperus spp.,4
-2023-10-30,2,2,13,BH,2-13-BH,Forb,Indigofera hirsuta,2
-2023-10-30,2,2,13,BH,2-13-BH,Grass,Paspalum notatum,5
-2023-10-30,2,2,13,BH,2-13-BH,Forb,Erigeron canadensis,3
-2023-10-30,2,2,13,BH,2-13-BH,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,13,BH,2-13-BH,Grass,Andropogon virginicus,4
-2023-10-30,2,2,13,BH,2-13-BH,Forb,Pityopsis trayci,7
-2023-10-30,2,2,13,BH,2-13-BH,Grass,Sorghastrum secundum,7
-2023-10-30,2,2,13,BH,2-13-BH,Forb,Richardia spp.,3
-2023-10-30,2,2,14,LH,2-14-LH,Grass,Cynodon dactylon,3
-2023-10-30,2,2,14,LH,2-14-LH,Sedge,Cyperus spp.,2
-2023-10-30,2,2,14,LH,2-14-LH,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,14,LH,2-14-LH,Grass,Paspalum notatum,3
-2023-10-30,2,2,14,LH,2-14-LH,Forb,Erigeron canadensis,0
-2023-10-30,2,2,14,LH,2-14-LH,Grass,Eragrostis spectabilis,8
-2023-10-30,2,2,14,LH,2-14-LH,Grass,Andropogon virginicus,0
-2023-10-30,2,2,14,LH,2-14-LH,Forb,Pityopsis trayci,6
-2023-10-30,2,2,14,LH,2-14-LH,Grass,Sorghastrum secundum,7
-2023-10-30,2,2,14,LH,2-14-LH,Forb,Richardia spp.,3
-2023-10-30,2,2,14,LH,2-14-LH,Forb,Dalea pinnata,6
-2023-10-30,2,2,14,LH,2-14-LH,Forb,Lactuca canadensis,2
-2023-10-30,2,2,15,W,2-15-W,Grass,Cynodon dactylon,6
-2023-10-30,2,2,15,W,2-15-W,Sedge,Cyperus spp.,4
-2023-10-30,2,2,15,W,2-15-W,Forb,Indigofera hirsuta,3
-2023-10-30,2,2,15,W,2-15-W,Grass,Paspalum notatum,6
-2023-10-30,2,2,15,W,2-15-W,Forb,Erigeron canadensis,0
-2023-10-30,2,2,15,W,2-15-W,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,15,W,2-15-W,Grass,Andropogon virginicus,0
-2023-10-30,2,2,15,W,2-15-W,Forb,Pityopsis trayci,3
-2023-10-30,2,2,15,W,2-15-W,Grass,Sorghastrum secundum,7
-2023-10-30,2,2,15,W,2-15-W,Forb,Richardia spp.,2
-2023-10-30,2,2,15,W,2-15-W,Forb,Dalea pinnata,6
-2023-10-30,2,2,16,LM,2-16-LM,Grass,Cynodon dactylon,5
-2023-10-30,2,2,16,LM,2-16-LM,Sedge,Cyperus spp.,3
-2023-10-30,2,2,16,LM,2-16-LM,Forb,Indigofera hirsuta,4
-2023-10-30,2,2,16,LM,2-16-LM,Grass,Paspalum notatum,5
-2023-10-30,2,2,16,LM,2-16-LM,Forb,Erigeron canadensis,3
-2023-10-30,2,2,16,LM,2-16-LM,Grass,Eragrostis spectabilis,8
-2023-10-30,2,2,16,LM,2-16-LM,Grass,Andropogon virginicus,0
-2023-10-30,2,2,16,LM,2-16-LM,Forb,Pityopsis trayci,8
-2023-10-30,2,2,16,LM,2-16-LM,Grass,Sorghastrum secundum,6
-2023-10-30,2,2,16,LM,2-16-LM,Forb,Richardia spp.,2
-2023-10-30,2,2,16,LM,2-16-LM,Forb,"Solanum viarum",2
-2023-10-30,2,2,17,BM,2-17-BM,Grass,Cynodon dactylon,6
-2023-10-30,2,2,17,BM,2-17-BM,Sedge,Cyperus spp.,3
-2023-10-30,2,2,17,BM,2-17-BM,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,17,BM,2-17-BM,Grass,Paspalum notatum,6
-2023-10-30,2,2,17,BM,2-17-BM,Forb,Erigeron canadensis,3
-2023-10-30,2,2,17,BM,2-17-BM,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,17,BM,2-17-BM,Grass,Andropogon virginicus,5
-2023-10-30,2,2,17,BM,2-17-BM,Forb,Pityopsis trayci,7
-2023-10-30,2,2,17,BM,2-17-BM,Grass,Sorghastrum secundum,6
-2023-10-30,2,2,17,BM,2-17-BM,Forb,Richardia spp.,0
-2023-10-30,2,2,18,C,2-18-C,Grass,Cynodon dactylon,8
-2023-10-30,2,2,18,C,2-18-C,Sedge,Cyperus spp.,2
-2023-10-30,2,2,18,C,2-18-C,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,18,C,2-18-C,Grass,Paspalum notatum,8
-2023-10-30,2,2,18,C,2-18-C,Forb,Erigeron canadensis,5
-2023-10-30,2,2,18,C,2-18-C,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,18,C,2-18-C,Grass,Andropogon virginicus,0
-2023-10-30,2,2,18,C,2-18-C,Forb,Pityopsis trayci,0
-2023-10-30,2,2,18,C,2-18-C,Grass,Sorghastrum secundum,0
-2023-10-30,2,2,18,C,2-18-C,Forb,Richardia spp.,0
-2023-10-30,2,2,19,W,2-19-W,Grass,Cynodon dactylon,7
-2023-10-30,2,2,19,W,2-19-W,Sedge,Cyperus spp.,4
-2023-10-30,2,2,19,W,2-19-W,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,19,W,2-19-W,Grass,Paspalum notatum,7
-2023-10-30,2,2,19,W,2-19-W,Forb,Erigeron canadensis,0
-2023-10-30,2,2,19,W,2-19-W,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,19,W,2-19-W,Grass,Andropogon virginicus,0
-2023-10-30,2,2,19,W,2-19-W,Forb,Pityopsis trayci,7
-2023-10-30,2,2,19,W,2-19-W,Grass,Sorghastrum secundum,7
-2023-10-30,2,2,19,W,2-19-W,Forb,Richardia spp.,0
-2023-10-30,2,2,19,W,2-19-W,Forb,Dalea pinnata,7
-2023-10-30,2,2,20,C,2-20-C,Grass,Cynodon dactylon,8
-2023-10-30,2,2,20,C,2-20-C,Sedge,Cyperus spp.,3
-2023-10-30,2,2,20,C,2-20-C,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,20,C,2-20-C,Grass,Paspalum notatum,9
-2023-10-30,2,2,20,C,2-20-C,Forb,Erigeron canadensis,2
-2023-10-30,2,2,20,C,2-20-C,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,20,C,2-20-C,Grass,Andropogon virginicus,0
-2023-10-30,2,2,20,C,2-20-C,Forb,Pityopsis trayci,0
-2023-10-30,2,2,20,C,2-20-C,Grass,Sorghastrum secundum,0
-2023-10-30,2,2,20,C,2-20-C,Forb,Richardia spp.,0
-2023-10-30,2,2,21,LM,2-21-LM,Grass,Cynodon dactylon,6
-2023-10-30,2,2,21,LM,2-21-LM,Sedge,Cyperus spp.,4
-2023-10-30,2,2,21,LM,2-21-LM,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,21,LM,2-21-LM,Grass,Paspalum notatum,6
-2023-10-30,2,2,21,LM,2-21-LM,Forb,Erigeron canadensis,0
-2023-10-30,2,2,21,LM,2-21-LM,Grass,Eragrostis spectabilis,6
-2023-10-30,2,2,21,LM,2-21-LM,Grass,Andropogon virginicus,0
-2023-10-30,2,2,21,LM,2-21-LM,Forb,Pityopsis trayci,6
-2023-10-30,2,2,21,LM,2-21-LM,Grass,Sorghastrum secundum,7
-2023-10-30,2,2,21,LM,2-21-LM,Forb,Richardia spp.,0
-2023-10-30,2,2,22,BM,2-22-BM,Grass,Cynodon dactylon,7
-2023-10-30,2,2,22,BM,2-22-BM,Sedge,Cyperus spp.,3
-2023-10-30,2,2,22,BM,2-22-BM,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,22,BM,2-22-BM,Grass,Paspalum notatum,6
-2023-10-30,2,2,22,BM,2-22-BM,Forb,Erigeron canadensis,5
-2023-10-30,2,2,22,BM,2-22-BM,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,22,BM,2-22-BM,Grass,Andropogon virginicus,4
-2023-10-30,2,2,22,BM,2-22-BM,Forb,Pityopsis trayci,7
-2023-10-30,2,2,22,BM,2-22-BM,Grass,Sorghastrum secundum,4
-2023-10-30,2,2,22,BM,2-22-BM,Forb,Richardia spp.,0
-2023-10-30,2,2,23,LH,2-23-LH,Grass,Cynodon dactylon,0
-2023-10-30,2,2,23,LH,2-23-LH,Sedge,Cyperus spp.,0
-2023-10-30,2,2,23,LH,2-23-LH,Forb,Indigofera hirsuta,0
-2023-10-30,2,2,23,LH,2-23-LH,Grass,Paspalum notatum,0
-2023-10-30,2,2,23,LH,2-23-LH,Forb,Erigeron canadensis,0
-2023-10-30,2,2,23,LH,2-23-LH,Grass,Eragrostis spectabilis,9
-2023-10-30,2,2,23,LH,2-23-LH,Grass,Andropogon virginicus,0
-2023-10-30,2,2,23,LH,2-23-LH,Forb,Pityopsis trayci,8
-2023-10-30,2,2,23,LH,2-23-LH,Grass,Sorghastrum secundum,7
-2023-10-30,2,2,23,LH,2-23-LH,Forb,Richardia spp.,0
-2023-10-30,2,2,23,LH,2-23-LH,Forb,Dalea pinnata,4
-2023-10-30,2,2,24,BH,2-24-BH,Grass,Cynodon dactylon,6
-2023-10-30,2,2,24,BH,2-24-BH,Sedge,Cyperus spp.,3
-2023-10-30,2,2,24,BH,2-24-BH,Forb,Indigofera hirsuta,6
-2023-10-30,2,2,24,BH,2-24-BH,Grass,Paspalum notatum,5
-2023-10-30,2,2,24,BH,2-24-BH,Forb,Erigeron canadensis,3
-2023-10-30,2,2,24,BH,2-24-BH,Grass,Eragrostis spectabilis,0
-2023-10-30,2,2,24,BH,2-24-BH,Grass,Andropogon virginicus,5
-2023-10-30,2,2,24,BH,2-24-BH,Forb,Pityopsis trayci,7
-2023-10-30,2,2,24,BH,2-24-BH,Grass,Sorghastrum secundum,7
-2023-10-30,2,2,24,BH,2-24-BH,Forb,Richardia spp.,3
-2023-10-30,2,2,24,BH,2-24-BH,Forb,Dalea pinnata,5
-2022-10-17,1,1,1,W,1-1-W,Grass,Cynodon dactylon,9
-2022-10-17,1,1,1,W,1-1-W,Grass,Paspalum notatum,4
-2022-10-17,1,1,1,W,1-1-W,Forb,Pityopsis trayci,6
-2022-10-17,1,1,1,W,1-1-W,Forb,Lactuca canadensis,2
-2022-10-17,1,1,1,W,1-1-W,Forb,Oxalis corniculata,2
-2022-10-17,1,1,1,W,1-1-W,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,1,W,1-1-W,Forb,Dichondra spp.,2
-2022-10-17,1,1,1,W,1-1-W,Grass,Andropogon virginicus,0
-2022-10-17,1,1,1,W,1-1-W,Forb,Dalea pinnata,0
-2022-10-17,1,1,1,W,1-1-W,Sedge,Cyperus spp.,2
-2022-10-17,1,1,1,W,1-1-W,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,1,W,1-1-W,Forb,Richardia spp.,0
-2022-10-17,1,1,1,W,1-1-W,Forb,Liatris gracilis,0
-2022-10-17,1,1,2,C,1-2-C,Grass,Cynodon dactylon,9
-2022-10-17,1,1,2,C,1-2-C,Grass,Paspalum notatum,3
-2022-10-17,1,1,2,C,1-2-C,Forb,Pityopsis trayci,0
-2022-10-17,1,1,2,C,1-2-C,Forb,Lactuca canadensis,2
-2022-10-17,1,1,2,C,1-2-C,Forb,Oxalis corniculata,2
-2022-10-17,1,1,2,C,1-2-C,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,2,C,1-2-C,Forb,Dichondra spp.,2
-2022-10-17,1,1,2,C,1-2-C,Grass,Andropogon virginicus,0
-2022-10-17,1,1,2,C,1-2-C,Forb,Dalea pinnata,0
-2022-10-17,1,1,2,C,1-2-C,Sedge,Cyperus spp.,1
-2022-10-17,1,1,2,C,1-2-C,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,2,C,1-2-C,Forb,Richardia spp.,0
-2022-10-17,1,1,2,C,1-2-C,Forb,Liatris gracilis,0
-2022-10-17,1,1,3,LM,1-3-LM,Grass,Cynodon dactylon,8
-2022-10-17,1,1,3,LM,1-3-LM,Grass,Paspalum notatum,2
-2022-10-17,1,1,3,LM,1-3-LM,Forb,Pityopsis trayci,7
-2022-10-17,1,1,3,LM,1-3-LM,Forb,Lactuca canadensis,2
-2022-10-17,1,1,3,LM,1-3-LM,Forb,Oxalis corniculata,2
-2022-10-17,1,1,3,LM,1-3-LM,Grass,Eragrostis spectabilis,5
-2022-10-17,1,1,3,LM,1-3-LM,Forb,Dichondra spp.,1
-2022-10-17,1,1,3,LM,1-3-LM,Grass,Andropogon virginicus,0
-2022-10-17,1,1,3,LM,1-3-LM,Forb,Dalea pinnata,0
-2022-10-17,1,1,3,LM,1-3-LM,Sedge,Cyperus spp.,2
-2022-10-17,1,1,3,LM,1-3-LM,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,3,LM,1-3-LM,Forb,Richardia spp.,0
-2022-10-17,1,1,3,LM,1-3-LM,Forb,Liatris gracilis,0
-2022-10-17,1,1,4,BM,1-4-BM,Grass,Cynodon dactylon,8
-2022-10-17,1,1,4,BM,1-4-BM,Grass,Paspalum notatum,2
-2022-10-17,1,1,4,BM,1-4-BM,Forb,Pityopsis trayci,7
-2022-10-17,1,1,4,BM,1-4-BM,Forb,Lactuca canadensis,2
-2022-10-17,1,1,4,BM,1-4-BM,Forb,Oxalis corniculata,2
-2022-10-17,1,1,4,BM,1-4-BM,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,4,BM,1-4-BM,Forb,Dichondra spp.,2
-2022-10-17,1,1,4,BM,1-4-BM,Grass,Andropogon virginicus,4
-2022-10-17,1,1,4,BM,1-4-BM,Forb,Dalea pinnata,2
-2022-10-17,1,1,4,BM,1-4-BM,Sedge,Cyperus spp.,3
-2022-10-17,1,1,4,BM,1-4-BM,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,4,BM,1-4-BM,Forb,Richardia spp.,0
-2022-10-17,1,1,4,BM,1-4-BM,Forb,Liatris gracilis,0
-2022-10-17,1,1,5,LH,1-5-LH,Grass,Cynodon dactylon,7
-2022-10-17,1,1,5,LH,1-5-LH,Grass,Paspalum notatum,1
-2022-10-17,1,1,5,LH,1-5-LH,Forb,Pityopsis trayci,6
-2022-10-17,1,1,5,LH,1-5-LH,Forb,Lactuca canadensis,1
-2022-10-17,1,1,5,LH,1-5-LH,Forb,Oxalis corniculata,2
-2022-10-17,1,1,5,LH,1-5-LH,Grass,Eragrostis spectabilis,8
-2022-10-17,1,1,5,LH,1-5-LH,Forb,Dichondra spp.,2
-2022-10-17,1,1,5,LH,1-5-LH,Grass,Andropogon virginicus,0
-2022-10-17,1,1,5,LH,1-5-LH,Forb,Dalea pinnata,2
-2022-10-17,1,1,5,LH,1-5-LH,Sedge,Cyperus spp.,3
-2022-10-17,1,1,5,LH,1-5-LH,Grass,Sorghastrum secundum,4
-2022-10-17,1,1,5,LH,1-5-LH,Forb,Richardia spp.,0
-2022-10-17,1,1,5,LH,1-5-LH,Forb,Liatris gracilis,0
-2022-10-17,1,1,6,BH,1-6-BH,Grass,Cynodon dactylon,7
-2022-10-17,1,1,6,BH,1-6-BH,Grass,Paspalum notatum,7
-2022-10-17,1,1,6,BH,1-6-BH,Forb,Pityopsis trayci,6
-2022-10-17,1,1,6,BH,1-6-BH,Forb,Lactuca canadensis,0
-2022-10-17,1,1,6,BH,1-6-BH,Forb,Oxalis corniculata,2
-2022-10-17,1,1,6,BH,1-6-BH,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,6,BH,1-6-BH,Forb,Dichondra spp.,5
-2022-10-17,1,1,6,BH,1-6-BH,Grass,Andropogon virginicus,0
-2022-10-17,1,1,6,BH,1-6-BH,Forb,Dalea pinnata,0
-2022-10-17,1,1,6,BH,1-6-BH,Sedge,Cyperus spp.,3
-2022-10-17,1,1,6,BH,1-6-BH,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,6,BH,1-6-BH,Forb,Richardia spp.,6
-2022-10-17,1,1,6,BH,1-6-BH,Forb,Liatris gracilis,0
-2022-10-17,1,1,7,BH,1-7-BH,Grass,Cynodon dactylon,7
-2022-10-17,1,1,7,BH,1-7-BH,Grass,Paspalum notatum,4
-2022-10-17,1,1,7,BH,1-7-BH,Forb,Pityopsis trayci,6
-2022-10-17,1,1,7,BH,1-7-BH,Forb,Lactuca canadensis,0
-2022-10-17,1,1,7,BH,1-7-BH,Forb,Oxalis corniculata,2
-2022-10-17,1,1,7,BH,1-7-BH,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,7,BH,1-7-BH,Forb,Dichondra spp.,3
-2022-10-17,1,1,7,BH,1-7-BH,Grass,Andropogon virginicus,0
-2022-10-17,1,1,7,BH,1-7-BH,Forb,Dalea pinnata,6
-2022-10-17,1,1,7,BH,1-7-BH,Sedge,Cyperus spp.,3
-2022-10-17,1,1,7,BH,1-7-BH,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,7,BH,1-7-BH,Forb,Richardia spp.,4
-2022-10-17,1,1,7,BH,1-7-BH,Forb,Liatris gracilis,0
-2022-10-17,1,1,8,LH,1-8-LH,Grass,Cynodon dactylon,6
-2022-10-17,1,1,8,LH,1-8-LH,Grass,Paspalum notatum,2
-2022-10-17,1,1,8,LH,1-8-LH,Forb,Pityopsis trayci,5
-2022-10-17,1,1,8,LH,1-8-LH,Forb,Lactuca canadensis,2
-2022-10-17,1,1,8,LH,1-8-LH,Forb,Oxalis corniculata,2
-2022-10-17,1,1,8,LH,1-8-LH,Grass,Eragrostis spectabilis,8
-2022-10-17,1,1,8,LH,1-8-LH,Forb,Dichondra spp.,2
-2022-10-17,1,1,8,LH,1-8-LH,Grass,Andropogon virginicus,0
-2022-10-17,1,1,8,LH,1-8-LH,Forb,Dalea pinnata,0
-2022-10-17,1,1,8,LH,1-8-LH,Sedge,Cyperus spp.,2
-2022-10-17,1,1,8,LH,1-8-LH,Grass,Sorghastrum secundum,5
-2022-10-17,1,1,8,LH,1-8-LH,Forb,Richardia spp.,2
-2022-10-17,1,1,8,LH,1-8-LH,Forb,Liatris gracilis,2
-2022-10-17,1,1,9,W,1-9-W,Grass,Cynodon dactylon,7
-2022-10-17,1,1,9,W,1-9-W,Grass,Paspalum notatum,2
-2022-10-17,1,1,9,W,1-9-W,Forb,Pityopsis trayci,4
-2022-10-17,1,1,9,W,1-9-W,Forb,Lactuca canadensis,2
-2022-10-17,1,1,9,W,1-9-W,Forb,Oxalis corniculata,2
-2022-10-17,1,1,9,W,1-9-W,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,9,W,1-9-W,Forb,Dichondra spp.,2
-2022-10-17,1,1,9,W,1-9-W,Grass,Andropogon virginicus,0
-2022-10-17,1,1,9,W,1-9-W,Forb,Dalea pinnata,0
-2022-10-17,1,1,9,W,1-9-W,Sedge,Cyperus spp.,0
-2022-10-17,1,1,9,W,1-9-W,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,9,W,1-9-W,Forb,Richardia spp.,2
-2022-10-17,1,1,9,W,1-9-W,Forb,Liatris gracilis,0
-2022-10-17,1,1,10,LM,1-10-LM,Grass,Cynodon dactylon,8
-2022-10-17,1,1,10,LM,1-10-LM,Grass,Paspalum notatum,2
-2022-10-17,1,1,10,LM,1-10-LM,Forb,Pityopsis trayci,5
-2022-10-17,1,1,10,LM,1-10-LM,Forb,Lactuca canadensis,2
-2022-10-17,1,1,10,LM,1-10-LM,Forb,Oxalis corniculata,2
-2022-10-17,1,1,10,LM,1-10-LM,Grass,Eragrostis spectabilis,3
-2022-10-17,1,1,10,LM,1-10-LM,Forb,Dichondra spp.,2
-2022-10-17,1,1,10,LM,1-10-LM,Grass,Andropogon virginicus,0
-2022-10-17,1,1,10,LM,1-10-LM,Forb,Dalea pinnata,0
-2022-10-17,1,1,10,LM,1-10-LM,Sedge,Cyperus spp.,0
-2022-10-17,1,1,10,LM,1-10-LM,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,10,LM,1-10-LM,Forb,Richardia spp.,2
-2022-10-17,1,1,10,LM,1-10-LM,Forb,Liatris gracilis,2
-2022-10-17,1,1,11,BM,1-11-BM,Grass,Cynodon dactylon,6
-2022-10-17,1,1,11,BM,1-11-BM,Grass,Paspalum notatum,4
-2022-10-17,1,1,11,BM,1-11-BM,Forb,Pityopsis trayci,6
-2022-10-17,1,1,11,BM,1-11-BM,Forb,Lactuca canadensis,0
-2022-10-17,1,1,11,BM,1-11-BM,Forb,Oxalis corniculata,3
-2022-10-17,1,1,11,BM,1-11-BM,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,11,BM,1-11-BM,Forb,Dichondra spp.,5
-2022-10-17,1,1,11,BM,1-11-BM,Grass,Andropogon virginicus,2
-2022-10-17,1,1,11,BM,1-11-BM,Forb,Dalea pinnata,0
-2022-10-17,1,1,11,BM,1-11-BM,Sedge,Cyperus spp.,0
-2022-10-17,1,1,11,BM,1-11-BM,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,11,BM,1-11-BM,Forb,Richardia spp.,0
-2022-10-17,1,1,11,BM,1-11-BM,Forb,Liatris gracilis,0
-2022-10-17,1,1,12,C,1-12-C,Grass,Cynodon dactylon,8
-2022-10-17,1,1,12,C,1-12-C,Grass,Paspalum notatum,3
-2022-10-17,1,1,12,C,1-12-C,Forb,Pityopsis trayci,0
-2022-10-17,1,1,12,C,1-12-C,Forb,Lactuca canadensis,0
-2022-10-17,1,1,12,C,1-12-C,Forb,Oxalis corniculata,2
-2022-10-17,1,1,12,C,1-12-C,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,12,C,1-12-C,Forb,Dichondra spp.,3
-2022-10-17,1,1,12,C,1-12-C,Grass,Andropogon virginicus,0
-2022-10-17,1,1,12,C,1-12-C,Forb,Dalea pinnata,0
-2022-10-17,1,1,12,C,1-12-C,Sedge,Cyperus spp.,4
-2022-10-17,1,1,12,C,1-12-C,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,12,C,1-12-C,Forb,Richardia spp.,2
-2022-10-17,1,1,12,C,1-12-C,Forb,Liatris gracilis,0
-2022-10-17,1,1,13,LM,1-13-LM,Grass,Cynodon dactylon,8
-2022-10-17,1,1,13,LM,1-13-LM,Grass,Paspalum notatum,4
-2022-10-17,1,1,13,LM,1-13-LM,Forb,Pityopsis trayci,6
-2022-10-17,1,1,13,LM,1-13-LM,Forb,Lactuca canadensis,2
-2022-10-17,1,1,13,LM,1-13-LM,Forb,Oxalis corniculata,4
-2022-10-17,1,1,13,LM,1-13-LM,Grass,Eragrostis spectabilis,4
-2022-10-17,1,1,13,LM,1-13-LM,Forb,Dichondra spp.,2
-2022-10-17,1,1,13,LM,1-13-LM,Grass,Andropogon virginicus,3
-2022-10-17,1,1,13,LM,1-13-LM,Forb,Dalea pinnata,0
-2022-10-17,1,1,13,LM,1-13-LM,Sedge,Cyperus spp.,4
-2022-10-17,1,1,13,LM,1-13-LM,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,13,LM,1-13-LM,Forb,Richardia spp.,2
-2022-10-17,1,1,13,LM,1-13-LM,Forb,Liatris gracilis,0
-2022-10-17,1,1,13,LM,1-13-LM,Forb,Rumex hastatulus,2
-2022-10-17,1,1,14,BM,1-14-BM,Grass,Cynodon dactylon,8
-2022-10-17,1,1,14,BM,1-14-BM,Grass,Paspalum notatum,5
-2022-10-17,1,1,14,BM,1-14-BM,Forb,Pityopsis trayci,5
-2022-10-17,1,1,14,BM,1-14-BM,Forb,Lactuca canadensis,2
-2022-10-17,1,1,14,BM,1-14-BM,Forb,Oxalis corniculata,0
-2022-10-17,1,1,14,BM,1-14-BM,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,14,BM,1-14-BM,Forb,Dichondra spp.,0
-2022-10-17,1,1,14,BM,1-14-BM,Grass,Andropogon virginicus,4
-2022-10-17,1,1,14,BM,1-14-BM,Forb,Dalea pinnata,2
-2022-10-17,1,1,14,BM,1-14-BM,Sedge,Cyperus spp.,3
-2022-10-17,1,1,14,BM,1-14-BM,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,14,BM,1-14-BM,Forb,Richardia spp.,0
-2022-10-17,1,1,14,BM,1-14-BM,Forb,Liatris gracilis,0
-2022-10-17,1,1,14,BM,1-14-BM,Forb,Rumex hastatulus,2
-2022-10-17,1,1,15,LH,1-15-LH,Grass,Cynodon dactylon,6
-2022-10-17,1,1,15,LH,1-15-LH,Grass,Paspalum notatum,4
-2022-10-17,1,1,15,LH,1-15-LH,Forb,Pityopsis trayci,5
-2022-10-17,1,1,15,LH,1-15-LH,Forb,Lactuca canadensis,2
-2022-10-17,1,1,15,LH,1-15-LH,Forb,Oxalis corniculata,2
-2022-10-17,1,1,15,LH,1-15-LH,Grass,Eragrostis spectabilis,8
-2022-10-17,1,1,15,LH,1-15-LH,Forb,Dichondra spp.,4
-2022-10-17,1,1,15,LH,1-15-LH,Grass,Andropogon virginicus,0
-2022-10-17,1,1,15,LH,1-15-LH,Forb,Dalea pinnata,4
-2022-10-17,1,1,15,LH,1-15-LH,Sedge,Cyperus spp.,4
-2022-10-17,1,1,15,LH,1-15-LH,Grass,Sorghastrum secundum,3
-2022-10-17,1,1,15,LH,1-15-LH,Forb,Richardia spp.,3
-2022-10-17,1,1,15,LH,1-15-LH,Forb,Liatris gracilis,3
-2022-10-17,1,1,16,W,1-16-W,Grass,Cynodon dactylon,8
-2022-10-17,1,1,16,W,1-16-W,Grass,Paspalum notatum,5
-2022-10-17,1,1,16,W,1-16-W,Forb,Pityopsis trayci,7
-2022-10-17,1,1,16,W,1-16-W,Forb,Lactuca canadensis,1
-2022-10-17,1,1,16,W,1-16-W,Forb,Oxalis corniculata,2
-2022-10-17,1,1,16,W,1-16-W,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,16,W,1-16-W,Forb,Dichondra spp.,3
-2022-10-17,1,1,16,W,1-16-W,Grass,Andropogon virginicus,0
-2022-10-17,1,1,16,W,1-16-W,Forb,Dalea pinnata,4
-2022-10-17,1,1,16,W,1-16-W,Sedge,Cyperus spp.,3
-2022-10-17,1,1,16,W,1-16-W,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,16,W,1-16-W,Forb,Richardia spp.,2
-2022-10-17,1,1,16,W,1-16-W,Forb,Liatris gracilis,0
-2022-10-17,1,1,17,C,1-17-C,Grass,Cynodon dactylon,8
-2022-10-17,1,1,17,C,1-17-C,Grass,Paspalum notatum,5
-2022-10-17,1,1,17,C,1-17-C,Forb,Pityopsis trayci,0
-2022-10-17,1,1,17,C,1-17-C,Forb,Lactuca canadensis,2
-2022-10-17,1,1,17,C,1-17-C,Forb,Oxalis corniculata,2
-2022-10-17,1,1,17,C,1-17-C,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,17,C,1-17-C,Forb,Dichondra spp.,3
-2022-10-17,1,1,17,C,1-17-C,Grass,Andropogon virginicus,0
-2022-10-17,1,1,17,C,1-17-C,Forb,Dalea pinnata,0
-2022-10-17,1,1,17,C,1-17-C,Sedge,Cyperus spp.,0
-2022-10-17,1,1,17,C,1-17-C,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,17,C,1-17-C,Forb,Richardia spp.,2
-2022-10-17,1,1,17,C,1-17-C,Forb,Liatris gracilis,0
-2022-10-17,1,1,17,C,1-17-C,Forb,Rumex hastatulus,2
-2022-10-17,1,1,17,C,1-17-C,Forb,Bidens alba,4
-2022-10-17,1,1,18,BH,1-18-BH,Grass,Cynodon dactylon,7
-2022-10-17,1,1,18,BH,1-18-BH,Grass,Paspalum notatum,4
-2022-10-17,1,1,18,BH,1-18-BH,Forb,Pityopsis trayci,4
-2022-10-17,1,1,18,BH,1-18-BH,Forb,Lactuca canadensis,0
-2022-10-17,1,1,18,BH,1-18-BH,Forb,Oxalis corniculata,4
-2022-10-17,1,1,18,BH,1-18-BH,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,18,BH,1-18-BH,Forb,Dichondra spp.,5
-2022-10-17,1,1,18,BH,1-18-BH,Grass,Andropogon virginicus,2
-2022-10-17,1,1,18,BH,1-18-BH,Forb,Dalea pinnata,0
-2022-10-17,1,1,18,BH,1-18-BH,Sedge,Cyperus spp.,5
-2022-10-17,1,1,18,BH,1-18-BH,Grass,Sorghastrum secundum,5
-2022-10-17,1,1,18,BH,1-18-BH,Forb,Richardia spp.,2
-2022-10-17,1,1,18,BH,1-18-BH,Forb,Liatris gracilis,0
-2022-10-17,1,1,18,BH,1-18-BH,Forb,Rumex hastatulus,2
-2022-10-17,1,1,19,C,1-19-C,Grass,Cynodon dactylon,9
-2022-10-17,1,1,19,C,1-19-C,Grass,Paspalum notatum,0
-2022-10-17,1,1,19,C,1-19-C,Forb,Dichondra spp.,2
-2022-10-17,1,1,19,C,1-19-C,Forb,Lactuca canadensis,1
-2022-10-17,1,1,19,C,1-19-C,Forb,Richardia spp.,2
-2022-10-17,1,1,19,C,1-19-C,Forb,Oxalis corniculata,1
-2022-10-17,1,1,19,C,1-19-C,Sedge,Cyperus spp.,1
-2022-10-17,1,1,19,C,1-19-C,Forb,Pityopsis trayci,0
-2022-10-17,1,1,19,C,1-19-C,Forb,Dalea pinnata,0
-2022-10-17,1,1,19,C,1-19-C,Forb,Liatris gracilis,0
-2022-10-17,1,1,19,C,1-19-C,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,19,C,1-19-C,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,19,C,1-19-C,Grass,Andropogon ternarius,0
-2022-10-17,1,1,19,C,1-19-C,Grass,Andropogon virginicus,0
-2022-10-17,1,1,19,C,1-19-C,Grass,Paspalum setaceum,2
-2022-10-17,1,1,19,C,1-19-C,Forb,Acalypha gracilens,3
-2022-10-17,1,1,20,W,1-20-W,Grass,Cynodon dactylon,8
-2022-10-17,1,1,20,W,1-20-W,Grass,Paspalum notatum,4
-2022-10-17,1,1,20,W,1-20-W,Forb,Dichondra spp.,4
-2022-10-17,1,1,20,W,1-20-W,Forb,Lactuca canadensis,1
-2022-10-17,1,1,20,W,1-20-W,Forb,Richardia spp.,3
-2022-10-17,1,1,20,W,1-20-W,Forb,Oxalis corniculata,2
-2022-10-17,1,1,20,W,1-20-W,Sedge,Cyperus spp.,4
-2022-10-17,1,1,20,W,1-20-W,Forb,Pityopsis trayci,6
-2022-10-17,1,1,20,W,1-20-W,Forb,Dalea pinnata,0
-2022-10-17,1,1,20,W,1-20-W,Forb,Liatris gracilis,0
-2022-10-17,1,1,20,W,1-20-W,Grass,Sorghastrum secundum,0
-2022-10-17,1,1,20,W,1-20-W,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,20,W,1-20-W,Grass,Andropogon ternarius,0
-2022-10-17,1,1,20,W,1-20-W,Grass,Andropogon virginicus,0
-2022-10-17,1,1,20,W,1-20-W,Grass,Paspalum setaceum,3
-2022-10-17,1,1,20,W,1-20-W,Forb,Acalypha gracilens,2
-2022-10-17,1,1,21,BM,1-21-BM,Grass,Cynodon dactylon,8
-2022-10-17,1,1,21,BM,1-21-BM,Grass,Paspalum notatum,4
-2022-10-17,1,1,21,BM,1-21-BM,Forb,Dichondra spp.,4
-2022-10-17,1,1,21,BM,1-21-BM,Forb,Lactuca canadensis,1
-2022-10-17,1,1,21,BM,1-21-BM,Forb,Richardia spp.,3
-2022-10-17,1,1,21,BM,1-21-BM,Forb,Oxalis corniculata,1
-2022-10-17,1,1,21,BM,1-21-BM,Sedge,Cyperus spp.,4
-2022-10-17,1,1,21,BM,1-21-BM,Forb,Pityopsis trayci,7
-2022-10-17,1,1,21,BM,1-21-BM,Forb,Dalea pinnata,0
-2022-10-17,1,1,21,BM,1-21-BM,Forb,Liatris gracilis,0
-2022-10-17,1,1,21,BM,1-21-BM,Grass,Sorghastrum secundum,4
-2022-10-17,1,1,21,BM,1-21-BM,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,21,BM,1-21-BM,Grass,Andropogon ternarius,1
-2022-10-17,1,1,21,BM,1-21-BM,Grass,Andropogon virginicus,1
-2022-10-17,1,1,21,BM,1-21-BM,Grass,Paspalum setaceum,4
-2022-10-17,1,1,21,BM,1-21-BM,Forb,Acalypha gracilens,4
-2022-10-17,1,1,22,BH,1-22-BH,Grass,Cynodon dactylon,7
-2022-10-17,1,1,22,BH,1-22-BH,Grass,Paspalum notatum,4
-2022-10-17,1,1,22,BH,1-22-BH,Forb,Dichondra spp.,3
-2022-10-17,1,1,22,BH,1-22-BH,Forb,Lactuca canadensis,1
-2022-10-17,1,1,22,BH,1-22-BH,Forb,Richardia spp.,2
-2022-10-17,1,1,22,BH,1-22-BH,Forb,Oxalis corniculata,2
-2022-10-17,1,1,22,BH,1-22-BH,Sedge,Cyperus spp.,5
-2022-10-17,1,1,22,BH,1-22-BH,Forb,Pityopsis trayci,7
-2022-10-17,1,1,22,BH,1-22-BH,Forb,Dalea pinnata,0
-2022-10-17,1,1,22,BH,1-22-BH,Forb,Liatris gracilis,0
-2022-10-17,1,1,22,BH,1-22-BH,Grass,Sorghastrum secundum,2
-2022-10-17,1,1,22,BH,1-22-BH,Grass,Eragrostis spectabilis,0
-2022-10-17,1,1,22,BH,1-22-BH,Grass,Andropogon ternarius,1
-2022-10-17,1,1,22,BH,1-22-BH,Grass,Andropogon virginicus,1
-2022-10-17,1,1,22,BH,1-22-BH,Grass,Paspalum setaceum,0
-2022-10-17,1,1,22,BH,1-22-BH,Forb,Acalypha gracilens,3
-2022-10-17,1,1,23,LM,1-23-LM,Grass,Cynodon dactylon,7
-2022-10-17,1,1,23,LM,1-23-LM,Grass,Paspalum notatum,3
-2022-10-17,1,1,23,LM,1-23-LM,Forb,Dichondra spp.,3
-2022-10-17,1,1,23,LM,1-23-LM,Forb,Lactuca canadensis,1
-2022-10-17,1,1,23,LM,1-23-LM,Forb,Richardia spp.,2
-2022-10-17,1,1,23,LM,1-23-LM,Forb,Oxalis corniculata,2
-2022-10-17,1,1,23,LM,1-23-LM,Sedge,Cyperus spp.,5
-2022-10-17,1,1,23,LM,1-23-LM,Forb,Pityopsis trayci,7
-2022-10-17,1,1,23,LM,1-23-LM,Forb,Dalea pinnata,0
-2022-10-17,1,1,23,LM,1-23-LM,Forb,Liatris gracilis,4
-2022-10-17,1,1,23,LM,1-23-LM,Grass,Sorghastrum secundum,3
-2022-10-17,1,1,23,LM,1-23-LM,Grass,Eragrostis spectabilis,8
-2022-10-17,1,1,23,LM,1-23-LM,Grass,Andropogon ternarius,0
-2022-10-17,1,1,23,LM,1-23-LM,Grass,Andropogon virginicus,0
-2022-10-17,1,1,23,LM,1-23-LM,Grass,Paspalum setaceum,2
-2022-10-17,1,1,23,LM,1-23-LM,Forb,Acalypha gracilens,2
-2022-10-17,1,1,24,LH,1-24-LH,Grass,Cynodon dactylon,7
-2022-10-17,1,1,24,LH,1-24-LH,Grass,Paspalum notatum,4
-2022-10-17,1,1,24,LH,1-24-LH,Forb,Dichondra spp.,3
-2022-10-17,1,1,24,LH,1-24-LH,Forb,Lactuca canadensis,1
-2022-10-17,1,1,24,LH,1-24-LH,Forb,Richardia spp.,4
-2022-10-17,1,1,24,LH,1-24-LH,Forb,Oxalis corniculata,2
-2022-10-17,1,1,24,LH,1-24-LH,Sedge,Cyperus spp.,6
-2022-10-17,1,1,24,LH,1-24-LH,Forb,Pityopsis trayci,6
-2022-10-17,1,1,24,LH,1-24-LH,Forb,Dalea pinnata,0
-2022-10-17,1,1,24,LH,1-24-LH,Forb,Liatris gracilis,4
-2022-10-17,1,1,24,LH,1-24-LH,Grass,Sorghastrum secundum,1
-2022-10-17,1,1,24,LH,1-24-LH,Grass,Eragrostis spectabilis,7
-2022-10-17,1,1,24,LH,1-24-LH,Grass,Andropogon ternarius,1
-2022-10-17,1,1,24,LH,1-24-LH,Grass,Andropogon virginicus,0
-2022-10-17,1,1,24,LH,1-24-LH,Grass,Paspalum setaceum,2
-2022-10-17,1,1,24,LH,1-24-LH,Forb,Acalypha gracilens,1
-2022-10-17,1,2,1,C,2-1-C,Grass,Cynodon dactylon,8
-2022-10-17,1,2,1,C,2-1-C,Grass,Paspalum notatum,4
-2022-10-17,1,2,1,C,2-1-C,Forb,Dichondra spp.,3
-2022-10-17,1,2,1,C,2-1-C,Forb,Lactuca canadensis,1
-2022-10-17,1,2,1,C,2-1-C,Forb,Richardia spp.,5
-2022-10-17,1,2,1,C,2-1-C,Forb,Oxalis corniculata,3
-2022-10-17,1,2,1,C,2-1-C,Sedge,Cyperus spp.,5
-2022-10-17,1,2,1,C,2-1-C,Forb,Pityopsis trayci,0
-2022-10-17,1,2,1,C,2-1-C,Forb,Dalea pinnata,0
-2022-10-17,1,2,1,C,2-1-C,Forb,Liatris gracilis,0
-2022-10-17,1,2,1,C,2-1-C,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,1,C,2-1-C,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,1,C,2-1-C,Grass,Andropogon ternarius,0
-2022-10-17,1,2,1,C,2-1-C,Grass,Andropogon virginicus,0
-2022-10-17,1,2,1,C,2-1-C,Grass,Paspalum setaceum,2
-2022-10-17,1,2,1,C,2-1-C,Forb,Acalypha gracilens,3
-2022-10-17,1,2,1,C,2-1-C,Forb,Rumex hastatulus,2
-2022-10-17,1,2,2,W,2-2-W,Grass,Cynodon dactylon,9
-2022-10-17,1,2,2,W,2-2-W,Grass,Paspalum notatum,4
-2022-10-17,1,2,2,W,2-2-W,Forb,Dichondra spp.,1
-2022-10-17,1,2,2,W,2-2-W,Forb,Lactuca canadensis,1
-2022-10-17,1,2,2,W,2-2-W,Forb,Richardia spp.,2
-2022-10-17,1,2,2,W,2-2-W,Forb,Oxalis corniculata,1
-2022-10-17,1,2,2,W,2-2-W,Sedge,Cyperus spp.,1
-2022-10-17,1,2,2,W,2-2-W,Forb,Pityopsis trayci,0
-2022-10-17,1,2,2,W,2-2-W,Forb,Dalea pinnata,0
-2022-10-17,1,2,2,W,2-2-W,Forb,Liatris gracilis,0
-2022-10-17,1,2,2,W,2-2-W,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,2,W,2-2-W,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,2,W,2-2-W,Grass,Andropogon ternarius,0
-2022-10-17,1,2,2,W,2-2-W,Grass,Andropogon virginicus,0
-2022-10-17,1,2,2,W,2-2-W,Grass,Paspalum setaceum,2
-2022-10-17,1,2,2,W,2-2-W,Forb,Acalypha gracilens,2
-2022-10-17,1,2,2,W,2-2-W,Forb,Rumex hastatulus,1
-2022-10-17,1,2,3,BM,2-3-BM,Grass,Cynodon dactylon,7
-2022-10-17,1,2,3,BM,2-3-BM,Grass,Paspalum notatum,5
-2022-10-17,1,2,3,BM,2-3-BM,Forb,Dichondra spp.,5
-2022-10-17,1,2,3,BM,2-3-BM,Forb,Lactuca canadensis,2
-2022-10-17,1,2,3,BM,2-3-BM,Forb,Richardia spp.,4
-2022-10-17,1,2,3,BM,2-3-BM,Forb,Oxalis corniculata,2
-2022-10-17,1,2,3,BM,2-3-BM,Sedge,Cyperus spp.,3
-2022-10-17,1,2,3,BM,2-3-BM,Forb,Pityopsis trayci,0
-2022-10-17,1,2,3,BM,2-3-BM,Forb,Dalea pinnata,0
-2022-10-17,1,2,3,BM,2-3-BM,Forb,Liatris gracilis,0
-2022-10-17,1,2,3,BM,2-3-BM,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,3,BM,2-3-BM,Grass,Eragrostis spectabilis,2
-2022-10-17,1,2,3,BM,2-3-BM,Grass,Andropogon ternarius,2
-2022-10-17,1,2,3,BM,2-3-BM,Grass,Andropogon virginicus,0
-2022-10-17,1,2,3,BM,2-3-BM,Grass,Paspalum setaceum,0
-2022-10-17,1,2,3,BM,2-3-BM,Forb,Acalypha gracilens,0
-2022-10-17,1,2,3,BM,2-3-BM,Forb,Rumex hastatulus,0
-2022-10-17,1,2,3,BM,2-3-BM,Grass,Eustachys petraea,4
-2022-10-17,1,2,4,BH,2-4-BH,Grass,Cynodon dactylon,8
-2022-10-17,1,2,4,BH,2-4-BH,Grass,Paspalum notatum,5
-2022-10-17,1,2,4,BH,2-4-BH,Forb,Dichondra spp.,4
-2022-10-17,1,2,4,BH,2-4-BH,Forb,Lactuca canadensis,0
-2022-10-17,1,2,4,BH,2-4-BH,Forb,Richardia spp.,5
-2022-10-17,1,2,4,BH,2-4-BH,Forb,Oxalis corniculata,2
-2022-10-17,1,2,4,BH,2-4-BH,Sedge,Cyperus spp.,4
-2022-10-17,1,2,4,BH,2-4-BH,Forb,Pityopsis trayci,7
-2022-10-17,1,2,4,BH,2-4-BH,Forb,Dalea pinnata,0
-2022-10-17,1,2,4,BH,2-4-BH,Forb,Liatris gracilis,1
-2022-10-17,1,2,4,BH,2-4-BH,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,4,BH,2-4-BH,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,4,BH,2-4-BH,Grass,Andropogon ternarius,2
-2022-10-17,1,2,4,BH,2-4-BH,Grass,Andropogon virginicus,2
-2022-10-17,1,2,4,BH,2-4-BH,Grass,Paspalum setaceum,1
-2022-10-17,1,2,4,BH,2-4-BH,Forb,Acalypha gracilens,1
-2022-10-17,1,2,4,BH,2-4-BH,Forb,Rumex hastatulus,0
-2022-10-17,1,2,5,LM,2-5-LM,Grass,Cynodon dactylon,7
-2022-10-17,1,2,5,LM,2-5-LM,Grass,Paspalum notatum,5
-2022-10-17,1,2,5,LM,2-5-LM,Forb,Dichondra spp.,3
-2022-10-17,1,2,5,LM,2-5-LM,Forb,Lactuca canadensis,1
-2022-10-17,1,2,5,LM,2-5-LM,Forb,Richardia spp.,6
-2022-10-17,1,2,5,LM,2-5-LM,Forb,Oxalis corniculata,2
-2022-10-17,1,2,5,LM,2-5-LM,Sedge,Cyperus spp.,4
-2022-10-17,1,2,5,LM,2-5-LM,Forb,Pityopsis trayci,4
-2022-10-17,1,2,5,LM,2-5-LM,Forb,Dalea pinnata,0
-2022-10-17,1,2,5,LM,2-5-LM,Forb,Liatris gracilis,0
-2022-10-17,1,2,5,LM,2-5-LM,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,5,LM,2-5-LM,Grass,Eragrostis spectabilis,4
-2022-10-17,1,2,5,LM,2-5-LM,Grass,Andropogon ternarius,0
-2022-10-17,1,2,5,LM,2-5-LM,Grass,Andropogon virginicus,0
-2022-10-17,1,2,5,LM,2-5-LM,Grass,Paspalum setaceum,0
-2022-10-17,1,2,5,LM,2-5-LM,Forb,Acalypha gracilens,3
-2022-10-17,1,2,5,LM,2-5-LM,Forb,Rumex hastatulus,1
-2022-10-17,1,2,6,LH,2-6-LH,Grass,Cynodon dactylon,9
-2022-10-17,1,2,6,LH,2-6-LH,Grass,Paspalum notatum,4
-2022-10-17,1,2,6,LH,2-6-LH,Forb,Dichondra spp.,2
-2022-10-17,1,2,6,LH,2-6-LH,Forb,Lactuca canadensis,0
-2022-10-17,1,2,6,LH,2-6-LH,Forb,Richardia spp.,2
-2022-10-17,1,2,6,LH,2-6-LH,Forb,Oxalis corniculata,2
-2022-10-17,1,2,6,LH,2-6-LH,Sedge,Cyperus spp.,2
-2022-10-17,1,2,6,LH,2-6-LH,Forb,Pityopsis trayci,3
-2022-10-17,1,2,6,LH,2-6-LH,Forb,Dalea pinnata,0
-2022-10-17,1,2,6,LH,2-6-LH,Forb,Liatris gracilis,1
-2022-10-17,1,2,6,LH,2-6-LH,Grass,Sorghastrum secundum,1
-2022-10-17,1,2,6,LH,2-6-LH,Grass,Eragrostis spectabilis,4
-2022-10-17,1,2,6,LH,2-6-LH,Grass,Andropogon ternarius,0
-2022-10-17,1,2,6,LH,2-6-LH,Grass,Andropogon virginicus,0
-2022-10-17,1,2,6,LH,2-6-LH,Grass,Paspalum setaceum,0
-2022-10-17,1,2,6,LH,2-6-LH,Forb,Acalypha gracilens,0
-2022-10-17,1,2,6,LH,2-6-LH,Forb,Rumex hastatulus,0
-2022-10-17,1,2,7,LM,2-7-LM,Grass,Cynodon dactylon,7
-2022-10-17,1,2,7,LM,2-7-LM,Grass,Paspalum notatum,7
-2022-10-17,1,2,7,LM,2-7-LM,Forb,Dichondra spp.,4
-2022-10-17,1,2,7,LM,2-7-LM,Forb,Lactuca canadensis,1
-2022-10-17,1,2,7,LM,2-7-LM,Forb,Richardia spp.,3
-2022-10-17,1,2,7,LM,2-7-LM,Forb,Oxalis corniculata,3
-2022-10-17,1,2,7,LM,2-7-LM,Sedge,Cyperus spp.,3
-2022-10-17,1,2,7,LM,2-7-LM,Forb,Pityopsis trayci,7
-2022-10-17,1,2,7,LM,2-7-LM,Forb,Dalea pinnata,1
-2022-10-17,1,2,7,LM,2-7-LM,Forb,Liatris gracilis,3
-2022-10-17,1,2,7,LM,2-7-LM,Grass,Sorghastrum secundum,1
-2022-10-17,1,2,7,LM,2-7-LM,Grass,Eragrostis spectabilis,5
-2022-10-17,1,2,7,LM,2-7-LM,Grass,Andropogon ternarius,0
-2022-10-17,1,2,7,LM,2-7-LM,Grass,Andropogon virginicus,0
-2022-10-17,1,2,7,LM,2-7-LM,Grass,Paspalum setaceum,2
-2022-10-17,1,2,7,LM,2-7-LM,Forb,Acalypha gracilens,1
-2022-10-17,1,2,7,LM,2-7-LM,Forb,Rumex hastatulus,0
-2022-10-17,1,2,8,BM,2-8-BM,Grass,Cynodon dactylon,7
-2022-10-17,1,2,8,BM,2-8-BM,Grass,Paspalum notatum,7
-2022-10-17,1,2,8,BM,2-8-BM,Forb,Dichondra spp.,4
-2022-10-17,1,2,8,BM,2-8-BM,Forb,Lactuca canadensis,1
-2022-10-17,1,2,8,BM,2-8-BM,Forb,Richardia spp.,3
-2022-10-17,1,2,8,BM,2-8-BM,Forb,Oxalis corniculata,3
-2022-10-17,1,2,8,BM,2-8-BM,Sedge,Cyperus spp.,3
-2022-10-17,1,2,8,BM,2-8-BM,Forb,Pityopsis trayci,7
-2022-10-17,1,2,8,BM,2-8-BM,Forb,Dalea pinnata,1
-2022-10-17,1,2,8,BM,2-8-BM,Forb,Liatris gracilis,3
-2022-10-17,1,2,8,BM,2-8-BM,Grass,Sorghastrum secundum,1
-2022-10-17,1,2,8,BM,2-8-BM,Grass,Eragrostis spectabilis,5
-2022-10-17,1,2,8,BM,2-8-BM,Grass,Andropogon ternarius,0
-2022-10-17,1,2,8,BM,2-8-BM,Grass,Andropogon virginicus,0
-2022-10-17,1,2,8,BM,2-8-BM,Grass,Paspalum setaceum,5
-2022-10-17,1,2,8,BM,2-8-BM,Forb,Acalypha gracilens,0
-2022-10-17,1,2,8,BM,2-8-BM,Forb,Rumex hastatulus,0
-2022-10-17,1,2,9,LH,2-9-LH,Grass,Cynodon dactylon,7
-2022-10-17,1,2,9,LH,2-9-LH,Grass,Paspalum notatum,4
-2022-10-17,1,2,9,LH,2-9-LH,Forb,Dichondra spp.,2
-2022-10-17,1,2,9,LH,2-9-LH,Forb,Lactuca canadensis,1
-2022-10-17,1,2,9,LH,2-9-LH,Forb,Richardia spp.,3
-2022-10-17,1,2,9,LH,2-9-LH,Forb,Oxalis corniculata,2
-2022-10-17,1,2,9,LH,2-9-LH,Sedge,Cyperus spp.,1
-2022-10-17,1,2,9,LH,2-9-LH,Forb,Pityopsis trayci,4
-2022-10-17,1,2,9,LH,2-9-LH,Forb,Dalea pinnata,2
-2022-10-17,1,2,9,LH,2-9-LH,Forb,Liatris gracilis,2
-2022-10-17,1,2,9,LH,2-9-LH,Grass,Sorghastrum secundum,4
-2022-10-17,1,2,9,LH,2-9-LH,Grass,Eragrostis spectabilis,7
-2022-10-17,1,2,9,LH,2-9-LH,Grass,Andropogon ternarius,4
-2022-10-17,1,2,9,LH,2-9-LH,Grass,Andropogon virginicus,0
-2022-10-17,1,2,9,LH,2-9-LH,Grass,Paspalum setaceum,0
-2022-10-17,1,2,9,LH,2-9-LH,Forb,Acalypha gracilens,0
-2022-10-17,1,2,9,LH,2-9-LH,Forb,Rumex hastatulus,0
-2022-10-17,1,2,9,LH,2-9-LH,Grass,Eustachys petraea,6
-2022-10-17,1,2,10,W,2-10-W,Grass,Cynodon dactylon,7
-2022-10-17,1,2,10,W,2-10-W,Grass,Paspalum notatum,6
-2022-10-17,1,2,10,W,2-10-W,Forb,Dichondra spp.,3
-2022-10-17,1,2,10,W,2-10-W,Forb,Lactuca canadensis,1
-2022-10-17,1,2,10,W,2-10-W,Forb,Richardia spp.,4
-2022-10-17,1,2,10,W,2-10-W,Forb,Oxalis corniculata,3
-2022-10-17,1,2,10,W,2-10-W,Sedge,Cyperus spp.,3
-2022-10-17,1,2,10,W,2-10-W,Forb,Pityopsis trayci,3
-2022-10-17,1,2,10,W,2-10-W,Forb,Dalea pinnata,0
-2022-10-17,1,2,10,W,2-10-W,Forb,Liatris gracilis,0
-2022-10-17,1,2,10,W,2-10-W,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,10,W,2-10-W,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,10,W,2-10-W,Grass,Andropogon ternarius,0
-2022-10-17,1,2,10,W,2-10-W,Grass,Andropogon virginicus,0
-2022-10-17,1,2,10,W,2-10-W,Grass,Paspalum setaceum,0
-2022-10-17,1,2,10,W,2-10-W,Forb,Acalypha gracilens,0
-2022-10-17,1,2,10,W,2-10-W,Forb,Rumex hastatulus,0
-2022-10-17,1,2,10,W,2-10-W,Grass,Eustachys petraea,4
-2022-10-17,1,2,11,C,2-11-C,Grass,Cynodon dactylon,9
-2022-10-17,1,2,11,C,2-11-C,Grass,Paspalum notatum,4
-2022-10-17,1,2,11,C,2-11-C,Forb,Dichondra spp.,2
-2022-10-17,1,2,11,C,2-11-C,Forb,Lactuca canadensis,1
-2022-10-17,1,2,11,C,2-11-C,Forb,Richardia spp.,2
-2022-10-17,1,2,11,C,2-11-C,Forb,Oxalis corniculata,3
-2022-10-17,1,2,11,C,2-11-C,Sedge,Cyperus spp.,1
-2022-10-17,1,2,11,C,2-11-C,Forb,Pityopsis trayci,0
-2022-10-17,1,2,11,C,2-11-C,Forb,Dalea pinnata,0
-2022-10-17,1,2,11,C,2-11-C,Forb,Liatris gracilis,0
-2022-10-17,1,2,11,C,2-11-C,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,11,C,2-11-C,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,11,C,2-11-C,Grass,Andropogon ternarius,0
-2022-10-17,1,2,11,C,2-11-C,Grass,Andropogon virginicus,0
-2022-10-17,1,2,11,C,2-11-C,Grass,Paspalum setaceum,0
-2022-10-17,1,2,11,C,2-11-C,Forb,Acalypha gracilens,0
-2022-10-17,1,2,11,C,2-11-C,Forb,Rumex hastatulus,0
-2022-10-17,1,2,12,BH,2-12-BH,Grass,Cynodon dactylon,8
-2022-10-17,1,2,12,BH,2-12-BH,Grass,Paspalum notatum,6
-2022-10-17,1,2,12,BH,2-12-BH,Forb,Dichondra spp.,2
-2022-10-17,1,2,12,BH,2-12-BH,Forb,Lactuca canadensis,1
-2022-10-17,1,2,12,BH,2-12-BH,Forb,Richardia spp.,2
-2022-10-17,1,2,12,BH,2-12-BH,Forb,Oxalis corniculata,2
-2022-10-17,1,2,12,BH,2-12-BH,Sedge,Cyperus spp.,4
-2022-10-17,1,2,12,BH,2-12-BH,Forb,Pityopsis trayci,4
-2022-10-17,1,2,12,BH,2-12-BH,Forb,Dalea pinnata,1
-2022-10-17,1,2,12,BH,2-12-BH,Forb,Liatris gracilis,1
-2022-10-17,1,2,12,BH,2-12-BH,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,12,BH,2-12-BH,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,12,BH,2-12-BH,Grass,Andropogon ternarius,4
-2022-10-17,1,2,12,BH,2-12-BH,Grass,Andropogon virginicus,2
-2022-10-17,1,2,12,BH,2-12-BH,Grass,Paspalum setaceum,0
-2022-10-17,1,2,12,BH,2-12-BH,Forb,Acalypha gracilens,1
-2022-10-17,1,2,12,BH,2-12-BH,Forb,Rumex hastatulus,0
-2022-10-17,1,2,13,BH,2-13-BH,Grass,Cynodon dactylon,4
-2022-10-17,1,2,13,BH,2-13-BH,Grass,Paspalum notatum,8
-2022-10-17,1,2,13,BH,2-13-BH,Forb,Dichondra spp.,2
-2022-10-17,1,2,13,BH,2-13-BH,Forb,Lactuca canadensis,1
-2022-10-17,1,2,13,BH,2-13-BH,Forb,Richardia spp.,2
-2022-10-17,1,2,13,BH,2-13-BH,Forb,Oxalis corniculata,2
-2022-10-17,1,2,13,BH,2-13-BH,Sedge,Cyperus spp.,2
-2022-10-17,1,2,13,BH,2-13-BH,Forb,Pityopsis trayci,6
-2022-10-17,1,2,13,BH,2-13-BH,Forb,Dalea pinnata,2
-2022-10-17,1,2,13,BH,2-13-BH,Forb,Liatris gracilis,2
-2022-10-17,1,2,13,BH,2-13-BH,Grass,Sorghastrum secundum,4
-2022-10-17,1,2,13,BH,2-13-BH,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,13,BH,2-13-BH,Grass,Andropogon ternarius,0
-2022-10-17,1,2,13,BH,2-13-BH,Grass,Andropogon virginicus,4
-2022-10-17,1,2,13,BH,2-13-BH,Grass,Paspalum setaceum,2
-2022-10-17,1,2,13,BH,2-13-BH,Forb,Acalypha gracilens,2
-2022-10-17,1,2,13,BH,2-13-BH,Forb,Rumex hastatulus,0
-2022-10-17,1,2,14,LH,2-14-LH,Grass,Cynodon dactylon,5
-2022-10-17,1,2,14,LH,2-14-LH,Grass,Paspalum notatum,6
-2022-10-17,1,2,14,LH,2-14-LH,Forb,Dichondra spp.,3
-2022-10-17,1,2,14,LH,2-14-LH,Forb,Lactuca canadensis,2
-2022-10-17,1,2,14,LH,2-14-LH,Forb,Richardia spp.,2
-2022-10-17,1,2,14,LH,2-14-LH,Forb,Oxalis corniculata,2
-2022-10-17,1,2,14,LH,2-14-LH,Sedge,Cyperus spp.,22
-2022-10-17,1,2,14,LH,2-14-LH,Forb,Pityopsis trayci,6
-2022-10-17,1,2,14,LH,2-14-LH,Forb,Dalea pinnata,2
-2022-10-17,1,2,14,LH,2-14-LH,Forb,Liatris gracilis,1
-2022-10-17,1,2,14,LH,2-14-LH,Grass,Sorghastrum secundum,4
-2022-10-17,1,2,14,LH,2-14-LH,Grass,Eragrostis spectabilis,7
-2022-10-17,1,2,14,LH,2-14-LH,Grass,Andropogon ternarius,4
-2022-10-17,1,2,14,LH,2-14-LH,Grass,Andropogon virginicus,0
-2022-10-17,1,2,14,LH,2-14-LH,Grass,Paspalum setaceum,2
-2022-10-17,1,2,14,LH,2-14-LH,Forb,Acalypha gracilens,1
-2022-10-17,1,2,14,LH,2-14-LH,Forb,Rumex hastatulus,0
-2022-10-17,1,2,14,LH,2-14-LH,Grass,Eustachys petraea,5
-2022-10-17,1,2,15,W,2-15-W,Grass,Cynodon dactylon,5
-2022-10-17,1,2,15,W,2-15-W,Grass,Paspalum notatum,7
-2022-10-17,1,2,15,W,2-15-W,Forb,Dichondra spp.,2
-2022-10-17,1,2,15,W,2-15-W,Forb,Lactuca canadensis,2
-2022-10-17,1,2,15,W,2-15-W,Forb,Richardia spp.,4
-2022-10-17,1,2,15,W,2-15-W,Forb,Oxalis corniculata,3
-2022-10-17,1,2,15,W,2-15-W,Sedge,Cyperus spp.,4
-2022-10-17,1,2,15,W,2-15-W,Forb,Pityopsis trayci,4
-2022-10-17,1,2,15,W,2-15-W,Forb,Dalea pinnata,1
-2022-10-17,1,2,15,W,2-15-W,Forb,Liatris gracilis,1
-2022-10-17,1,2,15,W,2-15-W,Grass,Sorghastrum secundum,1
-2022-10-17,1,2,15,W,2-15-W,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,15,W,2-15-W,Grass,Andropogon ternarius,0
-2022-10-17,1,2,15,W,2-15-W,Grass,Andropogon virginicus,0
-2022-10-17,1,2,15,W,2-15-W,Grass,Paspalum setaceum,0
-2022-10-17,1,2,15,W,2-15-W,Forb,Acalypha gracilens,0
-2022-10-17,1,2,15,W,2-15-W,Forb,Rumex hastatulus,0
-2022-10-17,1,2,15,W,2-15-W,Grass,Eustachys petraea,5
-2022-10-17,1,2,16,LM,2-16-LM,Grass,Cynodon dactylon,6
-2022-10-17,1,2,16,LM,2-16-LM,Grass,Paspalum notatum,7
-2022-10-17,1,2,16,LM,2-16-LM,Forb,Dichondra spp.,2
-2022-10-17,1,2,16,LM,2-16-LM,Forb,Lactuca canadensis,2
-2022-10-17,1,2,16,LM,2-16-LM,Forb,Richardia spp.,3
-2022-10-17,1,2,16,LM,2-16-LM,Forb,Oxalis corniculata,3
-2022-10-17,1,2,16,LM,2-16-LM,Sedge,Cyperus spp.,4
-2022-10-17,1,2,16,LM,2-16-LM,Forb,Pityopsis trayci,4
-2022-10-17,1,2,16,LM,2-16-LM,Forb,Dalea pinnata,1
-2022-10-17,1,2,16,LM,2-16-LM,Forb,Liatris gracilis,1
-2022-10-17,1,2,16,LM,2-16-LM,Grass,Sorghastrum secundum,3
-2022-10-17,1,2,16,LM,2-16-LM,Grass,Eragrostis spectabilis,7
-2022-10-17,1,2,16,LM,2-16-LM,Grass,Andropogon ternarius,2
-2022-10-17,1,2,16,LM,2-16-LM,Grass,Andropogon virginicus,0
-2022-10-17,1,2,16,LM,2-16-LM,Grass,Paspalum setaceum,4
-2022-10-17,1,2,16,LM,2-16-LM,Forb,Acalypha gracilens,0
-2022-10-17,1,2,16,LM,2-16-LM,Forb,Rumex hastatulus,0
-2022-10-17,1,2,17,BM,2-17-BM,Grass,Cynodon dactylon,6
-2022-10-17,1,2,17,BM,2-17-BM,Grass,Paspalum notatum,8
-2022-10-17,1,2,17,BM,2-17-BM,Forb,Dichondra spp.,2
-2022-10-17,1,2,17,BM,2-17-BM,Forb,Lactuca canadensis,1
-2022-10-17,1,2,17,BM,2-17-BM,Forb,Richardia spp.,1
-2022-10-17,1,2,17,BM,2-17-BM,Forb,Oxalis corniculata,3
-2022-10-17,1,2,17,BM,2-17-BM,Sedge,Cyperus spp.,5
-2022-10-17,1,2,17,BM,2-17-BM,Forb,Pityopsis trayci,5
-2022-10-17,1,2,17,BM,2-17-BM,Forb,Dalea pinnata,1
-2022-10-17,1,2,17,BM,2-17-BM,Forb,Liatris gracilis,0
-2022-10-17,1,2,17,BM,2-17-BM,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,17,BM,2-17-BM,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,17,BM,2-17-BM,Grass,Andropogon ternarius,2
-2022-10-17,1,2,17,BM,2-17-BM,Grass,Andropogon virginicus,3
-2022-10-17,1,2,17,BM,2-17-BM,Grass,Paspalum setaceum,0
-2022-10-17,1,2,17,BM,2-17-BM,Forb,Acalypha gracilens,0
-2022-10-17,1,2,17,BM,2-17-BM,Forb,Rumex hastatulus,0
-2022-10-17,1,2,18,C,2-18-C,Grass,Cynodon dactylon,8
-2022-10-17,1,2,18,C,2-18-C,Grass,Paspalum notatum,6
-2022-10-17,1,2,18,C,2-18-C,Forb,Dichondra spp.,2
-2022-10-17,1,2,18,C,2-18-C,Forb,Lactuca canadensis,2
-2022-10-17,1,2,18,C,2-18-C,Forb,Richardia spp.,2
-2022-10-17,1,2,18,C,2-18-C,Forb,Oxalis corniculata,7
-2022-10-17,1,2,18,C,2-18-C,Sedge,Cyperus spp.,5
-2022-10-17,1,2,18,C,2-18-C,Forb,Pityopsis trayci,0
-2022-10-17,1,2,18,C,2-18-C,Forb,Dalea pinnata,0
-2022-10-17,1,2,18,C,2-18-C,Forb,Liatris gracilis,0
-2022-10-17,1,2,18,C,2-18-C,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,18,C,2-18-C,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,18,C,2-18-C,Grass,Andropogon ternarius,0
-2022-10-17,1,2,18,C,2-18-C,Grass,Andropogon virginicus,0
-2022-10-17,1,2,18,C,2-18-C,Grass,Paspalum setaceum,0
-2022-10-17,1,2,18,C,2-18-C,Forb,Acalypha gracilens,0
-2022-10-17,1,2,18,C,2-18-C,Forb,Rumex hastatulus,0
-2022-10-17,1,2,19,W,2-19-W,Grass,Cynodon dactylon,8
-2022-10-17,1,2,19,W,2-19-W,Grass,Paspalum notatum,6
-2022-10-17,1,2,19,W,2-19-W,Forb,Dichondra spp.,1
-2022-10-17,1,2,19,W,2-19-W,Forb,Lactuca canadensis,1
-2022-10-17,1,2,19,W,2-19-W,Forb,Richardia spp.,1
-2022-10-17,1,2,19,W,2-19-W,Forb,Oxalis corniculata,3
-2022-10-17,1,2,19,W,2-19-W,Sedge,Cyperus spp.,5
-2022-10-17,1,2,19,W,2-19-W,Forb,Pityopsis trayci,5
-2022-10-17,1,2,19,W,2-19-W,Forb,Dalea pinnata,1
-2022-10-17,1,2,19,W,2-19-W,Forb,Liatris gracilis,1
-2022-10-17,1,2,19,W,2-19-W,Grass,Sorghastrum secundum,4
-2022-10-17,1,2,19,W,2-19-W,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,19,W,2-19-W,Grass,Andropogon ternarius,2
-2022-10-17,1,2,19,W,2-19-W,Grass,Andropogon virginicus,0
-2022-10-17,1,2,19,W,2-19-W,Grass,Paspalum setaceum,0
-2022-10-17,1,2,19,W,2-19-W,Forb,Acalypha gracilens,0
-2022-10-17,1,2,19,W,2-19-W,Forb,Rumex hastatulus,0
-2022-10-17,1,2,20,C,2-20-C,Grass,Cynodon dactylon,8
-2022-10-17,1,2,20,C,2-20-C,Grass,Paspalum notatum,7
-2022-10-17,1,2,20,C,2-20-C,Forb,Dichondra spp.,2
-2022-10-17,1,2,20,C,2-20-C,Forb,Lactuca canadensis,2
-2022-10-17,1,2,20,C,2-20-C,Forb,Richardia spp.,1
-2022-10-17,1,2,20,C,2-20-C,Forb,Oxalis corniculata,3
-2022-10-17,1,2,20,C,2-20-C,Sedge,Cyperus spp.,5
-2022-10-17,1,2,20,C,2-20-C,Forb,Pityopsis trayci,0
-2022-10-17,1,2,20,C,2-20-C,Forb,Dalea pinnata,0
-2022-10-17,1,2,20,C,2-20-C,Forb,Liatris gracilis,0
-2022-10-17,1,2,20,C,2-20-C,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,20,C,2-20-C,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,20,C,2-20-C,Grass,Andropogon ternarius,0
-2022-10-17,1,2,20,C,2-20-C,Grass,Andropogon virginicus,0
-2022-10-17,1,2,20,C,2-20-C,Grass,Paspalum setaceum,0
-2022-10-17,1,2,20,C,2-20-C,Forb,Acalypha gracilens,0
-2022-10-17,1,2,20,C,2-20-C,Forb,Rumex hastatulus,0
-2022-10-18,1,2,20,C,2-20-C,Grass,Eustachys petraea,2
-2022-10-17,1,2,21,LM,2-21-LM,Grass,Cynodon dactylon,8
-2022-10-17,1,2,21,LM,2-21-LM,Grass,Paspalum notatum,6
-2022-10-17,1,2,21,LM,2-21-LM,Forb,Dichondra spp.,2
-2022-10-17,1,2,21,LM,2-21-LM,Forb,Lactuca canadensis,3
-2022-10-17,1,2,21,LM,2-21-LM,Forb,Richardia spp.,2
-2022-10-17,1,2,21,LM,2-21-LM,Forb,Oxalis corniculata,2
-2022-10-17,1,2,21,LM,2-21-LM,Sedge,Cyperus spp.,4
-2022-10-17,1,2,21,LM,2-21-LM,Forb,Pityopsis trayci,7
-2022-10-17,1,2,21,LM,2-21-LM,Forb,Dalea pinnata,2
-2022-10-17,1,2,21,LM,2-21-LM,Forb,Liatris gracilis,3
-2022-10-17,1,2,21,LM,2-21-LM,Grass,Sorghastrum secundum,5
-2022-10-17,1,2,21,LM,2-21-LM,Grass,Eragrostis spectabilis,6
-2022-10-17,1,2,21,LM,2-21-LM,Grass,Andropogon ternarius,2
-2022-10-17,1,2,21,LM,2-21-LM,Grass,Andropogon virginicus,0
-2022-10-17,1,2,21,LM,2-21-LM,Grass,Paspalum setaceum,0
-2022-10-17,1,2,21,LM,2-21-LM,Forb,Acalypha gracilens,0
-2022-10-17,1,2,21,LM,2-21-LM,Forb,Rumex hastatulus,0
-2022-10-17,1,2,21,LM,2-21-LM,Grass,Eustachys petraea,6
-2022-10-17,1,2,22,BM,2-22-BM,Grass,Cynodon dactylon,8
-2022-10-17,1,2,22,BM,2-22-BM,Grass,Paspalum notatum,6
-2022-10-17,1,2,22,BM,2-22-BM,Forb,Dichondra spp.,2
-2022-10-17,1,2,22,BM,2-22-BM,Forb,Lactuca canadensis,1
-2022-10-17,1,2,22,BM,2-22-BM,Forb,Richardia spp.,5
-2022-10-17,1,2,22,BM,2-22-BM,Forb,Oxalis corniculata,3
-2022-10-17,1,2,22,BM,2-22-BM,Sedge,Cyperus spp.,4
-2022-10-17,1,2,22,BM,2-22-BM,Forb,Pityopsis trayci,5
-2022-10-17,1,2,22,BM,2-22-BM,Forb,Dalea pinnata,1
-2022-10-17,1,2,22,BM,2-22-BM,Forb,Liatris gracilis,1
-2022-10-17,1,2,22,BM,2-22-BM,Grass,Sorghastrum secundum,0
-2022-10-17,1,2,22,BM,2-22-BM,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,22,BM,2-22-BM,Grass,Andropogon ternarius,0
-2022-10-17,1,2,22,BM,2-22-BM,Grass,Andropogon virginicus,3
-2022-10-17,1,2,22,BM,2-22-BM,Grass,Paspalum setaceum,0
-2022-10-17,1,2,22,BM,2-22-BM,Forb,Acalypha gracilens,2
-2022-10-17,1,2,22,BM,2-22-BM,Forb,Rumex hastatulus,0
-2022-10-17,1,2,22,BM,2-22-BM,Grass,Eustachys petraea,6
-2022-10-17,1,2,23,LH,2-23-LH,Grass,Cynodon dactylon,3
-2022-10-17,1,2,23,LH,2-23-LH,Grass,Paspalum notatum,2
-2022-10-17,1,2,23,LH,2-23-LH,Forb,Dichondra spp.,2
-2022-10-17,1,2,23,LH,2-23-LH,Forb,Lactuca canadensis,1
-2022-10-17,1,2,23,LH,2-23-LH,Forb,Richardia spp.,1
-2022-10-17,1,2,23,LH,2-23-LH,Forb,Oxalis corniculata,2
-2022-10-17,1,2,23,LH,2-23-LH,Sedge,Cyperus spp.,1
-2022-10-17,1,2,23,LH,2-23-LH,Forb,Pityopsis trayci,7
-2022-10-17,1,2,23,LH,2-23-LH,Forb,Dalea pinnata,3
-2022-10-17,1,2,23,LH,2-23-LH,Forb,Liatris gracilis,3
-2022-10-17,1,2,23,LH,2-23-LH,Grass,Sorghastrum secundum,2
-2022-10-17,1,2,23,LH,2-23-LH,Grass,Eragrostis spectabilis,9
-2022-10-17,1,2,23,LH,2-23-LH,Grass,Andropogon ternarius,1
-2022-10-17,1,2,23,LH,2-23-LH,Grass,Andropogon virginicus,0
-2022-10-17,1,2,23,LH,2-23-LH,Grass,Paspalum setaceum,3
-2022-10-17,1,2,23,LH,2-23-LH,Forb,Acalypha gracilens,2
-2022-10-17,1,2,23,LH,2-23-LH,Forb,Rumex hastatulus,0
-2022-10-17,1,2,23,LH,2-23-LH,Grass,Eustachys petraea,3
-2022-10-17,1,2,24,BH,2-24-BH,Grass,Cynodon dactylon,7
-2022-10-17,1,2,24,BH,2-24-BH,Grass,Paspalum notatum,7
-2022-10-17,1,2,24,BH,2-24-BH,Forb,Dichondra spp.,2
-2022-10-17,1,2,24,BH,2-24-BH,Forb,Lactuca canadensis,1
-2022-10-17,1,2,24,BH,2-24-BH,Forb,Richardia spp.,1
-2022-10-17,1,2,24,BH,2-24-BH,Forb,Oxalis corniculata,2
-2022-10-17,1,2,24,BH,2-24-BH,Sedge,Cyperus spp.,4
-2022-10-17,1,2,24,BH,2-24-BH,Forb,Pityopsis trayci,5
-2022-10-17,1,2,24,BH,2-24-BH,Forb,Dalea pinnata,0
-2022-10-17,1,2,24,BH,2-24-BH,Forb,Liatris gracilis,3
-2022-10-17,1,2,24,BH,2-24-BH,Grass,Sorghastrum secundum,4
-2022-10-17,1,2,24,BH,2-24-BH,Grass,Eragrostis spectabilis,0
-2022-10-17,1,2,24,BH,2-24-BH,Grass,Andropogon ternarius,1
-2022-10-17,1,2,24,BH,2-24-BH,Grass,Andropogon virginicus,3
-2022-10-17,1,2,24,BH,2-24-BH,Grass,Paspalum setaceum,0
-2022-10-17,1,2,24,BH,2-24-BH,Forb,Acalypha gracilens,0
-2022-10-17,1,2,24,BH,2-24-BH,Forb,Rumex hastatulus,0
-2022-10-17,1,2,24,BH,2-24-BH,Grass,Eustachys petraea,2
+Year,Date,Block,Sub_Plot,Treatment,ID,Group,Type,Species,Coverage
+1,2022-10-17,1,1,W,1-1-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,2,C,1-2-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,3,LM,1-3-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,4,BM,1-4-BM,Grass,Andropogon virginicus,Andropogon virginicus,4
+1,2022-10-17,1,5,LH,1-5-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,6,BH,1-6-BH,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,7,BH,1-7-BH,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,8,LH,1-8-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,9,W,1-9-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,10,LM,1-10-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,11,BM,1-11-BM,Grass,Andropogon virginicus,Andropogon virginicus,2
+1,2022-10-17,1,12,C,1-12-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,13,LM,1-13-LM,Grass,Andropogon virginicus,Andropogon virginicus,3
+1,2022-10-17,1,14,BM,1-14-BM,Grass,Andropogon virginicus,Andropogon virginicus,4
+1,2022-10-17,1,15,LH,1-15-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,16,W,1-16-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,17,C,1-17-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,18,BH,1-18-BH,Grass,Andropogon virginicus,Andropogon virginicus,2
+1,2022-10-17,1,19,C,1-19-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,20,W,1-20-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,21,BM,1-21-BM,Grass,Andropogon virginicus,Andropogon virginicus,1
+1,2022-10-17,1,22,BH,1-22-BH,Grass,Andropogon virginicus,Andropogon virginicus,1
+1,2022-10-17,1,23,LM,1-23-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,1,24,LH,1-24-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,1,C,2-1-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,2,W,2-2-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,3,BM,2-3-BM,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,4,BH,2-4-BH,Grass,Andropogon virginicus,Andropogon virginicus,2
+1,2022-10-17,2,5,LM,2-5-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,6,LH,2-6-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,7,LM,2-7-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,8,BM,2-8-BM,Grass,Andropogon virginicus,Andropogon virginicus,4
+1,2022-10-17,2,9,LH,2-9-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,10,W,2-10-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,11,C,2-11-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,12,BH,2-12-BH,Grass,Andropogon virginicus,Andropogon virginicus,2
+1,2022-10-17,2,13,BH,2-13-BH,Grass,Andropogon virginicus,Andropogon virginicus,4
+1,2022-10-17,2,14,LH,2-14-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,15,W,2-15-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,16,LM,2-16-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,17,BM,2-17-BM,Grass,Andropogon virginicus,Andropogon virginicus,3
+1,2022-10-17,2,18,C,2-18-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,19,W,2-19-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,20,C,2-20-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,21,LM,2-21-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,22,BM,2-22-BM,Grass,Andropogon virginicus,Andropogon virginicus,3
+1,2022-10-17,2,23,LH,2-23-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+1,2022-10-17,2,24,BH,2-24-BH,Grass,Andropogon virginicus,Andropogon virginicus,3
+2,2023-10-30,1,1,W,1-1-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,2,C,1-2-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,3,LM,1-3-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,4,BM,1-4-BM,Grass,Andropogon virginicus,Andropogon virginicus,5
+2,2023-10-30,1,5,LH,1-5-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,6,BH,1-6-BH,Grass,Andropogon virginicus,Andropogon virginicus,5
+2,2023-10-30,1,7,BH,1-7-BH,Grass,Andropogon virginicus,Andropogon virginicus,4
+2,2023-10-30,1,8,LH,1-8-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,9,W,1-9-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,10,LM,1-10-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,11,BM,1-11-BM,Grass,Andropogon virginicus,Andropogon virginicus,4
+2,2023-10-30,1,12,C,1-12-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,13,LM,1-13-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,14,BM,1-14-BM,Grass,Andropogon virginicus,Andropogon virginicus,5
+2,2023-10-30,1,15,LH,1-15-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,16,W,1-16-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,17,C,1-17-C,Grass,Andropogon virginicus,Andropogon virginicus,6
+2,2023-10-30,1,18,BH,1-18-BH,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,19,C,1-19-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,20,W,1-20-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,21,BM,1-21-BM,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,22,BH,1-22-BH,Grass,Andropogon virginicus,Andropogon virginicus,4
+2,2023-10-30,1,23,LM,1-23-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,1,24,LH,1-24-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,1,C,2-1-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,2,W,2-2-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,3,BM,2-3-BM,Grass,Andropogon virginicus,Andropogon virginicus,3
+2,2023-10-30,2,4,BH,2-4-BH,Grass,Andropogon virginicus,Andropogon virginicus,4
+2,2023-10-30,2,5,LM,2-5-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,6,LH,2-6-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,7,LM,2-7-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,8,BM,2-8-BM,Grass,Andropogon virginicus,Andropogon virginicus,4
+2,2023-10-30,2,9,LH,2-9-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,10,W,2-10-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,11,C,2-11-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,12,BH,2-12-BH,Grass,Andropogon virginicus,Andropogon virginicus,2
+2,2023-10-30,2,13,BH,2-13-BH,Grass,Andropogon virginicus,Andropogon virginicus,4
+2,2023-10-30,2,14,LH,2-14-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,15,W,2-15-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,16,LM,2-16-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,17,BM,2-17-BM,Grass,Andropogon virginicus,Andropogon virginicus,5
+2,2023-10-30,2,18,C,2-18-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,19,W,2-19-W,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,20,C,2-20-C,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,21,LM,2-21-LM,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,22,BM,2-22-BM,Grass,Andropogon virginicus,Andropogon virginicus,4
+2,2023-10-30,2,23,LH,2-23-LH,Grass,Andropogon virginicus,Andropogon virginicus,0
+2,2023-10-30,2,24,BH,2-24-BH,Grass,Andropogon virginicus,Andropogon virginicus,5
+1,2022-10-17,1,1,W,1-1-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+1,2022-10-17,1,9,W,1-9-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+1,2022-10-17,1,16,W,1-16-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+1,2022-10-17,1,20,W,1-20-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+1,2022-10-17,2,2,W,2-2-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+1,2022-10-17,2,10,W,2-10-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+1,2022-10-17,2,15,W,2-15-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+1,2022-10-17,2,19,W,2-19-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,1,1,W,1-1-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,1,1,W,1-1-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,1,9,W,1-9-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,1,9,W,1-9-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,1,16,W,1-16-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,1,20,W,1-20-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,2,2,W,2-2-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,2,10,W,2-10-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,2,15,W,2-15-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,2,19,W,2-19-W,Grass,Aristida beyrichiana,Aristida beyrichiana,0
+2,2023-10-30,1,1,W,1-1-W,Bare,Bareground,Bareground,1
+2,2023-10-30,1,2,C,1-2-C,Bare,Bareground,Bareground,1
+2,2023-10-30,1,3,LM,1-3-LM,Bare,Bareground,Bareground,1
+2,2023-10-30,1,4,BM,1-4-BM,Bare,Bareground,Bareground,1
+2,2023-10-30,1,5,LH,1-5-LH,Bare,Bareground,Bareground,1
+2,2023-10-30,1,6,BH,1-6-BH,Bare,Bareground,Bareground,1
+2,2023-10-30,1,7,BH,1-7-BH,Bare,Bareground,Bareground,1
+2,2023-10-30,1,8,LH,1-8-LH,Bare,Bareground,Bareground,1
+2,2023-10-30,1,9,W,1-9-W,Bare,Bareground,Bareground,1
+2,2023-10-30,1,10,LM,1-10-LM,Bare,Bareground,Bareground,1
+2,2023-10-30,1,11,BM,1-11-BM,Bare,Bareground,Bareground,1
+2,2023-10-30,1,12,C,1-12-C,Bare,Bareground,Bareground,1
+2,2023-10-30,1,13,LM,1-13-LM,Bare,Bareground,Bareground,1
+2,2023-10-30,1,14,BM,1-14-BM,Bare,Bareground,Bareground,1
+2,2023-10-30,1,15,LH,1-15-LH,Bare,Bareground,Bareground,1
+2,2023-10-30,1,16,W,1-16-W,Bare,Bareground,Bareground,1
+2,2023-10-30,1,17,C,1-17-C,Bare,Bareground,Bareground,1
+2,2023-10-30,1,18,BH,1-18-BH,Bare,Bareground,Bareground,1
+2,2023-10-30,1,19,C,1-19-C,Bare,Bareground,Bareground,1
+2,2023-10-30,1,20,W,1-20-W,Bare,Bareground,Bareground,1
+2,2023-10-30,1,21,BM,1-21-BM,Bare,Bareground,Bareground,0
+2,2023-10-30,1,22,BH,1-22-BH,Bare,Bareground,Bareground,1
+2,2023-10-30,1,23,LM,1-23-LM,Bare,Bareground,Bareground,1
+2,2023-10-30,1,24,LH,1-24-LH,Bare,Bareground,Bareground,3
+1,2022-10-17,1,1,W,1-1-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,2,C,1-2-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,3,LM,1-3-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,5
+1,2022-10-17,1,4,BM,1-4-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,5,LH,1-5-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+1,2022-10-17,1,6,BH,1-6-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,7,BH,1-7-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,8,LH,1-8-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+1,2022-10-17,1,9,W,1-9-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,10,LM,1-10-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,3
+1,2022-10-17,1,11,BM,1-11-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,12,C,1-12-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,13,LM,1-13-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,4
+1,2022-10-17,1,14,BM,1-14-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,15,LH,1-15-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+1,2022-10-17,1,16,W,1-16-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,17,C,1-17-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,18,BH,1-18-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,19,C,1-19-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,20,W,1-20-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,21,BM,1-21-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,22,BH,1-22-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,23,LM,1-23-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+1,2022-10-17,1,24,LH,1-24-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,7
+1,2022-10-17,2,1,C,2-1-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,2,W,2-2-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,3,BM,2-3-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,4,BH,2-4-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,5,LM,2-5-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,4
+1,2022-10-17,2,6,LH,2-6-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,4
+1,2022-10-17,2,7,LM,2-7-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,5
+1,2022-10-17,2,8,BM,2-8-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,9,LH,2-9-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,7
+1,2022-10-17,2,10,W,2-10-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,11,C,2-11-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,12,BH,2-12-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,13,BH,2-13-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,14,LH,2-14-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,7
+1,2022-10-17,2,15,W,2-15-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,16,LM,2-16-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,7
+1,2022-10-17,2,17,BM,2-17-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,18,C,2-18-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,19,W,2-19-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,20,C,2-20-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,21,LM,2-21-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,6
+1,2022-10-17,2,22,BM,2-22-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,2,23,LH,2-23-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,9
+1,2022-10-17,2,24,BH,2-24-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,1,W,1-1-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,2,C,1-2-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,3,LM,1-3-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+2,2023-10-30,1,4,BM,1-4-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,5,LH,1-5-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,9
+2,2023-10-30,1,6,BH,1-6-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,7,BH,1-7-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,8,LH,1-8-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,9
+2,2023-10-30,1,9,W,1-9-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,10,LM,1-10-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+2,2023-10-30,1,11,BM,1-11-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,12,C,1-12-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,13,LM,1-13-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,4
+2,2023-10-30,1,14,BM,1-14-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,15,LH,1-15-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+2,2023-10-30,1,16,W,1-16-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,17,C,1-17-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,18,BH,1-18-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,2
+2,2023-10-30,1,19,C,1-19-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,20,W,1-20-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,21,BM,1-21-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,22,BH,1-22-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,1,23,LM,1-23-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+2,2023-10-30,1,24,LH,1-24-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+2,2023-10-30,2,1,C,2-1-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,2,W,2-2-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,3,BM,2-3-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,4,BH,2-4-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,5,LM,2-5-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,5
+2,2023-10-30,2,6,LH,2-6-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,4
+2,2023-10-30,2,7,LM,2-7-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,6
+2,2023-10-30,2,8,BM,2-8-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,9,LH,2-9-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,9
+2,2023-10-30,2,10,W,2-10-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,11,C,2-11-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,12,BH,2-12-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,13,BH,2-13-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,14,LH,2-14-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+2,2023-10-30,2,15,W,2-15-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,16,LM,2-16-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,8
+2,2023-10-30,2,17,BM,2-17-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,18,C,2-18-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,19,W,2-19-W,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,20,C,2-20-C,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,21,LM,2-21-LM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,6
+2,2023-10-30,2,22,BM,2-22-BM,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+2,2023-10-30,2,23,LH,2-23-LH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,9
+2,2023-10-30,2,24,BH,2-24-BH,Grass,Eragrostis spectabilis,Eragrostis spectabilis,0
+1,2022-10-17,1,1,W,1-1-W,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,1,W,1-1-W,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,1,W,1-1-W,Forb,Obligate Forb,Pityopsis trayci,6
+1,2022-10-17,1,2,C,1-2-C,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,2,C,1-2-C,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,2,C,1-2-C,Forb,Obligate Forb,Pityopsis trayci,0
+1,2022-10-17,1,3,LM,1-3-LM,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,3,LM,1-3-LM,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,3,LM,1-3-LM,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,1,4,BM,1-4-BM,Forb,Obligate Forb,Dalea pinnata,2
+1,2022-10-17,1,4,BM,1-4-BM,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,4,BM,1-4-BM,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,1,5,LH,1-5-LH,Forb,Obligate Forb,Dalea pinnata,2
+1,2022-10-17,1,5,LH,1-5-LH,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,5,LH,1-5-LH,Forb,Obligate Forb,Pityopsis trayci,6
+1,2022-10-17,1,6,BH,1-6-BH,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,6,BH,1-6-BH,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,6,BH,1-6-BH,Forb,Obligate Forb,Pityopsis trayci,6
+1,2022-10-17,1,7,BH,1-7-BH,Forb,Obligate Forb,Dalea pinnata,6
+1,2022-10-17,1,7,BH,1-7-BH,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,7,BH,1-7-BH,Forb,Obligate Forb,Pityopsis trayci,6
+1,2022-10-17,1,8,LH,1-8-LH,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,8,LH,1-8-LH,Forb,Obligate Forb,Liatris gracilis,2
+1,2022-10-17,1,8,LH,1-8-LH,Forb,Obligate Forb,Pityopsis trayci,5
+1,2022-10-17,1,9,W,1-9-W,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,9,W,1-9-W,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,9,W,1-9-W,Forb,Obligate Forb,Pityopsis trayci,4
+1,2022-10-17,1,10,LM,1-10-LM,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,10,LM,1-10-LM,Forb,Obligate Forb,Liatris gracilis,2
+1,2022-10-17,1,10,LM,1-10-LM,Forb,Obligate Forb,Pityopsis trayci,5
+1,2022-10-17,1,11,BM,1-11-BM,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,11,BM,1-11-BM,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,11,BM,1-11-BM,Forb,Obligate Forb,Pityopsis trayci,6
+1,2022-10-17,1,12,C,1-12-C,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,12,C,1-12-C,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,12,C,1-12-C,Forb,Obligate Forb,Pityopsis trayci,0
+1,2022-10-17,1,13,LM,1-13-LM,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,13,LM,1-13-LM,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,13,LM,1-13-LM,Forb,Obligate Forb,Pityopsis trayci,6
+1,2022-10-17,1,14,BM,1-14-BM,Forb,Obligate Forb,Dalea pinnata,2
+1,2022-10-17,1,14,BM,1-14-BM,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,14,BM,1-14-BM,Forb,Obligate Forb,Pityopsis trayci,5
+1,2022-10-17,1,15,LH,1-15-LH,Forb,Obligate Forb,Dalea pinnata,4
+1,2022-10-17,1,15,LH,1-15-LH,Forb,Obligate Forb,Liatris gracilis,3
+1,2022-10-17,1,15,LH,1-15-LH,Forb,Obligate Forb,Pityopsis trayci,5
+1,2022-10-17,1,16,W,1-16-W,Forb,Obligate Forb,Dalea pinnata,4
+1,2022-10-17,1,16,W,1-16-W,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,16,W,1-16-W,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,1,17,C,1-17-C,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,17,C,1-17-C,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,17,C,1-17-C,Forb,Obligate Forb,Pityopsis trayci,0
+1,2022-10-17,1,18,BH,1-18-BH,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,18,BH,1-18-BH,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,18,BH,1-18-BH,Forb,Obligate Forb,Pityopsis trayci,4
+1,2022-10-17,1,19,C,1-19-C,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,19,C,1-19-C,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,19,C,1-19-C,Forb,Obligate Forb,Pityopsis trayci,0
+1,2022-10-17,1,20,W,1-20-W,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,20,W,1-20-W,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,20,W,1-20-W,Forb,Obligate Forb,Pityopsis trayci,6
+1,2022-10-17,1,21,BM,1-21-BM,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,21,BM,1-21-BM,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,21,BM,1-21-BM,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,1,22,BH,1-22-BH,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,22,BH,1-22-BH,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,1,22,BH,1-22-BH,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,1,23,LM,1-23-LM,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,23,LM,1-23-LM,Forb,Obligate Forb,Liatris gracilis,4
+1,2022-10-17,1,23,LM,1-23-LM,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,1,24,LH,1-24-LH,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,1,24,LH,1-24-LH,Forb,Obligate Forb,Liatris gracilis,4
+1,2022-10-17,1,24,LH,1-24-LH,Forb,Obligate Forb,Pityopsis trayci,6
+1,2022-10-17,2,1,C,2-1-C,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,1,C,2-1-C,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,2,1,C,2-1-C,Forb,Obligate Forb,Pityopsis trayci,0
+1,2022-10-17,2,2,W,2-2-W,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,2,W,2-2-W,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,2,2,W,2-2-W,Forb,Obligate Forb,Pityopsis trayci,0
+1,2022-10-17,2,3,BM,2-3-BM,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,3,BM,2-3-BM,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,2,3,BM,2-3-BM,Forb,Obligate Forb,Pityopsis trayci,0
+1,2022-10-17,2,4,BH,2-4-BH,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,4,BH,2-4-BH,Forb,Obligate Forb,Liatris gracilis,1
+1,2022-10-17,2,4,BH,2-4-BH,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,2,5,LM,2-5-LM,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,5,LM,2-5-LM,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,2,5,LM,2-5-LM,Forb,Obligate Forb,Pityopsis trayci,4
+1,2022-10-17,2,6,LH,2-6-LH,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,6,LH,2-6-LH,Forb,Obligate Forb,Liatris gracilis,1
+1,2022-10-17,2,6,LH,2-6-LH,Forb,Obligate Forb,Pityopsis trayci,3
+1,2022-10-17,2,7,LM,2-7-LM,Forb,Obligate Forb,Dalea pinnata,1
+1,2022-10-17,2,7,LM,2-7-LM,Forb,Obligate Forb,Liatris gracilis,3
+1,2022-10-17,2,7,LM,2-7-LM,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,2,8,BM,2-8-BM,Forb,Obligate Forb,Dalea pinnata,1
+1,2022-10-17,2,8,BM,2-8-BM,Forb,Obligate Forb,Liatris gracilis,3
+1,2022-10-17,2,8,BM,2-8-BM,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,2,9,LH,2-9-LH,Forb,Obligate Forb,Dalea pinnata,2
+1,2022-10-17,2,9,LH,2-9-LH,Forb,Obligate Forb,Liatris gracilis,2
+1,2022-10-17,2,9,LH,2-9-LH,Forb,Obligate Forb,Pityopsis trayci,4
+1,2022-10-17,2,10,W,2-10-W,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,10,W,2-10-W,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,2,10,W,2-10-W,Forb,Obligate Forb,Pityopsis trayci,3
+1,2022-10-17,2,11,C,2-11-C,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,11,C,2-11-C,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,2,11,C,2-11-C,Forb,Obligate Forb,Pityopsis trayci,0
+1,2022-10-17,2,12,BH,2-12-BH,Forb,Obligate Forb,Dalea pinnata,1
+1,2022-10-17,2,12,BH,2-12-BH,Forb,Obligate Forb,Liatris gracilis,1
+1,2022-10-17,2,12,BH,2-12-BH,Forb,Obligate Forb,Pityopsis trayci,4
+1,2022-10-17,2,13,BH,2-13-BH,Forb,Obligate Forb,Dalea pinnata,2
+1,2022-10-17,2,13,BH,2-13-BH,Forb,Obligate Forb,Liatris gracilis,2
+1,2022-10-17,2,13,BH,2-13-BH,Forb,Obligate Forb,Pityopsis trayci,6
+1,2022-10-17,2,14,LH,2-14-LH,Forb,Obligate Forb,Dalea pinnata,2
+1,2022-10-17,2,14,LH,2-14-LH,Forb,Obligate Forb,Liatris gracilis,1
+1,2022-10-17,2,14,LH,2-14-LH,Forb,Obligate Forb,Pityopsis trayci,6
+1,2022-10-17,2,15,W,2-15-W,Forb,Obligate Forb,Dalea pinnata,1
+1,2022-10-17,2,15,W,2-15-W,Forb,Obligate Forb,Liatris gracilis,1
+1,2022-10-17,2,15,W,2-15-W,Forb,Obligate Forb,Pityopsis trayci,4
+1,2022-10-17,2,16,LM,2-16-LM,Forb,Obligate Forb,Dalea pinnata,1
+1,2022-10-17,2,16,LM,2-16-LM,Forb,Obligate Forb,Liatris gracilis,1
+1,2022-10-17,2,16,LM,2-16-LM,Forb,Obligate Forb,Pityopsis trayci,4
+1,2022-10-17,2,17,BM,2-17-BM,Forb,Obligate Forb,Dalea pinnata,1
+1,2022-10-17,2,17,BM,2-17-BM,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,2,17,BM,2-17-BM,Forb,Obligate Forb,Pityopsis trayci,5
+1,2022-10-17,2,18,C,2-18-C,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,18,C,2-18-C,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,2,18,C,2-18-C,Forb,Obligate Forb,Pityopsis trayci,0
+1,2022-10-17,2,19,W,2-19-W,Forb,Obligate Forb,Dalea pinnata,1
+1,2022-10-17,2,19,W,2-19-W,Forb,Obligate Forb,Liatris gracilis,1
+1,2022-10-17,2,19,W,2-19-W,Forb,Obligate Forb,Pityopsis trayci,5
+1,2022-10-17,2,20,C,2-20-C,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,20,C,2-20-C,Forb,Obligate Forb,Liatris gracilis,0
+1,2022-10-17,2,20,C,2-20-C,Forb,Obligate Forb,Pityopsis trayci,0
+1,2022-10-17,2,21,LM,2-21-LM,Forb,Obligate Forb,Dalea pinnata,2
+1,2022-10-17,2,21,LM,2-21-LM,Forb,Obligate Forb,Liatris gracilis,3
+1,2022-10-17,2,21,LM,2-21-LM,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,2,22,BM,2-22-BM,Forb,Obligate Forb,Dalea pinnata,1
+1,2022-10-17,2,22,BM,2-22-BM,Forb,Obligate Forb,Liatris gracilis,1
+1,2022-10-17,2,22,BM,2-22-BM,Forb,Obligate Forb,Pityopsis trayci,5
+1,2022-10-17,2,23,LH,2-23-LH,Forb,Obligate Forb,Dalea pinnata,3
+1,2022-10-17,2,23,LH,2-23-LH,Forb,Obligate Forb,Liatris gracilis,3
+1,2022-10-17,2,23,LH,2-23-LH,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,2,24,BH,2-24-BH,Forb,Obligate Forb,Dalea pinnata,0
+1,2022-10-17,2,24,BH,2-24-BH,Forb,Obligate Forb,Liatris gracilis,3
+1,2022-10-17,2,24,BH,2-24-BH,Forb,Obligate Forb,Pityopsis trayci,5
+2,2023-10-30,1,1,W,1-1-W,Forb,Obligate Forb,Dalea pinnata,0
+2,2023-10-30,1,1,W,1-1-W,Forb,Obligate Forb,Liatris gracilis,0
+2,2023-10-30,1,1,W,1-1-W,Forb,Obligate Forb,Pityopsis trayci,5
+2,2023-10-30,1,2,C,1-2-C,Forb,Obligate Forb,Dalea pinnata,0
+2,2023-10-30,1,2,C,1-2-C,Forb,Obligate Forb,Liatris gracilis,0
+2,2023-10-30,1,2,C,1-2-C,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Obligate Forb,Dalea pinnata,0
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Obligate Forb,Liatris gracilis,1
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Obligate Forb,Dalea pinnata,5
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Obligate Forb,Liatris gracilis,2
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Obligate Forb,Dalea pinnata,5
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Obligate Forb,Liatris gracilis,3
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Obligate Forb,Dalea pinnata,3
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Obligate Forb,Liatris gracilis,3
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Obligate Forb,Dalea pinnata,8
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Obligate Forb,Liatris gracilis,3
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Obligate Forb,Dalea pinnata,5
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Obligate Forb,Liatris gracilis,3
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,9,W,1-9-W,Forb,Obligate Forb,Dalea pinnata,5
+2,2023-10-30,1,9,W,1-9-W,Forb,Obligate Forb,Liatris gracilis,3
+2,2023-10-30,1,9,W,1-9-W,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Obligate Forb,Dalea pinnata,5
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Obligate Forb,Liatris gracilis,3
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Obligate Forb,Dalea pinnata,4
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Obligate Forb,Liatris gracilis,3
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,1,12,C,1-12-C,Forb,Obligate Forb,Dalea pinnata,0
+2,2023-10-30,1,12,C,1-12-C,Forb,Obligate Forb,Liatris gracilis,0
+2,2023-10-30,1,12,C,1-12-C,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Obligate Forb,Dalea pinnata,4
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Obligate Forb,Liatris gracilis,4
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Obligate Forb,Pityopsis trayci,9
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Obligate Forb,Dalea pinnata,3
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Obligate Forb,Liatris gracilis,4
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Obligate Forb,Dalea pinnata,4
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Obligate Forb,Liatris gracilis,1
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,16,W,1-16-W,Forb,Obligate Forb,Dalea pinnata,0
+2,2023-10-30,1,16,W,1-16-W,Forb,Obligate Forb,Liatris gracilis,0
+2,2023-10-30,1,16,W,1-16-W,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,1,17,C,1-17-C,Forb,Obligate Forb,Dalea pinnata,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Obligate Forb,Liatris gracilis,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Obligate Forb,Dalea pinnata,0
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Obligate Forb,Liatris gracilis,0
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Obligate Forb,Pityopsis trayci,6
+2,2023-10-30,1,19,C,1-19-C,Forb,Obligate Forb,Dalea pinnata,0
+2,2023-10-30,1,19,C,1-19-C,Forb,Obligate Forb,Liatris gracilis,0
+2,2023-10-30,1,19,C,1-19-C,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,1,20,W,1-20-W,Forb,Obligate Forb,Dalea pinnata,4
+2,2023-10-30,1,20,W,1-20-W,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,1,21,BM,1-21-BM,Forb,Obligate Forb,Dalea pinnata,3
+2,2023-10-30,1,21,BM,1-21-BM,Forb,Obligate Forb,Pityopsis trayci,4
+2,2023-10-30,1,22,BH,1-22-BH,Forb,Obligate Forb,Dalea pinnata,0
+2,2023-10-30,1,22,BH,1-22-BH,Forb,Obligate Forb,Pityopsis trayci,9
+2,2023-10-30,1,23,LM,1-23-LM,Forb,Obligate Forb,Dalea pinnata,5
+2,2023-10-30,1,23,LM,1-23-LM,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,1,24,LH,1-24-LH,Forb,Obligate Forb,Dalea pinnata,4
+2,2023-10-30,1,24,LH,1-24-LH,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,2,1,C,2-1-C,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,2,2,W,2-2-W,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,2,3,BM,2-3-BM,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,2,4,BH,2-4-BH,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,2,5,LM,2-5-LM,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,2,6,LH,2-6-LH,Forb,Obligate Forb,Pityopsis trayci,4
+2,2023-10-30,2,7,LM,2-7-LM,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,2,8,BM,2-8-BM,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,2,9,LH,2-9-LH,Forb,Obligate Forb,Pityopsis trayci,4
+2,2023-10-30,2,10,W,2-10-W,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,2,11,C,2-11-C,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,2,12,BH,2-12-BH,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,2,13,BH,2-13-BH,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,2,14,LH,2-14-LH,Forb,Obligate Forb,Dalea pinnata,6
+2,2023-10-30,2,14,LH,2-14-LH,Forb,Obligate Forb,Pityopsis trayci,6
+2,2023-10-30,2,15,W,2-15-W,Forb,Obligate Forb,Dalea pinnata,6
+2,2023-10-30,2,15,W,2-15-W,Forb,Obligate Forb,Pityopsis trayci,3
+2,2023-10-30,2,16,LM,2-16-LM,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,2,17,BM,2-17-BM,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,2,18,C,2-18-C,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,2,19,W,2-19-W,Forb,Obligate Forb,Dalea pinnata,7
+2,2023-10-30,2,19,W,2-19-W,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,2,20,C,2-20-C,Forb,Obligate Forb,Pityopsis trayci,0
+2,2023-10-30,2,21,LM,2-21-LM,Forb,Obligate Forb,Pityopsis trayci,6
+2,2023-10-30,2,22,BM,2-22-BM,Forb,Obligate Forb,Pityopsis trayci,7
+2,2023-10-30,2,23,LH,2-23-LH,Forb,Obligate Forb,Dalea pinnata,4
+2,2023-10-30,2,23,LH,2-23-LH,Forb,Obligate Forb,Pityopsis trayci,8
+2,2023-10-30,2,24,BH,2-24-BH,Forb,Obligate Forb,Dalea pinnata,5
+2,2023-10-30,2,24,BH,2-24-BH,Forb,Obligate Forb,Pityopsis trayci,7
+1,2022-10-17,1,1,W,1-1-W,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,2,C,1-2-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,3,LM,1-3-LM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,4,BM,1-4-BM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,5,LH,1-5-LH,Grass,Obligate Graminoid,Sorghastrum secundum,4
+1,2022-10-17,1,6,BH,1-6-BH,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,7,BH,1-7-BH,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,8,LH,1-8-LH,Grass,Obligate Graminoid,Sorghastrum secundum,5
+1,2022-10-17,1,9,W,1-9-W,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,10,LM,1-10-LM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,11,BM,1-11-BM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,12,C,1-12-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,13,LM,1-13-LM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,14,BM,1-14-BM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,15,LH,1-15-LH,Grass,Obligate Graminoid,Sorghastrum secundum,3
+1,2022-10-17,1,16,W,1-16-W,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,17,C,1-17-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,18,BH,1-18-BH,Grass,Obligate Graminoid,Sorghastrum secundum,5
+1,2022-10-17,1,19,C,1-19-C,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,1,19,C,1-19-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,20,W,1-20-W,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,1,20,W,1-20-W,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,1,21,BM,1-21-BM,Grass,Obligate Graminoid,Andropogon ternarius,1
+1,2022-10-17,1,21,BM,1-21-BM,Grass,Obligate Graminoid,Sorghastrum secundum,4
+1,2022-10-17,1,22,BH,1-22-BH,Grass,Obligate Graminoid,Andropogon ternarius,1
+1,2022-10-17,1,22,BH,1-22-BH,Grass,Obligate Graminoid,Sorghastrum secundum,2
+1,2022-10-17,1,23,LM,1-23-LM,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,1,23,LM,1-23-LM,Grass,Obligate Graminoid,Sorghastrum secundum,3
+1,2022-10-17,1,24,LH,1-24-LH,Grass,Obligate Graminoid,Andropogon ternarius,1
+1,2022-10-17,1,24,LH,1-24-LH,Grass,Obligate Graminoid,Sorghastrum secundum,1
+1,2022-10-17,2,1,C,2-1-C,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,1,C,2-1-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,2,W,2-2-W,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,2,W,2-2-W,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,3,BM,2-3-BM,Grass,Obligate Graminoid,Andropogon ternarius,2
+1,2022-10-17,2,3,BM,2-3-BM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,4,BH,2-4-BH,Grass,Obligate Graminoid,Andropogon ternarius,2
+1,2022-10-17,2,4,BH,2-4-BH,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,5,LM,2-5-LM,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,5,LM,2-5-LM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,6,LH,2-6-LH,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,6,LH,2-6-LH,Grass,Obligate Graminoid,Sorghastrum secundum,1
+1,2022-10-17,2,7,LM,2-7-LM,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,7,LM,2-7-LM,Grass,Obligate Graminoid,Sorghastrum secundum,1
+1,2022-10-17,2,8,BM,2-8-BM,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,8,BM,2-8-BM,Grass,Obligate Graminoid,Sorghastrum secundum,1
+1,2022-10-17,2,9,LH,2-9-LH,Grass,Obligate Graminoid,Andropogon ternarius,4
+1,2022-10-17,2,9,LH,2-9-LH,Grass,Obligate Graminoid,Sorghastrum secundum,4
+1,2022-10-17,2,10,W,2-10-W,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,10,W,2-10-W,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,11,C,2-11-C,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,11,C,2-11-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,12,BH,2-12-BH,Grass,Obligate Graminoid,Andropogon ternarius,4
+1,2022-10-17,2,12,BH,2-12-BH,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,13,BH,2-13-BH,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,13,BH,2-13-BH,Grass,Obligate Graminoid,Sorghastrum secundum,4
+1,2022-10-17,2,14,LH,2-14-LH,Grass,Obligate Graminoid,Andropogon ternarius,4
+1,2022-10-17,2,14,LH,2-14-LH,Grass,Obligate Graminoid,Sorghastrum secundum,4
+1,2022-10-17,2,15,W,2-15-W,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,15,W,2-15-W,Grass,Obligate Graminoid,Sorghastrum secundum,1
+1,2022-10-17,2,16,LM,2-16-LM,Grass,Obligate Graminoid,Andropogon ternarius,2
+1,2022-10-17,2,16,LM,2-16-LM,Grass,Obligate Graminoid,Sorghastrum secundum,3
+1,2022-10-17,2,17,BM,2-17-BM,Grass,Obligate Graminoid,Andropogon ternarius,2
+1,2022-10-17,2,17,BM,2-17-BM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,18,C,2-18-C,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,18,C,2-18-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,19,W,2-19-W,Grass,Obligate Graminoid,Andropogon ternarius,2
+1,2022-10-17,2,19,W,2-19-W,Grass,Obligate Graminoid,Sorghastrum secundum,4
+1,2022-10-17,2,20,C,2-20-C,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,20,C,2-20-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,21,LM,2-21-LM,Grass,Obligate Graminoid,Andropogon ternarius,2
+1,2022-10-17,2,21,LM,2-21-LM,Grass,Obligate Graminoid,Sorghastrum secundum,5
+1,2022-10-17,2,22,BM,2-22-BM,Grass,Obligate Graminoid,Andropogon ternarius,0
+1,2022-10-17,2,22,BM,2-22-BM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+1,2022-10-17,2,23,LH,2-23-LH,Grass,Obligate Graminoid,Andropogon ternarius,1
+1,2022-10-17,2,23,LH,2-23-LH,Grass,Obligate Graminoid,Sorghastrum secundum,2
+1,2022-10-17,2,24,BH,2-24-BH,Grass,Obligate Graminoid,Andropogon ternarius,1
+1,2022-10-17,2,24,BH,2-24-BH,Grass,Obligate Graminoid,Sorghastrum secundum,4
+2,2023-10-30,1,1,W,1-1-W,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,1,W,1-1-W,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,1,2,C,1-2-C,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,2,C,1-2-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,1,3,LM,1-3-LM,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,3,LM,1-3-LM,Grass,Obligate Graminoid,Sorghastrum secundum,3
+2,2023-10-30,1,4,BM,1-4-BM,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,4,BM,1-4-BM,Grass,Obligate Graminoid,Sorghastrum secundum,7
+2,2023-10-30,1,5,LH,1-5-LH,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,5,LH,1-5-LH,Grass,Obligate Graminoid,Sorghastrum secundum,7
+2,2023-10-30,1,6,BH,1-6-BH,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,6,BH,1-6-BH,Grass,Obligate Graminoid,Sorghastrum secundum,4
+2,2023-10-30,1,7,BH,1-7-BH,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,7,BH,1-7-BH,Grass,Obligate Graminoid,Sorghastrum secundum,3
+2,2023-10-30,1,8,LH,1-8-LH,Grass,Obligate Graminoid,Andropogon ternarius,3
+2,2023-10-30,1,8,LH,1-8-LH,Grass,Obligate Graminoid,Sorghastrum secundum,6
+2,2023-10-30,1,9,W,1-9-W,Grass,Obligate Graminoid,Andropogon ternarius,4
+2,2023-10-30,1,9,W,1-9-W,Grass,Obligate Graminoid,Sorghastrum secundum,4
+2,2023-10-30,1,10,LM,1-10-LM,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,10,LM,1-10-LM,Grass,Obligate Graminoid,Sorghastrum secundum,5
+2,2023-10-30,1,11,BM,1-11-BM,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,11,BM,1-11-BM,Grass,Obligate Graminoid,Sorghastrum secundum,5
+2,2023-10-30,1,12,C,1-12-C,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,12,C,1-12-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,1,13,LM,1-13-LM,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,13,LM,1-13-LM,Grass,Obligate Graminoid,Sorghastrum secundum,3
+2,2023-10-30,1,14,BM,1-14-BM,Grass,Obligate Graminoid,Andropogon ternarius,2
+2,2023-10-30,1,14,BM,1-14-BM,Grass,Obligate Graminoid,Sorghastrum secundum,2
+2,2023-10-30,1,15,LH,1-15-LH,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,15,LH,1-15-LH,Grass,Obligate Graminoid,Sorghastrum secundum,5
+2,2023-10-30,1,16,W,1-16-W,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,16,W,1-16-W,Grass,Obligate Graminoid,Sorghastrum secundum,5
+2,2023-10-30,1,17,C,1-17-C,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,17,C,1-17-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,1,18,BH,1-18-BH,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,18,BH,1-18-BH,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,1,19,C,1-19-C,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,19,C,1-19-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,1,20,W,1-20-W,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,20,W,1-20-W,Grass,Obligate Graminoid,Sorghastrum secundum,6
+2,2023-10-30,1,21,BM,1-21-BM,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,21,BM,1-21-BM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,1,22,BH,1-22-BH,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,22,BH,1-22-BH,Grass,Obligate Graminoid,Sorghastrum secundum,5
+2,2023-10-30,1,23,LM,1-23-LM,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,23,LM,1-23-LM,Grass,Obligate Graminoid,Sorghastrum secundum,7
+2,2023-10-30,1,24,LH,1-24-LH,Grass,Obligate Graminoid,Andropogon ternarius,0
+2,2023-10-30,1,24,LH,1-24-LH,Grass,Obligate Graminoid,Sorghastrum secundum,6
+2,2023-10-30,2,1,C,2-1-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,2,2,W,2-2-W,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,2,3,BM,2-3-BM,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,2,4,BH,2-4-BH,Grass,Obligate Graminoid,Sorghastrum secundum,3
+2,2023-10-30,2,5,LM,2-5-LM,Grass,Obligate Graminoid,Sorghastrum secundum,4
+2,2023-10-30,2,6,LH,2-6-LH,Grass,Obligate Graminoid,Sorghastrum secundum,3
+2,2023-10-30,2,7,LM,2-7-LM,Grass,Obligate Graminoid,Sorghastrum secundum,5
+2,2023-10-30,2,8,BM,2-8-BM,Grass,Obligate Graminoid,Sorghastrum secundum,3
+2,2023-10-30,2,9,LH,2-9-LH,Grass,Obligate Graminoid,Sorghastrum secundum,6
+2,2023-10-30,2,10,W,2-10-W,Grass,Obligate Graminoid,Sorghastrum secundum,5
+2,2023-10-30,2,11,C,2-11-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,2,12,BH,2-12-BH,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,2,13,BH,2-13-BH,Grass,Obligate Graminoid,Sorghastrum secundum,7
+2,2023-10-30,2,14,LH,2-14-LH,Grass,Obligate Graminoid,Sorghastrum secundum,7
+2,2023-10-30,2,15,W,2-15-W,Grass,Obligate Graminoid,Sorghastrum secundum,7
+2,2023-10-30,2,16,LM,2-16-LM,Grass,Obligate Graminoid,Sorghastrum secundum,6
+2,2023-10-30,2,17,BM,2-17-BM,Grass,Obligate Graminoid,Sorghastrum secundum,6
+2,2023-10-30,2,18,C,2-18-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,2,19,W,2-19-W,Grass,Obligate Graminoid,Sorghastrum secundum,7
+2,2023-10-30,2,20,C,2-20-C,Grass,Obligate Graminoid,Sorghastrum secundum,0
+2,2023-10-30,2,21,LM,2-21-LM,Grass,Obligate Graminoid,Sorghastrum secundum,7
+2,2023-10-30,2,22,BM,2-22-BM,Grass,Obligate Graminoid,Sorghastrum secundum,4
+2,2023-10-30,2,23,LH,2-23-LH,Grass,Obligate Graminoid,Sorghastrum secundum,7
+2,2023-10-30,2,24,BH,2-24-BH,Grass,Obligate Graminoid,Sorghastrum secundum,7
+1,2022-10-17,1,1,W,1-1-W,Grass,Pasture Grass,Cynodon dactylon,9
+1,2022-10-17,1,1,W,1-1-W,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,1,2,C,1-2-C,Grass,Pasture Grass,Cynodon dactylon,9
+1,2022-10-17,1,2,C,1-2-C,Grass,Pasture Grass,Paspalum notatum,3
+1,2022-10-17,1,3,LM,1-3-LM,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,1,3,LM,1-3-LM,Grass,Pasture Grass,Paspalum notatum,2
+1,2022-10-17,1,4,BM,1-4-BM,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,1,4,BM,1-4-BM,Grass,Pasture Grass,Paspalum notatum,2
+1,2022-10-17,1,5,LH,1-5-LH,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,1,5,LH,1-5-LH,Grass,Pasture Grass,Paspalum notatum,1
+1,2022-10-17,1,6,BH,1-6-BH,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,1,6,BH,1-6-BH,Grass,Pasture Grass,Paspalum notatum,7
+1,2022-10-17,1,7,BH,1-7-BH,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,1,7,BH,1-7-BH,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,1,8,LH,1-8-LH,Grass,Pasture Grass,Cynodon dactylon,6
+1,2022-10-17,1,8,LH,1-8-LH,Grass,Pasture Grass,Paspalum notatum,2
+1,2022-10-17,1,9,W,1-9-W,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,1,9,W,1-9-W,Grass,Pasture Grass,Paspalum notatum,2
+1,2022-10-17,1,10,LM,1-10-LM,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,1,10,LM,1-10-LM,Grass,Pasture Grass,Paspalum notatum,2
+1,2022-10-17,1,11,BM,1-11-BM,Grass,Pasture Grass,Cynodon dactylon,6
+1,2022-10-17,1,11,BM,1-11-BM,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,1,12,C,1-12-C,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,1,12,C,1-12-C,Grass,Pasture Grass,Paspalum notatum,3
+1,2022-10-17,1,13,LM,1-13-LM,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,1,13,LM,1-13-LM,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,1,14,BM,1-14-BM,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,1,14,BM,1-14-BM,Grass,Pasture Grass,Paspalum notatum,5
+1,2022-10-17,1,15,LH,1-15-LH,Grass,Pasture Grass,Cynodon dactylon,6
+1,2022-10-17,1,15,LH,1-15-LH,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,1,16,W,1-16-W,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,1,16,W,1-16-W,Grass,Pasture Grass,Paspalum notatum,5
+1,2022-10-17,1,17,C,1-17-C,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,1,17,C,1-17-C,Grass,Pasture Grass,Paspalum notatum,5
+1,2022-10-17,1,18,BH,1-18-BH,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,1,18,BH,1-18-BH,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,1,19,C,1-19-C,Grass,Pasture Grass,Cynodon dactylon,9
+1,2022-10-17,1,19,C,1-19-C,Grass,Pasture Grass,Paspalum notatum,0
+1,2022-10-17,1,20,W,1-20-W,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,1,20,W,1-20-W,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,1,21,BM,1-21-BM,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,1,21,BM,1-21-BM,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,1,22,BH,1-22-BH,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,1,22,BH,1-22-BH,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,1,23,LM,1-23-LM,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,1,23,LM,1-23-LM,Grass,Pasture Grass,Paspalum notatum,3
+1,2022-10-17,1,24,LH,1-24-LH,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,1,24,LH,1-24-LH,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,2,1,C,2-1-C,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,2,1,C,2-1-C,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,2,2,W,2-2-W,Grass,Pasture Grass,Cynodon dactylon,9
+1,2022-10-17,2,2,W,2-2-W,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,2,3,BM,2-3-BM,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,2,3,BM,2-3-BM,Grass,Pasture Grass,Paspalum notatum,5
+1,2022-10-17,2,4,BH,2-4-BH,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,2,4,BH,2-4-BH,Grass,Pasture Grass,Paspalum notatum,5
+1,2022-10-17,2,5,LM,2-5-LM,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,2,5,LM,2-5-LM,Grass,Pasture Grass,Paspalum notatum,5
+1,2022-10-17,2,6,LH,2-6-LH,Grass,Pasture Grass,Cynodon dactylon,9
+1,2022-10-17,2,6,LH,2-6-LH,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,2,7,LM,2-7-LM,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,2,7,LM,2-7-LM,Grass,Pasture Grass,Paspalum notatum,7
+1,2022-10-17,2,8,BM,2-8-BM,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,2,8,BM,2-8-BM,Grass,Pasture Grass,Paspalum notatum,7
+1,2022-10-17,2,9,LH,2-9-LH,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,2,9,LH,2-9-LH,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,2,10,W,2-10-W,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,2,10,W,2-10-W,Grass,Pasture Grass,Paspalum notatum,6
+1,2022-10-17,2,11,C,2-11-C,Grass,Pasture Grass,Cynodon dactylon,9
+1,2022-10-17,2,11,C,2-11-C,Grass,Pasture Grass,Paspalum notatum,4
+1,2022-10-17,2,12,BH,2-12-BH,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,2,12,BH,2-12-BH,Grass,Pasture Grass,Paspalum notatum,6
+1,2022-10-17,2,13,BH,2-13-BH,Grass,Pasture Grass,Cynodon dactylon,4
+1,2022-10-17,2,13,BH,2-13-BH,Grass,Pasture Grass,Paspalum notatum,8
+1,2022-10-17,2,14,LH,2-14-LH,Grass,Pasture Grass,Cynodon dactylon,5
+1,2022-10-17,2,14,LH,2-14-LH,Grass,Pasture Grass,Paspalum notatum,6
+1,2022-10-17,2,15,W,2-15-W,Grass,Pasture Grass,Cynodon dactylon,5
+1,2022-10-17,2,15,W,2-15-W,Grass,Pasture Grass,Paspalum notatum,7
+1,2022-10-17,2,16,LM,2-16-LM,Grass,Pasture Grass,Cynodon dactylon,6
+1,2022-10-17,2,16,LM,2-16-LM,Grass,Pasture Grass,Paspalum notatum,7
+1,2022-10-17,2,17,BM,2-17-BM,Grass,Pasture Grass,Cynodon dactylon,6
+1,2022-10-17,2,17,BM,2-17-BM,Grass,Pasture Grass,Paspalum notatum,8
+1,2022-10-17,2,18,C,2-18-C,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,2,18,C,2-18-C,Grass,Pasture Grass,Paspalum notatum,6
+1,2022-10-17,2,19,W,2-19-W,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,2,19,W,2-19-W,Grass,Pasture Grass,Paspalum notatum,6
+1,2022-10-17,2,20,C,2-20-C,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,2,20,C,2-20-C,Grass,Pasture Grass,Paspalum notatum,7
+1,2022-10-17,2,21,LM,2-21-LM,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,2,21,LM,2-21-LM,Grass,Pasture Grass,Paspalum notatum,6
+1,2022-10-17,2,22,BM,2-22-BM,Grass,Pasture Grass,Cynodon dactylon,8
+1,2022-10-17,2,22,BM,2-22-BM,Grass,Pasture Grass,Paspalum notatum,6
+1,2022-10-17,2,23,LH,2-23-LH,Grass,Pasture Grass,Cynodon dactylon,3
+1,2022-10-17,2,23,LH,2-23-LH,Grass,Pasture Grass,Paspalum notatum,2
+1,2022-10-17,2,24,BH,2-24-BH,Grass,Pasture Grass,Cynodon dactylon,7
+1,2022-10-17,2,24,BH,2-24-BH,Grass,Pasture Grass,Paspalum notatum,7
+2,2023-10-30,1,1,W,1-1-W,Grass,Pasture Grass,Cynodon dactylon,10
+2,2023-10-30,1,1,W,1-1-W,Grass,Pasture Grass,Paspalum notatum,4
+2,2023-10-30,1,2,C,1-2-C,Grass,Pasture Grass,Cynodon dactylon,9
+2,2023-10-30,1,2,C,1-2-C,Grass,Pasture Grass,Paspalum notatum,2
+2,2023-10-30,1,3,LM,1-3-LM,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,1,3,LM,1-3-LM,Grass,Pasture Grass,Paspalum notatum,2
+2,2023-10-30,1,4,BM,1-4-BM,Grass,Pasture Grass,Cynodon dactylon,7
+2,2023-10-30,1,4,BM,1-4-BM,Grass,Pasture Grass,Paspalum notatum,0
+2,2023-10-30,1,5,LH,1-5-LH,Grass,Pasture Grass,Cynodon dactylon,4
+2,2023-10-30,1,5,LH,1-5-LH,Grass,Pasture Grass,Paspalum notatum,0
+2,2023-10-30,1,6,BH,1-6-BH,Grass,Pasture Grass,Cynodon dactylon,7
+2,2023-10-30,1,6,BH,1-6-BH,Grass,Pasture Grass,Paspalum notatum,5
+2,2023-10-30,1,7,BH,1-7-BH,Grass,Pasture Grass,Cynodon dactylon,7
+2,2023-10-30,1,7,BH,1-7-BH,Grass,Pasture Grass,Paspalum notatum,3
+2,2023-10-30,1,8,LH,1-8-LH,Grass,Pasture Grass,Cynodon dactylon,4
+2,2023-10-30,1,8,LH,1-8-LH,Grass,Pasture Grass,Paspalum notatum,0
+2,2023-10-30,1,9,W,1-9-W,Grass,Pasture Grass,Cynodon dactylon,5
+2,2023-10-30,1,9,W,1-9-W,Grass,Pasture Grass,Paspalum notatum,3
+2,2023-10-30,1,10,LM,1-10-LM,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,1,10,LM,1-10-LM,Grass,Pasture Grass,Paspalum notatum,2
+2,2023-10-30,1,11,BM,1-11-BM,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,1,11,BM,1-11-BM,Grass,Pasture Grass,Paspalum notatum,2
+2,2023-10-30,1,12,C,1-12-C,Grass,Pasture Grass,Cynodon dactylon,9
+2,2023-10-30,1,12,C,1-12-C,Grass,Pasture Grass,Paspalum notatum,6
+2,2023-10-30,1,13,LM,1-13-LM,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,1,13,LM,1-13-LM,Grass,Pasture Grass,Paspalum notatum,3
+2,2023-10-30,1,14,BM,1-14-BM,Grass,Pasture Grass,Cynodon dactylon,7
+2,2023-10-30,1,14,BM,1-14-BM,Grass,Pasture Grass,Paspalum notatum,0
+2,2023-10-30,1,15,LH,1-15-LH,Grass,Pasture Grass,Cynodon dactylon,5
+2,2023-10-30,1,15,LH,1-15-LH,Grass,Pasture Grass,Paspalum notatum,0
+2,2023-10-30,1,16,W,1-16-W,Grass,Pasture Grass,Cynodon dactylon,7
+2,2023-10-30,1,16,W,1-16-W,Grass,Pasture Grass,Paspalum notatum,0
+2,2023-10-30,1,17,C,1-17-C,Grass,Pasture Grass,Cynodon dactylon,9
+2,2023-10-30,1,17,C,1-17-C,Grass,Pasture Grass,Paspalum notatum,5
+2,2023-10-30,1,18,BH,1-18-BH,Grass,Pasture Grass,Cynodon dactylon,8
+2,2023-10-30,1,18,BH,1-18-BH,Grass,Pasture Grass,Paspalum notatum,4
+2,2023-10-30,1,19,C,1-19-C,Grass,Pasture Grass,Cynodon dactylon,9
+2,2023-10-30,1,19,C,1-19-C,Grass,Pasture Grass,Paspalum notatum,5
+2,2023-10-30,1,20,W,1-20-W,Grass,Pasture Grass,Cynodon dactylon,8
+2,2023-10-30,1,20,W,1-20-W,Grass,Pasture Grass,Paspalum notatum,4
+2,2023-10-30,1,21,BM,1-21-BM,Grass,Pasture Grass,Cynodon dactylon,9
+2,2023-10-30,1,21,BM,1-21-BM,Grass,Pasture Grass,Paspalum notatum,1
+2,2023-10-30,1,22,BH,1-22-BH,Grass,Pasture Grass,Cynodon dactylon,5
+2,2023-10-30,1,22,BH,1-22-BH,Grass,Pasture Grass,Paspalum notatum,0
+2,2023-10-30,1,23,LM,1-23-LM,Grass,Pasture Grass,Cynodon dactylon,4
+2,2023-10-30,1,23,LM,1-23-LM,Grass,Pasture Grass,Paspalum notatum,3
+2,2023-10-30,1,24,LH,1-24-LH,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,1,24,LH,1-24-LH,Grass,Pasture Grass,Paspalum notatum,3
+2,2023-10-30,2,1,C,2-1-C,Grass,Pasture Grass,Cynodon dactylon,7
+2,2023-10-30,2,1,C,2-1-C,Grass,Pasture Grass,Paspalum notatum,7
+2,2023-10-30,2,2,W,2-2-W,Grass,Pasture Grass,Cynodon dactylon,9
+2,2023-10-30,2,2,W,2-2-W,Grass,Pasture Grass,Paspalum notatum,5
+2,2023-10-30,2,3,BM,2-3-BM,Grass,Pasture Grass,Cynodon dactylon,9
+2,2023-10-30,2,3,BM,2-3-BM,Grass,Pasture Grass,Paspalum notatum,4
+2,2023-10-30,2,4,BH,2-4-BH,Grass,Pasture Grass,Cynodon dactylon,8
+2,2023-10-30,2,4,BH,2-4-BH,Grass,Pasture Grass,Paspalum notatum,3
+2,2023-10-30,2,5,LM,2-5-LM,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,2,5,LM,2-5-LM,Grass,Pasture Grass,Paspalum notatum,4
+2,2023-10-30,2,6,LH,2-6-LH,Grass,Pasture Grass,Cynodon dactylon,8
+2,2023-10-30,2,6,LH,2-6-LH,Grass,Pasture Grass,Paspalum notatum,3
+2,2023-10-30,2,7,LM,2-7-LM,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,2,7,LM,2-7-LM,Grass,Pasture Grass,Paspalum notatum,4
+2,2023-10-30,2,8,BM,2-8-BM,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,2,8,BM,2-8-BM,Grass,Pasture Grass,Paspalum notatum,7
+2,2023-10-30,2,9,LH,2-9-LH,Grass,Pasture Grass,Cynodon dactylon,5
+2,2023-10-30,2,9,LH,2-9-LH,Grass,Pasture Grass,Paspalum notatum,4
+2,2023-10-30,2,10,W,2-10-W,Grass,Pasture Grass,Cynodon dactylon,4
+2,2023-10-30,2,10,W,2-10-W,Grass,Pasture Grass,Paspalum notatum,6
+2,2023-10-30,2,11,C,2-11-C,Grass,Pasture Grass,Cynodon dactylon,7
+2,2023-10-30,2,11,C,2-11-C,Grass,Pasture Grass,Paspalum notatum,8
+2,2023-10-30,2,12,BH,2-12-BH,Grass,Pasture Grass,Cynodon dactylon,9
+2,2023-10-30,2,12,BH,2-12-BH,Grass,Pasture Grass,Paspalum notatum,5
+2,2023-10-30,2,13,BH,2-13-BH,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,2,13,BH,2-13-BH,Grass,Pasture Grass,Paspalum notatum,5
+2,2023-10-30,2,14,LH,2-14-LH,Grass,Pasture Grass,Cynodon dactylon,3
+2,2023-10-30,2,14,LH,2-14-LH,Grass,Pasture Grass,Paspalum notatum,3
+2,2023-10-30,2,15,W,2-15-W,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,2,15,W,2-15-W,Grass,Pasture Grass,Paspalum notatum,6
+2,2023-10-30,2,16,LM,2-16-LM,Grass,Pasture Grass,Cynodon dactylon,5
+2,2023-10-30,2,16,LM,2-16-LM,Grass,Pasture Grass,Paspalum notatum,5
+2,2023-10-30,2,17,BM,2-17-BM,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,2,17,BM,2-17-BM,Grass,Pasture Grass,Paspalum notatum,6
+2,2023-10-30,2,18,C,2-18-C,Grass,Pasture Grass,Cynodon dactylon,8
+2,2023-10-30,2,18,C,2-18-C,Grass,Pasture Grass,Paspalum notatum,8
+2,2023-10-30,2,19,W,2-19-W,Grass,Pasture Grass,Cynodon dactylon,7
+2,2023-10-30,2,19,W,2-19-W,Grass,Pasture Grass,Paspalum notatum,7
+2,2023-10-30,2,20,C,2-20-C,Grass,Pasture Grass,Cynodon dactylon,8
+2,2023-10-30,2,20,C,2-20-C,Grass,Pasture Grass,Paspalum notatum,9
+2,2023-10-30,2,21,LM,2-21-LM,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,2,21,LM,2-21-LM,Grass,Pasture Grass,Paspalum notatum,6
+2,2023-10-30,2,22,BM,2-22-BM,Grass,Pasture Grass,Cynodon dactylon,7
+2,2023-10-30,2,22,BM,2-22-BM,Grass,Pasture Grass,Paspalum notatum,6
+2,2023-10-30,2,23,LH,2-23-LH,Grass,Pasture Grass,Cynodon dactylon,0
+2,2023-10-30,2,23,LH,2-23-LH,Grass,Pasture Grass,Paspalum notatum,0
+2,2023-10-30,2,24,BH,2-24-BH,Grass,Pasture Grass,Cynodon dactylon,6
+2,2023-10-30,2,24,BH,2-24-BH,Grass,Pasture Grass,Paspalum notatum,5
+1,2022-10-17,1,1,W,1-1-W,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,1,1,W,1-1-W,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,1,W,1-1-W,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,1,W,1-1-W,Forb,Ruderal Forb,Richardia spp.,0
+1,2022-10-17,1,2,C,1-2-C,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,1,2,C,1-2-C,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,2,C,1-2-C,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,2,C,1-2-C,Forb,Ruderal Forb,Richardia spp.,0
+1,2022-10-17,1,3,LM,1-3-LM,Forb,Ruderal Forb,Dichondra spp.,1
+1,2022-10-17,1,3,LM,1-3-LM,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,3,LM,1-3-LM,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,3,LM,1-3-LM,Forb,Ruderal Forb,Richardia spp.,0
+1,2022-10-17,1,4,BM,1-4-BM,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,1,4,BM,1-4-BM,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,4,BM,1-4-BM,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,4,BM,1-4-BM,Forb,Ruderal Forb,Richardia spp.,0
+1,2022-10-17,1,5,LH,1-5-LH,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,1,5,LH,1-5-LH,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,1,5,LH,1-5-LH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,5,LH,1-5-LH,Forb,Ruderal Forb,Richardia spp.,0
+1,2022-10-17,1,6,BH,1-6-BH,Forb,Ruderal Forb,Dichondra spp.,5
+1,2022-10-17,1,6,BH,1-6-BH,Forb,Ruderal Forb,Lactuca canadensis,0
+1,2022-10-17,1,6,BH,1-6-BH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,6,BH,1-6-BH,Forb,Ruderal Forb,Richardia spp.,6
+1,2022-10-17,1,7,BH,1-7-BH,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,1,7,BH,1-7-BH,Forb,Ruderal Forb,Lactuca canadensis,0
+1,2022-10-17,1,7,BH,1-7-BH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,7,BH,1-7-BH,Forb,Ruderal Forb,Richardia spp.,4
+1,2022-10-17,1,8,LH,1-8-LH,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,1,8,LH,1-8-LH,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,8,LH,1-8-LH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,8,LH,1-8-LH,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,9,W,1-9-W,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,1,9,W,1-9-W,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,9,W,1-9-W,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,9,W,1-9-W,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,10,LM,1-10-LM,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,1,10,LM,1-10-LM,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,10,LM,1-10-LM,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,10,LM,1-10-LM,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,11,BM,1-11-BM,Forb,Ruderal Forb,Dichondra spp.,5
+1,2022-10-17,1,11,BM,1-11-BM,Forb,Ruderal Forb,Lactuca canadensis,0
+1,2022-10-17,1,11,BM,1-11-BM,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,1,11,BM,1-11-BM,Forb,Ruderal Forb,Richardia spp.,0
+1,2022-10-17,1,12,C,1-12-C,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,1,12,C,1-12-C,Forb,Ruderal Forb,Lactuca canadensis,0
+1,2022-10-17,1,12,C,1-12-C,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,12,C,1-12-C,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,13,LM,1-13-LM,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,1,13,LM,1-13-LM,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,13,LM,1-13-LM,Forb,Ruderal Forb,Oxalis corniculata,4
+1,2022-10-17,1,13,LM,1-13-LM,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,13,LM,1-13-LM,Forb,Ruderal Forb,Rumex hastatulus,2
+1,2022-10-17,1,14,BM,1-14-BM,Forb,Ruderal Forb,Dichondra spp.,0
+1,2022-10-17,1,14,BM,1-14-BM,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,14,BM,1-14-BM,Forb,Ruderal Forb,Oxalis corniculata,0
+1,2022-10-17,1,14,BM,1-14-BM,Forb,Ruderal Forb,Richardia spp.,0
+1,2022-10-17,1,14,BM,1-14-BM,Forb,Ruderal Forb,Rumex hastatulus,2
+1,2022-10-17,1,15,LH,1-15-LH,Forb,Ruderal Forb,Dichondra spp.,4
+1,2022-10-17,1,15,LH,1-15-LH,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,15,LH,1-15-LH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,15,LH,1-15-LH,Forb,Ruderal Forb,Richardia spp.,3
+1,2022-10-17,1,16,W,1-16-W,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,1,16,W,1-16-W,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,1,16,W,1-16-W,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,16,W,1-16-W,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,17,C,1-17-C,Forb,Ruderal Forb,Bidens alba,4
+1,2022-10-17,1,17,C,1-17-C,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,1,17,C,1-17-C,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,1,17,C,1-17-C,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,17,C,1-17-C,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,17,C,1-17-C,Forb,Ruderal Forb,Rumex hastatulus,2
+1,2022-10-17,1,18,BH,1-18-BH,Forb,Ruderal Forb,Dichondra spp.,5
+1,2022-10-17,1,18,BH,1-18-BH,Forb,Ruderal Forb,Lactuca canadensis,0
+1,2022-10-17,1,18,BH,1-18-BH,Forb,Ruderal Forb,Oxalis corniculata,4
+1,2022-10-17,1,18,BH,1-18-BH,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,18,BH,1-18-BH,Forb,Ruderal Forb,Rumex hastatulus,2
+1,2022-10-17,1,19,C,1-19-C,Forb,Ruderal Forb,Acalypha gracilens,3
+1,2022-10-17,1,19,C,1-19-C,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,1,19,C,1-19-C,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,1,19,C,1-19-C,Forb,Ruderal Forb,Oxalis corniculata,1
+1,2022-10-17,1,19,C,1-19-C,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,20,W,1-20-W,Forb,Ruderal Forb,Acalypha gracilens,2
+1,2022-10-17,1,20,W,1-20-W,Forb,Ruderal Forb,Dichondra spp.,4
+1,2022-10-17,1,20,W,1-20-W,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,1,20,W,1-20-W,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,20,W,1-20-W,Forb,Ruderal Forb,Richardia spp.,3
+1,2022-10-17,1,21,BM,1-21-BM,Forb,Ruderal Forb,Acalypha gracilens,4
+1,2022-10-17,1,21,BM,1-21-BM,Forb,Ruderal Forb,Dichondra spp.,4
+1,2022-10-17,1,21,BM,1-21-BM,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,1,21,BM,1-21-BM,Forb,Ruderal Forb,Oxalis corniculata,1
+1,2022-10-17,1,21,BM,1-21-BM,Forb,Ruderal Forb,Richardia spp.,3
+1,2022-10-17,1,22,BH,1-22-BH,Forb,Ruderal Forb,Acalypha gracilens,3
+1,2022-10-17,1,22,BH,1-22-BH,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,1,22,BH,1-22-BH,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,1,22,BH,1-22-BH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,22,BH,1-22-BH,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,23,LM,1-23-LM,Forb,Ruderal Forb,Acalypha gracilens,2
+1,2022-10-17,1,23,LM,1-23-LM,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,1,23,LM,1-23-LM,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,1,23,LM,1-23-LM,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,23,LM,1-23-LM,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,1,24,LH,1-24-LH,Forb,Ruderal Forb,Acalypha gracilens,1
+1,2022-10-17,1,24,LH,1-24-LH,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,1,24,LH,1-24-LH,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,1,24,LH,1-24-LH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,1,24,LH,1-24-LH,Forb,Ruderal Forb,Richardia spp.,4
+1,2022-10-17,2,1,C,2-1-C,Forb,Ruderal Forb,Acalypha gracilens,3
+1,2022-10-17,2,1,C,2-1-C,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,2,1,C,2-1-C,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,1,C,2-1-C,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,1,C,2-1-C,Forb,Ruderal Forb,Richardia spp.,5
+1,2022-10-17,2,1,C,2-1-C,Forb,Ruderal Forb,Rumex hastatulus,2
+1,2022-10-17,2,2,W,2-2-W,Forb,Ruderal Forb,Acalypha gracilens,2
+1,2022-10-17,2,2,W,2-2-W,Forb,Ruderal Forb,Dichondra spp.,1
+1,2022-10-17,2,2,W,2-2-W,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,2,W,2-2-W,Forb,Ruderal Forb,Oxalis corniculata,1
+1,2022-10-17,2,2,W,2-2-W,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,2,2,W,2-2-W,Forb,Ruderal Forb,Rumex hastatulus,1
+1,2022-10-17,2,3,BM,2-3-BM,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,3,BM,2-3-BM,Forb,Ruderal Forb,Dichondra spp.,5
+1,2022-10-17,2,3,BM,2-3-BM,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,2,3,BM,2-3-BM,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,3,BM,2-3-BM,Forb,Ruderal Forb,Richardia spp.,4
+1,2022-10-17,2,3,BM,2-3-BM,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,4,BH,2-4-BH,Forb,Ruderal Forb,Acalypha gracilens,1
+1,2022-10-17,2,4,BH,2-4-BH,Forb,Ruderal Forb,Dichondra spp.,4
+1,2022-10-17,2,4,BH,2-4-BH,Forb,Ruderal Forb,Lactuca canadensis,0
+1,2022-10-17,2,4,BH,2-4-BH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,4,BH,2-4-BH,Forb,Ruderal Forb,Richardia spp.,5
+1,2022-10-17,2,4,BH,2-4-BH,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,5,LM,2-5-LM,Forb,Ruderal Forb,Acalypha gracilens,3
+1,2022-10-17,2,5,LM,2-5-LM,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,2,5,LM,2-5-LM,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,5,LM,2-5-LM,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,5,LM,2-5-LM,Forb,Ruderal Forb,Richardia spp.,6
+1,2022-10-17,2,5,LM,2-5-LM,Forb,Ruderal Forb,Rumex hastatulus,1
+1,2022-10-17,2,6,LH,2-6-LH,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,6,LH,2-6-LH,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,6,LH,2-6-LH,Forb,Ruderal Forb,Lactuca canadensis,0
+1,2022-10-17,2,6,LH,2-6-LH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,6,LH,2-6-LH,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,2,6,LH,2-6-LH,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,7,LM,2-7-LM,Forb,Ruderal Forb,Acalypha gracilens,1
+1,2022-10-17,2,7,LM,2-7-LM,Forb,Ruderal Forb,Dichondra spp.,4
+1,2022-10-17,2,7,LM,2-7-LM,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,7,LM,2-7-LM,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,7,LM,2-7-LM,Forb,Ruderal Forb,Richardia spp.,3
+1,2022-10-17,2,7,LM,2-7-LM,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,8,BM,2-8-BM,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,8,BM,2-8-BM,Forb,Ruderal Forb,Dichondra spp.,4
+1,2022-10-17,2,8,BM,2-8-BM,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,8,BM,2-8-BM,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,8,BM,2-8-BM,Forb,Ruderal Forb,Richardia spp.,3
+1,2022-10-17,2,8,BM,2-8-BM,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,9,LH,2-9-LH,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,9,LH,2-9-LH,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,9,LH,2-9-LH,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,9,LH,2-9-LH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,9,LH,2-9-LH,Forb,Ruderal Forb,Richardia spp.,3
+1,2022-10-17,2,9,LH,2-9-LH,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,10,W,2-10-W,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,10,W,2-10-W,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,2,10,W,2-10-W,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,10,W,2-10-W,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,10,W,2-10-W,Forb,Ruderal Forb,Richardia spp.,4
+1,2022-10-17,2,10,W,2-10-W,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,11,C,2-11-C,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,11,C,2-11-C,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,11,C,2-11-C,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,11,C,2-11-C,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,11,C,2-11-C,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,2,11,C,2-11-C,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,12,BH,2-12-BH,Forb,Ruderal Forb,Acalypha gracilens,1
+1,2022-10-17,2,12,BH,2-12-BH,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,12,BH,2-12-BH,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,12,BH,2-12-BH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,12,BH,2-12-BH,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,2,12,BH,2-12-BH,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,13,BH,2-13-BH,Forb,Ruderal Forb,Acalypha gracilens,2
+1,2022-10-17,2,13,BH,2-13-BH,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,13,BH,2-13-BH,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,13,BH,2-13-BH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,13,BH,2-13-BH,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,2,13,BH,2-13-BH,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,14,LH,2-14-LH,Forb,Ruderal Forb,Acalypha gracilens,1
+1,2022-10-17,2,14,LH,2-14-LH,Forb,Ruderal Forb,Dichondra spp.,3
+1,2022-10-17,2,14,LH,2-14-LH,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,2,14,LH,2-14-LH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,14,LH,2-14-LH,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,2,14,LH,2-14-LH,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,15,W,2-15-W,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,15,W,2-15-W,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,15,W,2-15-W,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,2,15,W,2-15-W,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,15,W,2-15-W,Forb,Ruderal Forb,Richardia spp.,4
+1,2022-10-17,2,15,W,2-15-W,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,16,LM,2-16-LM,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,16,LM,2-16-LM,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,16,LM,2-16-LM,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,2,16,LM,2-16-LM,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,16,LM,2-16-LM,Forb,Ruderal Forb,Richardia spp.,3
+1,2022-10-17,2,16,LM,2-16-LM,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,17,BM,2-17-BM,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,17,BM,2-17-BM,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,17,BM,2-17-BM,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,17,BM,2-17-BM,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,17,BM,2-17-BM,Forb,Ruderal Forb,Richardia spp.,1
+1,2022-10-17,2,17,BM,2-17-BM,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,18,C,2-18-C,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,18,C,2-18-C,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,18,C,2-18-C,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,2,18,C,2-18-C,Forb,Ruderal Forb,Oxalis corniculata,7
+1,2022-10-17,2,18,C,2-18-C,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,2,18,C,2-18-C,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,19,W,2-19-W,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,19,W,2-19-W,Forb,Ruderal Forb,Dichondra spp.,1
+1,2022-10-17,2,19,W,2-19-W,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,19,W,2-19-W,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,19,W,2-19-W,Forb,Ruderal Forb,Richardia spp.,1
+1,2022-10-17,2,19,W,2-19-W,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,20,C,2-20-C,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,20,C,2-20-C,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,20,C,2-20-C,Forb,Ruderal Forb,Lactuca canadensis,2
+1,2022-10-17,2,20,C,2-20-C,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,20,C,2-20-C,Forb,Ruderal Forb,Richardia spp.,1
+1,2022-10-17,2,20,C,2-20-C,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,21,LM,2-21-LM,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,21,LM,2-21-LM,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,21,LM,2-21-LM,Forb,Ruderal Forb,Lactuca canadensis,3
+1,2022-10-17,2,21,LM,2-21-LM,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,21,LM,2-21-LM,Forb,Ruderal Forb,Richardia spp.,2
+1,2022-10-17,2,21,LM,2-21-LM,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,22,BM,2-22-BM,Forb,Ruderal Forb,Acalypha gracilens,2
+1,2022-10-17,2,22,BM,2-22-BM,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,22,BM,2-22-BM,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,22,BM,2-22-BM,Forb,Ruderal Forb,Oxalis corniculata,3
+1,2022-10-17,2,22,BM,2-22-BM,Forb,Ruderal Forb,Richardia spp.,5
+1,2022-10-17,2,22,BM,2-22-BM,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,23,LH,2-23-LH,Forb,Ruderal Forb,Acalypha gracilens,2
+1,2022-10-17,2,23,LH,2-23-LH,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,23,LH,2-23-LH,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,23,LH,2-23-LH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,23,LH,2-23-LH,Forb,Ruderal Forb,Richardia spp.,1
+1,2022-10-17,2,23,LH,2-23-LH,Forb,Ruderal Forb,Rumex hastatulus,0
+1,2022-10-17,2,24,BH,2-24-BH,Forb,Ruderal Forb,Acalypha gracilens,0
+1,2022-10-17,2,24,BH,2-24-BH,Forb,Ruderal Forb,Dichondra spp.,2
+1,2022-10-17,2,24,BH,2-24-BH,Forb,Ruderal Forb,Lactuca canadensis,1
+1,2022-10-17,2,24,BH,2-24-BH,Forb,Ruderal Forb,Oxalis corniculata,2
+1,2022-10-17,2,24,BH,2-24-BH,Forb,Ruderal Forb,Richardia spp.,1
+1,2022-10-17,2,24,BH,2-24-BH,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,1,W,1-1-W,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,1,W,1-1-W,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,1,W,1-1-W,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,1,W,1-1-W,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,1,W,1-1-W,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,1,W,1-1-W,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,1,W,1-1-W,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,1,W,1-1-W,Forb,Ruderal Forb,Oxalis corniculata,1
+2,2023-10-30,1,1,W,1-1-W,Forb,Ruderal Forb,Richardia spp.,4
+2,2023-10-30,1,1,W,1-1-W,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,2,C,1-2-C,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,2,C,1-2-C,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,2,C,1-2-C,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,2,C,1-2-C,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,2,C,1-2-C,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,2,C,1-2-C,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,2,C,1-2-C,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,2,C,1-2-C,Forb,Ruderal Forb,Oxalis corniculata,1
+2,2023-10-30,1,2,C,1-2-C,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,2,C,1-2-C,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,3,LM,1-3-LM,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Ruderal Forb,Oenothera laciniata,4
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,3,LM,1-3-LM,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,4,BM,1-4-BM,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Ruderal Forb,Indigofera hirsuta,4
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,4,BM,1-4-BM,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,5,LH,1-5-LH,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Ruderal Forb,Oenothera laciniata,1
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Ruderal Forb,Oxalis corniculata,1
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,5,LH,1-5-LH,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,6,BH,1-6-BH,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Ruderal Forb,Oenothera laciniata,3
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,6,BH,1-6-BH,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,7,BH,1-7-BH,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Ruderal Forb,Galactia spp.,1
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Ruderal Forb,Lactuca canadensis,1
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Ruderal Forb,Oenothera laciniata,3
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Ruderal Forb,Oxalis corniculata,1
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,7,BH,1-7-BH,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,8,LH,1-8-LH,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Ruderal Forb,Galactia spp.,2
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Ruderal Forb,Oenothera laciniata,2
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,8,LH,1-8-LH,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,9,W,1-9-W,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,9,W,1-9-W,Grass,Ruderal Forb,Dichondra spp.,2
+2,2023-10-30,1,9,W,1-9-W,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,9,W,1-9-W,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,9,W,1-9-W,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,9,W,1-9-W,Forb,Ruderal Forb,Lactuca canadensis,1
+2,2023-10-30,1,9,W,1-9-W,Forb,Ruderal Forb,Oenothera laciniata,3
+2,2023-10-30,1,9,W,1-9-W,Forb,Ruderal Forb,Oxalis corniculata,1
+2,2023-10-30,1,9,W,1-9-W,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,9,W,1-9-W,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,10,LM,1-10-LM,Grass,Ruderal Forb,Dichondra spp.,2
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Ruderal Forb,Galactia spp.,1
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Ruderal Forb,Oxalis corniculata,1
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Ruderal Forb,Richardia spp.,2
+2,2023-10-30,1,10,LM,1-10-LM,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,11,BM,1-11-BM,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Ruderal Forb,Oxalis corniculata,2
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Ruderal Forb,Richardia spp.,2
+2,2023-10-30,1,11,BM,1-11-BM,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,12,C,1-12-C,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,12,C,1-12-C,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,12,C,1-12-C,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,12,C,1-12-C,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,12,C,1-12-C,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,12,C,1-12-C,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,12,C,1-12-C,Forb,Ruderal Forb,Oenothera laciniata,5
+2,2023-10-30,1,12,C,1-12-C,Forb,Ruderal Forb,Oxalis corniculata,3
+2,2023-10-30,1,12,C,1-12-C,Forb,Ruderal Forb,Richardia spp.,4
+2,2023-10-30,1,12,C,1-12-C,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,13,LM,1-13-LM,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,13,LM,1-13-LM,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,14,BM,1-14-BM,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,14,BM,1-14-BM,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,15,LH,1-15-LH,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Ruderal Forb,Galactia spp.,1
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Ruderal Forb,Oenothera laciniata,4
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,15,LH,1-15-LH,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,16,W,1-16-W,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,16,W,1-16-W,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,16,W,1-16-W,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,16,W,1-16-W,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,16,W,1-16-W,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,16,W,1-16-W,Forb,Ruderal Forb,Lactuca canadensis,1
+2,2023-10-30,1,16,W,1-16-W,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,16,W,1-16-W,Forb,Ruderal Forb,Oxalis corniculata,3
+2,2023-10-30,1,16,W,1-16-W,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,16,W,1-16-W,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,17,C,1-17-C,Grass,Ruderal Forb,Dichondra spp.,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,17,C,1-17-C,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,18,BH,1-18-BH,Grass,Ruderal Forb,Dichondra spp.,3
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Ruderal Forb,Galactia spp.,1
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Ruderal Forb,Gamochaeta spp.,1
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Ruderal Forb,Oenothera laciniata,4
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Ruderal Forb,Oxalis corniculata,1
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Ruderal Forb,Richardia spp.,4
+2,2023-10-30,1,18,BH,1-18-BH,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,19,C,1-19-C,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,19,C,1-19-C,Grass,Ruderal Forb,Dichondra spp.,4
+2,2023-10-30,1,19,C,1-19-C,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,19,C,1-19-C,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,19,C,1-19-C,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,19,C,1-19-C,Forb,Ruderal Forb,Lactuca canadensis,0
+2,2023-10-30,1,19,C,1-19-C,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,19,C,1-19-C,Forb,Ruderal Forb,Oxalis corniculata,4
+2,2023-10-30,1,19,C,1-19-C,Forb,Ruderal Forb,Richardia spp.,4
+2,2023-10-30,1,19,C,1-19-C,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,20,W,1-20-W,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,20,W,1-20-W,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,20,W,1-20-W,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,20,W,1-20-W,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,20,W,1-20-W,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,20,W,1-20-W,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,20,W,1-20-W,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,20,W,1-20-W,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,21,BM,1-21-BM,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,21,BM,1-21-BM,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,21,BM,1-21-BM,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,21,BM,1-21-BM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,21,BM,1-21-BM,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,21,BM,1-21-BM,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,21,BM,1-21-BM,Forb,Ruderal Forb,Richardia spp.,5
+2,2023-10-30,1,21,BM,1-21-BM,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,22,BH,1-22-BH,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,22,BH,1-22-BH,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,22,BH,1-22-BH,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,22,BH,1-22-BH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,22,BH,1-22-BH,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,22,BH,1-22-BH,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,22,BH,1-22-BH,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,22,BH,1-22-BH,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,23,LM,1-23-LM,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,23,LM,1-23-LM,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,23,LM,1-23-LM,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,23,LM,1-23-LM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,23,LM,1-23-LM,Forb,Ruderal Forb,Oenothera laciniata,0
+2,2023-10-30,1,23,LM,1-23-LM,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,23,LM,1-23-LM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,23,LM,1-23-LM,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,1,24,LH,1-24-LH,Forb,Ruderal Forb,Bidens alba,0
+2,2023-10-30,1,24,LH,1-24-LH,Forb,Ruderal Forb,Galactia spp.,0
+2,2023-10-30,1,24,LH,1-24-LH,Forb,Ruderal Forb,Gamochaeta spp.,0
+2,2023-10-30,1,24,LH,1-24-LH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,1,24,LH,1-24-LH,Forb,Ruderal Forb,Oenothera laciniata,6
+2,2023-10-30,1,24,LH,1-24-LH,Forb,Ruderal Forb,Oxalis corniculata,0
+2,2023-10-30,1,24,LH,1-24-LH,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,1,24,LH,1-24-LH,Forb,Ruderal Forb,Rumex hastatulus,0
+2,2023-10-30,2,1,C,2-1-C,Forb,Ruderal Forb,Erigeron canadensis,4
+2,2023-10-30,2,1,C,2-1-C,Forb,Ruderal Forb,Indigofera hirsuta,5
+2,2023-10-30,2,1,C,2-1-C,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,2,W,2-2-W,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,2,W,2-2-W,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,2,W,2-2-W,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,3,BM,2-3-BM,Forb,Ruderal Forb,Erigeron canadensis,3
+2,2023-10-30,2,3,BM,2-3-BM,Forb,Ruderal Forb,Indigofera hirsuta,4
+2,2023-10-30,2,3,BM,2-3-BM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,4,BH,2-4-BH,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,4,BH,2-4-BH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,4,BH,2-4-BH,Forb,Ruderal Forb,Richardia spp.,2
+2,2023-10-30,2,5,LM,2-5-LM,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,5,LM,2-5-LM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,5,LM,2-5-LM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,6,LH,2-6-LH,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,6,LH,2-6-LH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,6,LH,2-6-LH,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,7,LM,2-7-LM,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,7,LM,2-7-LM,Forb,Ruderal Forb,Indigofera hirsuta,5
+2,2023-10-30,2,7,LM,2-7-LM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,8,BM,2-8-BM,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,8,BM,2-8-BM,Forb,Ruderal Forb,Indigofera hirsuta,4
+2,2023-10-30,2,8,BM,2-8-BM,Forb,Ruderal Forb,Richardia spp.,3
+2,2023-10-30,2,9,LH,2-9-LH,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,9,LH,2-9-LH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,9,LH,2-9-LH,Forb,Ruderal Forb,Richardia spp.,3
+2,2023-10-30,2,10,W,2-10-W,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,10,W,2-10-W,Forb,Ruderal Forb,Indigofera hirsuta,4
+2,2023-10-30,2,10,W,2-10-W,Forb,Ruderal Forb,Richardia spp.,3
+2,2023-10-30,2,11,C,2-11-C,Forb,Ruderal Forb,Erigeron canadensis,3
+2,2023-10-30,2,11,C,2-11-C,Forb,Ruderal Forb,Indigofera hirsuta,2
+2,2023-10-30,2,11,C,2-11-C,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,12,BH,2-12-BH,Forb,Ruderal Forb,Erigeron canadensis,5
+2,2023-10-30,2,12,BH,2-12-BH,Forb,Ruderal Forb,Indigofera hirsuta,5
+2,2023-10-30,2,12,BH,2-12-BH,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,13,BH,2-13-BH,Forb,Ruderal Forb,Erigeron canadensis,3
+2,2023-10-30,2,13,BH,2-13-BH,Forb,Ruderal Forb,Indigofera hirsuta,2
+2,2023-10-30,2,13,BH,2-13-BH,Forb,Ruderal Forb,Richardia spp.,3
+2,2023-10-30,2,14,LH,2-14-LH,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,14,LH,2-14-LH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,14,LH,2-14-LH,Forb,Ruderal Forb,Lactuca canadensis,2
+2,2023-10-30,2,14,LH,2-14-LH,Forb,Ruderal Forb,Richardia spp.,3
+2,2023-10-30,2,15,W,2-15-W,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,15,W,2-15-W,Forb,Ruderal Forb,Indigofera hirsuta,3
+2,2023-10-30,2,15,W,2-15-W,Forb,Ruderal Forb,Richardia spp.,2
+2,2023-10-30,2,16,LM,2-16-LM,Forb,Ruderal Forb,Erigeron canadensis,3
+2,2023-10-30,2,16,LM,2-16-LM,Forb,Ruderal Forb,Indigofera hirsuta,4
+2,2023-10-30,2,16,LM,2-16-LM,Forb,Ruderal Forb,Richardia spp.,2
+2,2023-10-30,2,16,LM,2-16-LM,Forb,Ruderal Forb,"Solanum viarum",2
+2,2023-10-30,2,17,BM,2-17-BM,Forb,Ruderal Forb,Erigeron canadensis,3
+2,2023-10-30,2,17,BM,2-17-BM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,17,BM,2-17-BM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,18,C,2-18-C,Forb,Ruderal Forb,Erigeron canadensis,5
+2,2023-10-30,2,18,C,2-18-C,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,18,C,2-18-C,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,19,W,2-19-W,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,19,W,2-19-W,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,19,W,2-19-W,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,20,C,2-20-C,Forb,Ruderal Forb,Erigeron canadensis,2
+2,2023-10-30,2,20,C,2-20-C,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,20,C,2-20-C,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,21,LM,2-21-LM,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,21,LM,2-21-LM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,21,LM,2-21-LM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,22,BM,2-22-BM,Forb,Ruderal Forb,Erigeron canadensis,5
+2,2023-10-30,2,22,BM,2-22-BM,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,22,BM,2-22-BM,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,23,LH,2-23-LH,Forb,Ruderal Forb,Erigeron canadensis,0
+2,2023-10-30,2,23,LH,2-23-LH,Forb,Ruderal Forb,Indigofera hirsuta,0
+2,2023-10-30,2,23,LH,2-23-LH,Forb,Ruderal Forb,Richardia spp.,0
+2,2023-10-30,2,24,BH,2-24-BH,Forb,Ruderal Forb,Erigeron canadensis,3
+2,2023-10-30,2,24,BH,2-24-BH,Forb,Ruderal Forb,Indigofera hirsuta,6
+2,2023-10-30,2,24,BH,2-24-BH,Forb,Ruderal Forb,Richardia spp.,3
+1,2022-10-17,1,1,W,1-1-W,Sedge,Ruderal Graminoid,Cyperus spp.,2
+1,2022-10-17,1,2,C,1-2-C,Sedge,Ruderal Graminoid,Cyperus spp.,1
+1,2022-10-17,1,3,LM,1-3-LM,Sedge,Ruderal Graminoid,Cyperus spp.,2
+1,2022-10-17,1,4,BM,1-4-BM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,1,5,LH,1-5-LH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,1,6,BH,1-6-BH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,1,7,BH,1-7-BH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,1,8,LH,1-8-LH,Sedge,Ruderal Graminoid,Cyperus spp.,2
+1,2022-10-17,1,9,W,1-9-W,Sedge,Ruderal Graminoid,Cyperus spp.,0
+1,2022-10-17,1,10,LM,1-10-LM,Sedge,Ruderal Graminoid,Cyperus spp.,0
+1,2022-10-17,1,11,BM,1-11-BM,Sedge,Ruderal Graminoid,Cyperus spp.,0
+1,2022-10-17,1,12,C,1-12-C,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,1,13,LM,1-13-LM,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,1,14,BM,1-14-BM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,1,15,LH,1-15-LH,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,1,16,W,1-16-W,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,1,17,C,1-17-C,Sedge,Ruderal Graminoid,Cyperus spp.,0
+1,2022-10-17,1,18,BH,1-18-BH,Sedge,Ruderal Graminoid,Cyperus spp.,5
+1,2022-10-17,1,19,C,1-19-C,Sedge,Ruderal Graminoid,Cyperus spp.,1
+1,2022-10-17,1,19,C,1-19-C,Grass,Ruderal Graminoid,Paspalum setaceum,2
+1,2022-10-17,1,20,W,1-20-W,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,1,20,W,1-20-W,Grass,Ruderal Graminoid,Paspalum setaceum,3
+1,2022-10-17,1,21,BM,1-21-BM,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,1,21,BM,1-21-BM,Grass,Ruderal Graminoid,Paspalum setaceum,4
+1,2022-10-17,1,22,BH,1-22-BH,Sedge,Ruderal Graminoid,Cyperus spp.,5
+1,2022-10-17,1,22,BH,1-22-BH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,1,23,LM,1-23-LM,Sedge,Ruderal Graminoid,Cyperus spp.,5
+1,2022-10-17,1,23,LM,1-23-LM,Grass,Ruderal Graminoid,Paspalum setaceum,2
+1,2022-10-17,1,24,LH,1-24-LH,Sedge,Ruderal Graminoid,Cyperus spp.,6
+1,2022-10-17,1,24,LH,1-24-LH,Grass,Ruderal Graminoid,Paspalum setaceum,2
+1,2022-10-17,2,1,C,2-1-C,Sedge,Ruderal Graminoid,Cyperus spp.,5
+1,2022-10-17,2,1,C,2-1-C,Grass,Ruderal Graminoid,Paspalum setaceum,2
+1,2022-10-17,2,2,W,2-2-W,Sedge,Ruderal Graminoid,Cyperus spp.,1
+1,2022-10-17,2,2,W,2-2-W,Grass,Ruderal Graminoid,Paspalum setaceum,2
+1,2022-10-17,2,3,BM,2-3-BM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,2,3,BM,2-3-BM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,4,BH,2-4-BH,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,2,4,BH,2-4-BH,Grass,Ruderal Graminoid,Paspalum setaceum,1
+1,2022-10-17,2,5,LM,2-5-LM,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,2,5,LM,2-5-LM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,6,LH,2-6-LH,Sedge,Ruderal Graminoid,Cyperus spp.,2
+1,2022-10-17,2,6,LH,2-6-LH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,7,LM,2-7-LM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,2,7,LM,2-7-LM,Grass,Ruderal Graminoid,Paspalum setaceum,2
+1,2022-10-17,2,8,BM,2-8-BM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,2,8,BM,2-8-BM,Grass,Ruderal Graminoid,Paspalum setaceum,5
+1,2022-10-17,2,9,LH,2-9-LH,Sedge,Ruderal Graminoid,Cyperus spp.,1
+1,2022-10-17,2,9,LH,2-9-LH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,10,W,2-10-W,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,2,10,W,2-10-W,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,11,C,2-11-C,Sedge,Ruderal Graminoid,Cyperus spp.,1
+1,2022-10-17,2,11,C,2-11-C,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,12,BH,2-12-BH,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,2,12,BH,2-12-BH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,13,BH,2-13-BH,Sedge,Ruderal Graminoid,Cyperus spp.,2
+1,2022-10-17,2,13,BH,2-13-BH,Grass,Ruderal Graminoid,Paspalum setaceum,2
+1,2022-10-17,2,14,LH,2-14-LH,Sedge,Ruderal Graminoid,Cyperus spp.,22
+1,2022-10-17,2,14,LH,2-14-LH,Grass,Ruderal Graminoid,Paspalum setaceum,2
+1,2022-10-17,2,15,W,2-15-W,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,2,15,W,2-15-W,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,16,LM,2-16-LM,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,2,16,LM,2-16-LM,Grass,Ruderal Graminoid,Paspalum setaceum,4
+1,2022-10-17,2,17,BM,2-17-BM,Sedge,Ruderal Graminoid,Cyperus spp.,5
+1,2022-10-17,2,17,BM,2-17-BM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,18,C,2-18-C,Sedge,Ruderal Graminoid,Cyperus spp.,5
+1,2022-10-17,2,18,C,2-18-C,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,19,W,2-19-W,Sedge,Ruderal Graminoid,Cyperus spp.,5
+1,2022-10-17,2,19,W,2-19-W,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,20,C,2-20-C,Sedge,Ruderal Graminoid,Cyperus spp.,5
+1,2022-10-17,2,20,C,2-20-C,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,21,LM,2-21-LM,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,2,21,LM,2-21-LM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,22,BM,2-22-BM,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,2,22,BM,2-22-BM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+1,2022-10-17,2,23,LH,2-23-LH,Sedge,Ruderal Graminoid,Cyperus spp.,1
+1,2022-10-17,2,23,LH,2-23-LH,Grass,Ruderal Graminoid,Paspalum setaceum,3
+1,2022-10-17,2,24,BH,2-24-BH,Sedge,Ruderal Graminoid,Cyperus spp.,4
+1,2022-10-17,2,24,BH,2-24-BH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,1,W,1-1-W,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,1,1,W,1-1-W,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,2,C,1-2-C,Sedge,Ruderal Graminoid,Cyperus spp.,2
+2,2023-10-30,1,2,C,1-2-C,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,3,LM,1-3-LM,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,1,3,LM,1-3-LM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,4,BM,1-4-BM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,4,BM,1-4-BM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,5,LH,1-5-LH,Sedge,Ruderal Graminoid,Cyperus spp.,2
+2,2023-10-30,1,5,LH,1-5-LH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,6,BH,1-6-BH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,6,BH,1-6-BH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,7,BH,1-7-BH,Sedge,Ruderal Graminoid,Cyperus spp.,2
+2,2023-10-30,1,7,BH,1-7-BH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,8,LH,1-8-LH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,8,LH,1-8-LH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,9,W,1-9-W,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,9,W,1-9-W,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,10,LM,1-10-LM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,10,LM,1-10-LM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,11,BM,1-11-BM,Sedge,Ruderal Graminoid,Cyperus spp.,2
+2,2023-10-30,1,11,BM,1-11-BM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,12,C,1-12-C,Sedge,Ruderal Graminoid,Cyperus spp.,5
+2,2023-10-30,1,12,C,1-12-C,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,13,LM,1-13-LM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,13,LM,1-13-LM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,14,BM,1-14-BM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,14,BM,1-14-BM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,15,LH,1-15-LH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,15,LH,1-15-LH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,16,W,1-16-W,Sedge,Ruderal Graminoid,Cyperus spp.,5
+2,2023-10-30,1,16,W,1-16-W,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,17,C,1-17-C,Sedge,Ruderal Graminoid,Cyperus spp.,5
+2,2023-10-30,1,17,C,1-17-C,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,18,BH,1-18-BH,Sedge,Ruderal Graminoid,Cyperus spp.,2
+2,2023-10-30,1,18,BH,1-18-BH,Grass,Ruderal Graminoid,Paspalum setaceum,4
+2,2023-10-30,1,19,C,1-19-C,Sedge,Ruderal Graminoid,Cyperus spp.,5
+2,2023-10-30,1,19,C,1-19-C,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,20,W,1-20-W,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,20,W,1-20-W,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,21,BM,1-21-BM,Sedge,Ruderal Graminoid,Cyperus spp.,5
+2,2023-10-30,1,21,BM,1-21-BM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,22,BH,1-22-BH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,22,BH,1-22-BH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,23,LM,1-23-LM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,23,LM,1-23-LM,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,1,24,LH,1-24-LH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,1,24,LH,1-24-LH,Grass,Ruderal Graminoid,Paspalum setaceum,0
+2,2023-10-30,2,1,C,2-1-C,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,2,2,W,2-2-W,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,2,3,BM,2-3-BM,Sedge,Ruderal Graminoid,Cyperus spp.,5
+2,2023-10-30,2,4,BH,2-4-BH,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,2,5,LM,2-5-LM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,2,6,LH,2-6-LH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,2,7,LM,2-7-LM,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,2,8,BM,2-8-BM,Sedge,Ruderal Graminoid,Cyperus spp.,5
+2,2023-10-30,2,9,LH,2-9-LH,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,2,10,W,2-10-W,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,2,11,C,2-11-C,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,2,12,BH,2-12-BH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,2,13,BH,2-13-BH,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,2,14,LH,2-14-LH,Sedge,Ruderal Graminoid,Cyperus spp.,2
+2,2023-10-30,2,15,W,2-15-W,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,2,16,LM,2-16-LM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,2,17,BM,2-17-BM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,2,18,C,2-18-C,Sedge,Ruderal Graminoid,Cyperus spp.,2
+2,2023-10-30,2,19,W,2-19-W,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,2,20,C,2-20-C,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,2,21,LM,2-21-LM,Sedge,Ruderal Graminoid,Cyperus spp.,4
+2,2023-10-30,2,22,BM,2-22-BM,Sedge,Ruderal Graminoid,Cyperus spp.,3
+2,2023-10-30,2,23,LH,2-23-LH,Sedge,Ruderal Graminoid,Cyperus spp.,0
+2,2023-10-30,2,24,BH,2-24-BH,Sedge,Ruderal Graminoid,Cyperus spp.,3
+1,2022-10-17,2,3,BM,2-3-BM,Grass,Ruderal Grass,Eustachys petraea,4
+1,2022-10-17,2,9,LH,2-9-LH,Grass,Ruderal Grass,Eustachys petraea,6
+1,2022-10-17,2,10,W,2-10-W,Grass,Ruderal Grass,Eustachys petraea,4
+1,2022-10-17,2,14,LH,2-14-LH,Grass,Ruderal Grass,Eustachys petraea,5
+1,2022-10-17,2,15,W,2-15-W,Grass,Ruderal Grass,Eustachys petraea,5
+1,2022-10-18,2,20,C,2-20-C,Grass,Ruderal Grass,Eustachys petraea,2
+1,2022-10-17,2,21,LM,2-21-LM,Grass,Ruderal Grass,Eustachys petraea,6
+1,2022-10-17,2,22,BM,2-22-BM,Grass,Ruderal Grass,Eustachys petraea,6
+1,2022-10-17,2,23,LH,2-23-LH,Grass,Ruderal Grass,Eustachys petraea,3
+1,2022-10-17,2,24,BH,2-24-BH,Grass,Ruderal Grass,Eustachys petraea,2
+2,2023-10-30,2,9,LH,2-9-LH,Woody,Woody,Quercus hemisphaerica,2
