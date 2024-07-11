@@ -13,9 +13,9 @@ rm(list=ls(all=TRUE))
 cat("\014") 
 
 #########################     Installs Packages   ##############################
-list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont", 
-                      "ggsignif", "multcompView", "ggpubr", "rstatix",
-                      "vegan", "labdsv", "pairwiseAdonis", "devtools")
+list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont", "ggrepel",
+                      "ggsignif", "multcompView", "ggpubr", "rstatix",'rmarkdown',
+                      "vegan", "labdsv", "pairwiseAdonis", "devtools", "knitr")
 new.packages <- list.of.packages[!(list.of.packages %in% 
                                      installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
@@ -27,13 +27,16 @@ loadfonts(device = "win")
 library(tidyverse)
 library(vegan)
 library(agricolae)
+library(rmarkdown)
 library(ggsignif)
 library(multcompView)
 library(ggpubr)
 library(rstatix)
+library(ggrepel)
 library(vegan)
 library(labdsv)
 library(devtools)
+library(knitr)
 
 install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
 library(pairwiseAdonis)
@@ -120,15 +123,20 @@ NMDS_graph_22 =
   ggplot() +
   geom_point(data = NMDS_22, aes(x = MDS_22.MDS1, y = MDS_22.MDS2, fill = Treatment),
              alpha = 0.7, size = 5, shape = 21) +
-  ylim(-0.8,0.8) +
-  geom_text(data = species.scores, aes(x = NMDS1, y = NMDS2, label = Type)) +
-  annotate("text", x = -1, y = 0.5, 
-           label = paste0("Stress: ", format(MDS_22$stress, digits = 2)), 
-           hjust = 0, size = 8) +
+  ylim(-1,1) +
+  xlim(-1,1) +
+  geom_segment(aes(x = 0, y = 0, xend = NMDS1, yend = NMDS2), 
+               data = species.scores, linewidth =1, alpha = 0.5, colour = "black") +
+  geom_text_repel(data = species.scores, aes(x = NMDS1, y = NMDS2), 
+                  label = species.scores$species, colour = "black", fontface = "bold", 
+                  max.overlaps = 40, force = 1) +
   scale_color_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
                      values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
   scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
                     values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+  annotate("text", x = -1, y = 1, 
+           label = paste0("Stress: ", format(MDS_22$stress, digits = 2)), 
+           hjust = 0, size = 8) +
   ggtitle("2022") +
   theme_classic() +
   theme(panel.grid.major = element_blank(),
@@ -218,13 +226,14 @@ NMDS_graph_23 =
   ylim(-1,1) +
   geom_segment(aes(x = 0, y = 0, xend = NMDS1, yend = NMDS2), 
                data = species.scores, linewidth =1, alpha = 0.5, colour = "black") +
-  geom_text(data = species.scores, aes(x = NMDS1, y = NMDS2+0.04), 
-            label = species.scores$species, colour = "black", fontface = "bold") +
+  geom_text_repel(data = species.scores, aes(x = NMDS1, y = NMDS2), 
+                  label = species.scores$species, colour = "black", fontface = "bold", 
+                  max.overlaps = 40, force = 1) +
   scale_color_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
                    values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
   scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
                     values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
-  annotate("text", x = -1, y = 0.5, 
+  annotate("text", x = -1, y = 1, 
            label = paste0("Stress: ", format(MDS_23$stress, digits = 2)), 
            hjust = 0, size = 8) +
   ggtitle("2023") +
@@ -261,8 +270,12 @@ write.csv(island.spp_cor, file = "Figures/island_spp_PearsonCor.csv")
 adon.results <- adonis2(Spp_23 ~ NMDS_23$Treatment, method="bray",perm=999)
 print(adon.results)
 pairwise.adonis<-pairwise.adonis2(Spp_23 ~ Treatment, data = NMDS_23)
-pairwise.adonis
+pairwise.adonis %>% as.data.frame() %>% write.csv(file = "Figures/adonis_2023.csv")
 
+options(knitr.kable.NA = '',  col.names = 1) # this will hide missing values in the kable table
+g = kable(pairwise.adonis, digits = 3) # the digits argument controls rounding
+
+table
 ################## Save Figures Above using ggarrange ##########################
 NMDS_22_23 = 
   ggarrange(NMDS_graph_22, NMDS_graph_23, ncol = 2, nrow = 1, 
