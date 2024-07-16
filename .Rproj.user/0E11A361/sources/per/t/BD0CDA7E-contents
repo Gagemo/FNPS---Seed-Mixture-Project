@@ -178,8 +178,10 @@ tukey_SS <- SS %>%
   add_xy_position()
 tukey_SS
 
-tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=SS )
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=SS )
 tmp
+
+write.csv.tabular(tmp, "Figures/SS_Change.csv")
 
 SS_change_Box = 
   ggplot(SS, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
@@ -187,10 +189,13 @@ SS_change_Box =
   geom_point(aes(fill=Treatment), size = 3, 
              position = position_jitterdodge(), alpha = 0.7) +
   scale_color_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                     values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                     values=c("#663333", "#FF9966", "#006600", 
+                              "#99FF99", "#CC0000", "#330099")) +
   scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                    values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
-  stat_pvalue_manual(tukey_SS,size = 8, bracket.size = 1, hide.ns = T, bracket.nudge.y = -45 )+
+                    values=c("#663333", "#FF9966", "#006600", 
+                             "#99FF99", "#CC0000", "#330099")) +
+  stat_pvalue_manual(tukey_SS,size = 8, bracket.size = 1, 
+                     hide.ns = T, bracket.nudge.y = -45 )+
   labs(subtitle = get_test_label(anova_SS, detailed = TRUE),
        caption = get_pwc_label(tukey_SS)) +
   theme_classic() +
@@ -250,9 +255,11 @@ AV_change_Box =
              position = position_jitterdodge(), alpha = 0.7) +
   stat_pvalue_manual(tukey_AV,size = 8, bracket.size = 1, hide.ns = T, bracket.nudge.y = -10)+
   scale_color_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                     values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                     values=c("#663333", "#FF9966", "#006600",
+                              "#99FF99", "#CC0000", "#330099")) +
   scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                    values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                    values=c("#663333", "#FF9966", "#006600",
+                             "#99FF99", "#CC0000", "#330099")) +
   labs(subtitle = get_test_label(anova_AV, detailed = TRUE),
        caption = get_pwc_label(tukey_AV)) +
   theme_classic() +
@@ -311,9 +318,11 @@ DP_change_Box =
              position = position_jitterdodge(), alpha = 0.7) +
   stat_pvalue_manual(tukey_DP,size = 8, bracket.size = 1, hide.ns = T)+
   scale_color_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                     values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                     values=c("#663333", "#FF9966", "#006600",
+                              "#99FF99", "#CC0000", "#330099")) +
   scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                    values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                    values=c("#663333", "#FF9966", "#006600",
+                             "#99FF99", "#CC0000", "#330099")) +
   labs(subtitle = get_test_label(anova_DP, detailed = TRUE),
        caption = get_pwc_label(tukey_DP)) +
   theme_classic() +
@@ -373,9 +382,11 @@ AT_change_Box =
              position = position_jitterdodge(), alpha = 0.7) +
   stat_pvalue_manual(tukey_AT,size = 8, bracket.size = 1, hide.ns = T)+
   scale_color_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                     values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                     values=c("#663333", "#FF9966", "#006600",
+                              "#99FF99", "#CC0000", "#330099")) +
   scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                    values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                    values=c("#663333", "#FF9966", "#006600", 
+                             "#99FF99", "#CC0000", "#330099")) +
   labs(subtitle = get_test_label(anova_AT, detailed = TRUE),
        caption = get_pwc_label(tukey_AT)) +
   theme_classic() +
@@ -433,9 +444,11 @@ Pt_change_Box =
   geom_point(aes(fill=Treatment), size = 3, 
              position = position_jitterdodge(), alpha = 0.7) +
   scale_color_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                     values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                     values=c("#663333", "#FF9966", "#006600",
+                              "#99FF99", "#CC0000", "#330099")) +
   scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                    values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                    values=c("#663333", "#FF9966", "#006600", 
+                             "#99FF99", "#CC0000", "#330099")) +
   stat_pvalue_manual(tukey_Pt,size = 8, bracket.size = 1, hide.ns = T)+
   labs(subtitle = get_test_label(anova_Pt, detailed = TRUE),
        caption = get_pwc_label(tukey_Pt)) +
@@ -499,9 +512,11 @@ Liatris_change_Box =
   labs(subtitle = get_test_label(anova_Liatris, detailed = TRUE),
        caption = get_pwc_label(tukey_Liatris)) +
   scale_color_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                     values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                     values=c("#663333", "#FF9966", "#006600", 
+                              "#99FF99", "#CC0000", "#330099")) +
   scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
-                    values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
+                    values=c("#663333", "#FF9966", "#006600",
+                             "#99FF99", "#CC0000", "#330099")) +
   ylim(0, 50) +
   theme_classic() +
   theme(panel.grid.major = element_blank(),
@@ -525,13 +540,11 @@ ggsave("Figures/change_Liatris.png",
 
 ################## Save Figures Above using ggarrange ##########################
 Change = 
-  ggarrange(love_change_Box, SS_change_Box, AV_change_Box,
-            Pt_change_Box, Liatris_change_Box, DP_change_Box, AT_change_Box,
-            ncol = 2, nrow = 4)
+  ggarrange(Pt_change_Box, DP_change_Box, SS_change_Box, ncol = 2, nrow = 2)
 annotate_figure(Change, top = text_grob("", color = "black", 
                                         face = "bold", size = 25))
 ggsave("Figures/Change.png", 
-       width = 12, height = 16)
+       width = 14, height = 12)
 
 tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=Liatris )
 tmp

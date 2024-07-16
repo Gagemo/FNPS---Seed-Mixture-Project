@@ -130,7 +130,6 @@ PtBox22 =
   scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
                     values=c("#663333", "#FF9966", "#006600", "#99FF99", "#CC0000", "#330099")) +
   stat_pvalue_manual(tukey_22,size = 8, bracket.size = 1, hide.ns = T)+
-  ylim(0, 100) +
   labs(subtitle = get_test_label(anova_22,
                                  detailed = TRUE),
        caption = get_pwc_label(tukey_22)) +
@@ -797,7 +796,7 @@ tmp
 
 ################## Save All Figures Above using ggarrange ##########################
 all = 
-  ggarrange(PtBox22, PtBox23, LgBox22, LgBox23, DpBox22, DpBox23, 
-            SsBox22, SsBox23, AtBox22, AtBox23, ncol = 2, nrow = 5)
+  ggarrange(PtBox22, PtBox23, DpBox22, DpBox23, 
+            SsBox22, SsBox23, ncol = 2, nrow = 3)
 ggsave("Figures/22-23_Obli_Forb_Grass.png", 
        width = 14, height = 18)

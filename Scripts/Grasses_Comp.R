@@ -213,7 +213,10 @@ ggsave("Figures/22-23_Box.png",
 
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=Data_22)
 tmp
+write.csv.tabular(tmp, "Figures/Grass_Comp_22.csv")
 
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=Data_23)
 tmp
+write.csv.tabular(tmp, "Figures/Grass_Comp_23.csv")
+
 
