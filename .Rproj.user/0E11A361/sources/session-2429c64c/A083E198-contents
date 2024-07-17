@@ -61,7 +61,7 @@ Data$ID_ <- paste(Data$Treatment, Data$ID)
 
 # Orders years and treatments so that they display in same sequence in graphs #
 Data$Year = factor(Data$Year, levels=c('1','2'))
-Data$Treatment = factor(Data$Treatment, levels=c('C','W', 'BH','BM', 'LH', 'LM'))
+Data$Treatment = factor(Data$Treatment, levels=c('BH', 'BM', 'LH', 'LM', 'W', "C"))
 
 #Renames values in Treatment treatments for heat map later #
 #Data$Treatment <- recode(Data$Treatment, 
@@ -130,6 +130,12 @@ PN_change_Box =
   stat_pvalue_manual(tukey_PN,size = 8, bracket.size = 1, hide.ns = T)+
   labs(subtitle = get_test_label(anova_PN, detailed = TRUE),
        caption = get_pwc_label(tukey_PN)) +
+  scale_color_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
+                     values=c("#663333", "#FF9966", "#006600", 
+                              "#99FF99", "#CC0000", "#330099")) +
+  scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
+                    values=c("#663333", "#FF9966", "#006600", 
+                             "#99FF99", "#CC0000", "#330099")) +
   theme_classic() +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
@@ -189,6 +195,12 @@ CD_change_Box =
   stat_pvalue_manual(tukey_CD,size = 8, bracket.size = 1, hide.ns = T)+
   labs(subtitle = get_test_label(anova_CD, detailed = TRUE),
        caption = get_pwc_label(tukey_CD)) +
+  scale_color_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
+                     values=c("#663333", "#FF9966", "#006600", 
+                              "#99FF99", "#CC0000", "#330099")) +
+  scale_fill_manual(labels=c('BH', 'BM', 'LH', 'LM', 'W', "C"),
+                    values=c("#663333", "#FF9966", "#006600", 
+                             "#99FF99", "#CC0000", "#330099")) +
   theme_classic() +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
@@ -211,7 +223,7 @@ ggsave("Figures/change_CD.png",
 
 ################## Save Figures Above using ggarrange ##########################
 Change = 
-  ggarrange(PN_change_Box, CD_change_Box, ncol = 1, nrow = 2)
+  ggarrange(PN_change_Box, CD_change_Box, ncol = 2, nrow = 1)
 annotate_figure(Change, top = text_grob("", color = "black", 
                                         face = "bold", size = 25))
 ggsave("Figures/Change_NonGrass.png", 

@@ -200,8 +200,12 @@ ggsave("Figures/22-23_PtBox.png",
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=Pt_22)
 tmp
 
+write.csv.tabular(tmp, "Figures/Pt_22.csv")
+
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=Pt_23)
 tmp
+
+write.csv.tabular(tmp, "Figures/Pt_23.csv")
 
 ############################### Liatris ########################################
 
@@ -348,8 +352,12 @@ ggsave("Figures/22-23_LGBox.png",
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=Lg_22)
 tmp
 
+write.csv.tabular(tmp, "Figures/Lg_22.csv")
+
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=Lg_23)
 tmp
+
+write.csv.tabular(tmp, "Figures/Lg_23.csv")
 
 ######################## Dalea pinnata #########################################
 
@@ -496,8 +504,13 @@ ggsave("Figures/22-23_DPBox.png",
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=Dp_22)
 tmp
 
+write.csv.tabular(tmp, "Figures/Dp_22.csv")
+
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=Dp_23)
 tmp
+
+write.csv.tabular(tmp, "Figures/Dp_23.csv")
+
 ###################### Sorghastrum #############################################
 
 Ss = filter(Data, Species == "Sorghastrum secundum")
@@ -643,8 +656,12 @@ ggsave("Figures/22-23_IndiangrassBox.png",
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=Ss_22)
 tmp
 
+write.csv.tabular(tmp, "Figures/Ss_22.csv")
+
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=Ss_23)
 tmp
+
+write.csv.tabular(tmp, "Figures/Ss_23.csv")
 
 ################################ Splitbeard ####################################
 
@@ -706,7 +723,7 @@ tukey_23 <- At_23 %>%
 tukey_23
 
 ################################################################################
-################ Create Box Plot for Pityopsis Across Years ####################
+################ Create Box Plot for A. ternarius Across Years ####################
 ################################################################################
 
 ## Lovegrass Coverage 2022 Box plot ##
@@ -791,8 +808,12 @@ ggsave("Figures/22-23_SplitBox.png",
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=At_22)
 tmp
 
+write.csv.tabular(tmp, "Figures/At_22.csv")
+
 tmp <- tabular(Treatment ~ Coverage * (mean+sd+std.error), data=At_23)
 tmp
+
+write.csv.tabular(tmp, "Figures/At_23.csv")
 
 ################## Save All Figures Above using ggarrange ##########################
 all = 

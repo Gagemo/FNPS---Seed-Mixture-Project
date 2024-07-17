@@ -308,8 +308,10 @@ tukey_DP <- DP %>%
   add_xy_position()
 tukey_DP
 
-tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=DP )
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=DP )
 tmp
+
+write.csv.tabular(tmp, "Figures/DP_Change.csv")
 
 DP_change_Box = 
   ggplot(DP, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
@@ -372,8 +374,10 @@ tukey_AT <- AT %>%
   add_xy_position()
 tukey_AT
 
-tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=AT )
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=AT )
 tmp
+
+write.csv.tabular(tmp, "Figures/AT_Change.csv")
 
 AT_change_Box = 
   ggplot(AT, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
@@ -435,8 +439,10 @@ tukey_Pt <- Pt %>%
   add_xy_position()
 tukey_Pt
 
-tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=Pt)
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=PT )
 tmp
+
+write.csv.tabular(tmp, "Figures/PT_Change.csv")
 
 Pt_change_Box = 
   ggplot(Pt, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
@@ -500,8 +506,10 @@ tukey_Liatris <- Liatris %>%
 tukey_Liatris
 summary(tukey_Liatris)
 
-tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=Liatris)
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=Liatris )
 tmp
+
+write.csv.tabular(tmp, "Figures/LG_Change.csv")
 
 Liatris_change_Box = 
   ggplot(Liatris, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
