@@ -1,10 +1,10 @@
 ################################################################################
 ################################################################################
-#########################       GRIN - Fire       ##############################
+#########################  FNPS - Seed Mixtures   ##############################
 #########################      Weather Data       ##############################
 #########################  University of Florida  ##############################
 #########################     Gage LaPierre       ##############################
-#########################      2021 - 2023        ##############################
+#########################      2022 - 2023        ##############################
 ################################################################################
 ################################################################################
 
@@ -26,23 +26,19 @@ library(lubridate)
 library(ggpubr)
 
 ##########################     Read in  Data      ##############################
-data = read.csv("Data/GRIN - Weather Data.csv")
+data = read.csv("Data/FNPS - Seed Mixture Project - Weather.csv")
 data$Date <- mdy(data$Date)
 
 data$Month <- months(as.Date(data$Date))
 data$Year <- as.numeric(format(data$Date,'%Y'))
 
-############################# Year 2023 ########################################
-data = filter(data, Year == 2023)
+############################# Year 2022 ########################################
+data = filter(data, Year == 2022)
 
 rain = 
   ggplot(data, aes(x = Date)) +
-  geom_line(aes(y = Precip.Total*25.4), color = "black", size = 1.25) +
+  geom_line(aes(y = Precip*25.4), color = "black", size = 1.25) +
   scale_x_date(date_breaks = "months", date_labels = "%b") +
-  geom_vline(xintercept = as.Date(data$Date[36]), linetype="solid", 
-               color = "blue", size=1.2) +
-  geom_vline(xintercept = as.Date(data$Date[160]), linetype="solid", 
-             color = "orange", size=1.2) +
   theme_classic() +
   theme(text = element_text(size=20),
         panel.grid.major = element_blank(),
@@ -60,19 +56,15 @@ rain =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "Total Precipitation (mm)", title = "")
 rain
-ggsave("Figures/Chapter 2 - Fire/precip.png", 
+ggsave("Figures/22_precip.png", 
        width = 10, height = 7)
 
 temp = 
   ggplot(data, aes(x = Date)) +
-  geom_line(aes(y = (Temp.Max-(32))*(5/9)), color = "red", size = 1.25) +
+  geom_line(aes(y = (Temp.High-(32))*(5/9)), color = "red", size = 1.25) +
   geom_line(aes(y = (Temp.Ave-(32))*(5/9)), color = "black", size = 1.25) +
-  geom_line(aes(y = (Temp.Min-(32))*(5/9)), color = "lightblue", size = 1.25) +
+  geom_line(aes(y = (Temp.Low-(32))*(5/9)), color = "lightblue", size = 1.25) +
   scale_x_date(date_breaks = "months" , date_labels = "%b") +
-  geom_vline(xintercept = as.Date(data$Date[36]), linetype="solid", 
-             color = "blue", size=1.2) +
-  geom_vline(xintercept = as.Date(data$Date[160]), linetype="solid", 
-             color = "orange", size=1.2) +
   theme_classic() +
   theme(text = element_text(size=20),
         panel.grid.major = element_blank(),
@@ -92,16 +84,16 @@ temp =
   labs(x = "", y = "Temperature C", title = "")
 temp
 
-ggsave("Figures/Chapter 2 - Fire/23_temp.png", 
+ggsave("Figures/22_temp.png", 
        width = 14, height = 7)
 
 ################## Save Figures Above using ggarrange ##########################
 ggarrange(temp, rain, ncol = 1, nrow = 2)
-ggsave("Figures/Chapter 2 - Fire/23_rainTemp.png", 
+ggsave("Figures/22_rainTemp.png", 
        width = 14, height = 12)
 
-##################### 2021 - 2022 Weather Data #################################
-data = read.csv("Data/GRIN - Weather Data.csv")
+##################### 2022 - 2023 Weather Data #################################
+data = read.csv("Data/FNPS - Seed Mixture Project - Weather.csv")
 data$Date <- mdy(data$Date)
 
 data$Month <- months(as.Date(data$Date))
@@ -110,11 +102,11 @@ data$Year <- as.numeric(format(data$Date,'%Y'))
 # Temp data sorting by month #
 Max = data %>%
   group_by(Year, Month) %>%
-  summarize(Max = max(Temp.Max))
+  summarize(Max = max(Temp.High))
 
 Min = data %>%
   group_by(Year, Month) %>%
-  summarize(Min = max(Temp.Min))
+  summarize(Min = max(Temp.Low))
 
 Ave = data %>%
   group_by(Year, Month) %>%
@@ -122,7 +114,7 @@ Ave = data %>%
 
 prcp = data %>%
   group_by(Year, Month) %>%
-  summarize(prcp = sum(Precip.Total))
+  summarize(prcp = sum(Precip))
 
 df = prcp
 df$Max = Max$Max
@@ -154,7 +146,7 @@ rain =
   labs(x = "", y = "Total Precipitation (mm)", title = "")
 rain
 
-ggsave("Figures/Chapter 2 - Fire/precip.png", 
+ggsave("Figures/precip.png", 
        width = 10, height = 7)
 
 temp = 
@@ -184,11 +176,11 @@ temp =
   labs(x = "", y = "Temperature C", title = "")
 temp
 
-ggsave("Figures/Chapter 2 - Fire/temp.png", 
+ggsave("Figures/temp.png", 
        width = 10, height = 7)
 
 ################## Save Figures Above using ggarrange ##########################
 ggarrange(temp, rain, ncol = 1, nrow = 2)
-ggsave("Figures/Chapter 2 - Fire/21-22_rainTemp.png", 
+ggsave("Figures/21-22_rainTemp.png", 
        width = 8, height = 12)
 
