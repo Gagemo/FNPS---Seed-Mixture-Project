@@ -15,7 +15,8 @@ cat("\014")
 #########################     Installs Packages   ##############################
 list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont", "ggrepel",
                       "ggsignif", "multcompView", "ggpubr", "rstatix",'rmarkdown',
-                      "vegan", "labdsv", "pairwiseAdonis", "devtools", "knitr")
+                      "vegan", "labdsv", "pairwiseAdonis", "devtools", "knitr",
+                      "tables", "openxlsx")
 new.packages <- list.of.packages[!(list.of.packages %in% 
                                      installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
@@ -37,6 +38,8 @@ library(vegan)
 library(labdsv)
 library(devtools)
 library(knitr)
+library(tables)
+library(openxlsx)
 
 install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
 library(pairwiseAdonis)
@@ -194,9 +197,46 @@ ggsave("Figures/NMDS_22.PNG",
 adon.results <- adonis2(Spp_22 ~ Treatment, data = NMDS_22, method="bray")
 print(adon.results)
 write.csv.tabular(adon.results, "Figures/adonis_22.csv")
-pairwise.adonis<-pairwise.adonis2(Spp_22 ~ Treatment, data = NMDS_22)
-pairwise.adonis
+pairwise.adonis_22<-pairwise.adonis2(Spp_22 ~ Treatment, data = NMDS_22)
+pairwise.adonis_22
 
+#save tables
+# Create a new workbook
+
+wb <- createWorkbook()
+
+# Add a worksheet
+addWorksheet(wb, "All_Tables")
+
+# Initialize starting row
+start_row <- 1
+
+# Loop through the list of tables and add each to the same sheet
+for (name in names(pairwise.adonis_22)) {
+  # Add table name as a header
+  writeData(wb, sheet = "All_Tables", x = name, startRow = start_row, colNames = FALSE)
+  
+  # Increment the starting row to leave a gap between the header and the table
+  start_row <- start_row + 1
+  
+  # Check if the element is a data frame or a character string
+  if (is.data.frame(pairwise.adonis_22[[name]])) {
+    # Write the table
+    writeData(wb, sheet = "All_Tables", x = pairwise.adonis_22[[name]], startRow = start_row)
+    
+    # Increment the starting row for the next table, adding a few extra rows for spacing
+    start_row <- start_row + nrow(pairwise.adonis_22[[name]]) + 2
+  } else if (is.character(pairwise.adonis_22[[name]])) {
+    # Write the character string
+    writeData(wb, sheet = "All_Tables", x = pairwise.adonis_22[[name]], startRow = start_row, colNames = FALSE)
+    
+    # Increment the starting row for the next table, adding a few extra rows for spacing
+    start_row <- start_row + 2
+  }
+}
+
+# Save the workbook to an Excel file
+saveWorkbook(wb, "Figures/pairwise_adonis_23_same_sheet.xlsx", overwrite = TRUE)
 ##########################     2023 Data       #################################
 
 # Create species pivot table #
@@ -326,13 +366,47 @@ write.csv(island.spp_cor, file = "Figures/island_spp_PearsonCor.csv")
 # Perform adonis to test the significance of treatments#
 adon.results <- adonis2(Spp_23 ~ NMDS_23$Treatment, method="bray",perm=999)
 print(adon.results)
-pairwise.adonis<-pairwise.adonis2(Spp_23 ~ Treatment, data = NMDS_23)
-pairwise.adonis %>% as.data.frame() %>% write.csv(file = "Figures/adonis_2023.csv")
+pairwise.adonis_23<-pairwise.adonis2(Spp_23 ~ Treatment, data = NMDS_23)
+pairwise.adonis_23 %>% as.data.frame() %>% write.csv(file = "Figures/adonis_2023.csv")
 
-options(knitr.kable.NA = '',  col.names = 1) # this will hide missing values in the kable table
-g = kable(pairwise.adonis, digits = 3) # the digits argument controls rounding
 
-table
+#save tables
+# Create a new workbook
+
+wb <- createWorkbook()
+
+# Add a worksheet
+addWorksheet(wb, "All_Tables")
+
+# Initialize starting row
+start_row <- 1
+
+# Loop through the list of tables and add each to the same sheet
+for (name in names(pairwise.adonis_23)) {
+  # Add table name as a header
+  writeData(wb, sheet = "All_Tables", x = name, startRow = start_row, colNames = FALSE)
+  
+  # Increment the starting row to leave a gap between the header and the table
+  start_row <- start_row + 1
+  
+  # Check if the element is a data frame or a character string
+  if (is.data.frame(pairwise.adonis_23[[name]])) {
+    # Write the table
+    writeData(wb, sheet = "All_Tables", x = pairwise.adonis_23[[name]], startRow = start_row)
+    
+    # Increment the starting row for the next table, adding a few extra rows for spacing
+    start_row <- start_row + nrow(pairwise.adonis_23[[name]]) + 2
+  } else if (is.character(pairwise.adonis_23[[name]])) {
+    # Write the character string
+    writeData(wb, sheet = "All_Tables", x = pairwise.adonis_23[[name]], startRow = start_row, colNames = FALSE)
+    
+    # Increment the starting row for the next table, adding a few extra rows for spacing
+    start_row <- start_row + 2
+  }
+}
+
+# Save the workbook to an Excel file
+saveWorkbook(wb, "Figures/pairwise_adonis_23_same_sheet.xlsx", overwrite = TRUE)
 ################## Save Figures Above using ggarrange ##########################
 NMDS_22_Combine = 
   ggarrange(NMDS_graph_22, NMDS_Spp_graph_22,
