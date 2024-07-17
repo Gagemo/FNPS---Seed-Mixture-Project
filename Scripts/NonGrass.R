@@ -15,7 +15,7 @@ cat("\014")
 #########################     Installs Packages   ##############################
 list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont", "plotrix", 
                       "ggsignif", "multcompView", "ggpubr", "rstatix", "labdsv",
-                      "tables")
+                      "tables", "openxlsx")
 new.packages <- list.of.packages[!(list.of.packages %in% 
                                      installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
@@ -32,6 +32,7 @@ library(ggpubr)
 library(plotrix)
 library(rstatix)
 library(tables)
+library(openxlsx)
 
 ##########################     Read in  Data       #############################
 Data = read.csv("Data/FNPS - Seed Mixture Project - 2021-2023.csv")
@@ -119,6 +120,8 @@ tukey_PN
 tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=PN)
 tmp
 
+write.csv.tabular(tmp, "Figures/PN_Change.csv")
+
 PN_change_Box = 
   ggplot(PN, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
@@ -174,8 +177,9 @@ tukey_CD <- CD %>%
   add_xy_position()
 tukey_CD
 
-tmp <- tabular(Treatment ~ Change_abundance* (mean+sd), data=CD )
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=CD )
 tmp
+write.csv.tabular(tmp, "Figures/CD_Change.csv")
 
 CD_change_Box = 
   ggplot(CD, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
