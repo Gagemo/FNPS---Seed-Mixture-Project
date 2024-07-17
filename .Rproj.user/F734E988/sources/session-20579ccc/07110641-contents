@@ -1,0 +1,736 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+summary(anova_Woody)
+tukey_Woody <- Woody %>%
+tukey_hsd(Woody ~ Fire) %>%
+=======
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+# Check Assumptions #
+model  <- lm(Grass ~ Treatment, data = Grass)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+# Compute Levene's Test
+Grass$Treatment = as.factor(Grass$Treatment)
+Grass %>% levene_test(Grass ~ Treatment)
+# Test for Significance #
+anova_Grass = Grass %>% anova_test(Grass ~ Treatment) %>%
+add_significance()
+summary(anova_Grass)
+tukey_Grass <- Grass %>%
+tukey_hsd(Grass ~ Treatment) %>%
+add_significance() %>%
+add_xy_position()
+tukey_Grass
+###############################  Sedges 2021 ###################################
+Sedge = select(GRIN_21M, Sedge) %>%
+cbind(Treat)
+Sedge <- ungroup(Sedge)
+# Check Assumptions #
+model  <- lm(Sedge ~ Treatment, data = Sedge)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+# Compute Levene's Test
+Sedge$Treatment = as.factor(Sedge$Treatment)
+Sedge %>% levene_test(Sedge ~ Treatment)
+# Test for Significance #
+anova_Sedge = Sedge %>% kruskal_test(Sedge ~ Treatment) %>%
+add_significance()
+summary(anova_Sedge)
+tukey_Sedge <- Sedge %>%
+dunn_test(Sedge ~ Treatment) %>%
+add_significance() %>%
+add_xy_position()
+tukey_Sedge
+###############################  Woody 2021  ###################################
+Woody = select(GRIN_21M, Woody) %>%
+cbind(Treat)
+Woody <- ungroup(Woody)
+# Check Assumptions #
+model  <- lm(Woody ~ Treatment, data = Woody)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+# Compute Levene's Test
+Woody$Treatment = as.factor(Woody$Treatment)
+Woody %>% levene_test(Woody ~ Treatment)
+# Test for Significance #
+anova_Woody = Woody %>% kruskal_test(Woody ~ Treatment) %>%
+add_significance()
+summary(anova_Woody)
+tukey_Woody <- Woody %>%
+dunn_test(Woody ~ Treatment) %>%
+<<<<<<< HEAD
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+add_significance() %>%
+add_xy_position()
+tukey_Woody
+################################################################################
+########### Coverage by Functional Group per Plot Box Plot #####################
+################################################################################
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Forbs 2023 #
+Forb_Box =
+ggplot(Forb, aes(x = Fire, y = Forb), colour = Fire) +
+geom_boxplot(aes(fill=Fire), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Fire),
+position = position_jitterdodge(), alpha = 0.5) +
+stat_pvalue_manual(tukey_Forb,size = 8, bracket.size = 1, hide.ns = T)+
+labs(subtitle = get_test_label(anova_Forb,
+detailed = TRUE),
+caption = get_pwc_label(tukey_Forb)) +
+scale_fill_manual(labels=c('No Burn', 'Late-Spring', 'Winter'),
+values=c("#333333", "#FF9900", "#3366FF")) +
+scale_color_manual(labels=c('No Burn', 'Late-Spring', 'Winter'),
+values=c("#333333", "#FF9900", "#3366FF")) +
+scale_x_discrete(labels=c('No Burn', 'Late-Spring', 'Winter')) +
+=======
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+# Forbs 2021 #
+Forb_Box =
+ggplot(Forb, aes(x = Treatment, y = Forb), colour = Treatment) +
+geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Treatment),
+position = position_jitterdodge(), alpha = 0.5) +
+stat_pvalue_manual(tukey_Forb, size = 8, bracket.size = 1,
+hide.ns = T)+
+labs(subtitle = get_test_label(anova_Forb,
+detailed = TRUE),
+caption = get_pwc_label(tukey_Forb)) +
+scale_fill_manual(labels=c('No-Till', 'Late-Spring', 'Winter'),
+values=c("#FF3399", "#FFFF00", "#3366FF")) +
+scale_x_discrete(labels=c('No-Till', 'Late-Spring', 'Winter')) +
+<<<<<<< HEAD
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+theme_classic() +
+theme(panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+panel.border = element_blank(),
+panel.background = element_blank(),
+plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+text=element_text(size=16),
+axis.title.x = element_text(size=15, face="bold", colour = "black"),
+axis.title.y = element_text(size=15, face="bold", colour = "black"),
+axis.text.x=element_text(size=15, face = "bold", color = "black"),
+axis.text.y=element_text(size=15, face = "bold", color = "black"),
+strip.text.x =
+element_text(size = 15, colour = "black", face = "bold"),
+legend.position = "none") +
+guides(fill = guide_legend(label.position = "bottom")) +
+<<<<<<< HEAD
+<<<<<<< HEAD
+labs(x = "", y = "Total (%) Coverage", title = "Forb")
+Forb_Box
+ggsave("Figures/Chapter 2 - Fire/2023Forb.png",
+width = 10, height = 7)
+# Grasses 2023 #
+Grass_Box =
+ggplot(Grass, aes(x = Fire, y = Grass), colour = Fire) +
+geom_boxplot(aes(fill=Fire), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Fire),
+position = position_jitterdodge(), alpha = 0.5) +
+stat_pvalue_manual(tukey_Grass,size = 8, bracket.size = 1, hide.ns = T)+
+labs(subtitle = get_test_label(anova_Grass,
+detailed = TRUE),
+caption = get_pwc_label(tukey_Grass)) +
+scale_fill_manual(labels=c('No Burn', 'Late-Spring', 'Winter'),
+values=c("#333333", "#FF9900", "#3366FF")) +
+scale_color_manual(labels=c('No Burn', 'Late-Spring', 'Winter'),
+values=c("#333333", "#FF9900", "#3366FF")) +
+scale_x_discrete(labels=c('No Burn', 'Late-Spring', 'Winter')) +
+=======
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+labs(x = "Treatment", y = "Total (%) Coverage", title = "Forb")
+Forb_Box
+ggsave("Figures/Chapter 1 - Soil Disturbance Seasonality/2021Forb.png",
+width = 10, height = 7)
+# Grasses 2021 #
+Grass_Box =
+ggplot(Grass, aes(x = Treatment, y = Grass), colour = Treatment) +
+geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Treatment),
+position = position_jitterdodge(), alpha = 0.5) +
+stat_pvalue_manual(tukey_Grass,hide.ns = T, size = 8, bracket.size = 1) +
+labs(subtitle = get_test_label(anova_Grass,
+detailed = TRUE),
+caption = get_pwc_label(tukey_Grass)) +
+scale_fill_manual(labels=c('No-Till', 'Late-Spring', 'Winter'),
+values=c("#FF3399", "#FFFF00", "#3366FF")) +
+scale_x_discrete(labels=c('No-Till', 'Late-Spring', 'Winter')) +
+<<<<<<< HEAD
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+theme_classic() +
+theme(panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+panel.border = element_blank(),
+panel.background = element_blank(),
+plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+text=element_text(size=16),
+axis.title.x = element_text(size=15, face="bold", colour = "black"),
+axis.title.y = element_text(size=15, face="bold", colour = "black"),
+axis.text.x=element_text(size=15, face = "bold", color = "black"),
+axis.text.y=element_text(size=15, face = "bold", color = "black"),
+strip.text.x =
+element_text(size = 15, colour = "black", face = "bold"),
+legend.position = "none") +
+guides(fill = guide_legend(label.position = "bottom")) +
+<<<<<<< HEAD
+<<<<<<< HEAD
+labs(x = "", y = "Total (%) Coverage", title = "Grass")
+Grass_Box
+ggsave("Figures/Chapter 2 - Fire/2023Grass_Box.png",
+width = 10, height = 7)
+# Sedges 2023 #
+Sedge_Box =
+ggplot(Sedge, aes(x = Fire, y = Sedge), colour = Fire) +
+geom_boxplot(aes(fill=Fire), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Fire),
+position = position_jitterdodge(), alpha = 0.5) +
+stat_pvalue_manual(tukey_Sedge,size = 8, bracket.size = 1, hide.ns = T)+
+labs(subtitle = get_test_label(anova_Sedge,
+detailed = TRUE),
+caption = get_pwc_label(tukey_Sedge)) +
+scale_fill_manual(labels=c('No Burn', 'Late-Spring', 'Winter'),
+values=c("#333333", "#FF9900", "#3366FF")) +
+scale_color_manual(labels=c('No Burn', 'Late-Spring', 'Winter'),
+values=c("#333333", "#FF9900", "#3366FF")) +
+scale_x_discrete(labels=c('No Burn', 'Late-Spring', 'Winter')) +
+ylim(0, 17) +
+=======
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+labs(x = "Treatment", y = "Total (%) Coverage", title = "Grass")
+Grass_Box
+ggsave("Figures/Chapter 1 - Soil Disturbance Seasonality/2021Grass_Box.png",
+width = 10, height = 7)
+# Sedges 2021 #
+Sedge_Box =
+ggplot(Sedge, aes(x = Treatment, y = Sedge), colour = Treatment) +
+geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Treatment),
+position = position_jitterdodge(), alpha = 0.5) +
+stat_pvalue_manual(tukey_Sedge,size = 8, bracket.size = 1,
+hide.ns = T)+
+labs(subtitle = get_test_label(anova_Sedge,
+detailed = TRUE),
+caption = get_pwc_label(tukey_Sedge)) +
+scale_fill_manual(labels=c('No-Till', 'Late-Spring', 'Winter'),
+values=c("#FF3399", "#FFFF00", "#3366FF")) +
+scale_x_discrete(labels=c('No-Till', 'Late-Spring', 'Winter')) +
+<<<<<<< HEAD
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+theme_classic() +
+theme(panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+panel.border = element_blank(),
+panel.background = element_blank(),
+plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+text=element_text(size=16),
+axis.title.x = element_text(size=15, face="bold", colour = "black"),
+axis.title.y = element_text(size=15, face="bold", colour = "black"),
+axis.text.x=element_text(size=15, face = "bold", color = "black"),
+axis.text.y=element_text(size=15, face = "bold", color = "black"),
+strip.text.x =
+element_text(size = 15, colour = "black", face = "bold"),
+legend.position = "none") +
+guides(fill = guide_legend(label.position = "bottom")) +
+<<<<<<< HEAD
+<<<<<<< HEAD
+labs(x = "", y = "Total (%) Coverage", title = "Sedge")
+Sedge_Box
+ggsave("Figures/Chapter 2 - Fire/2023Sedge_Box.png",
+width = 10, height = 7)
+# Woody 2023 #
+Woody_Box =
+ggplot(Woody, aes(x = Fire, y = Woody), colour = Fire) +
+geom_boxplot(aes(fill=Fire), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Fire),
+position = position_jitterdodge(), alpha = 0.5) +
+stat_pvalue_manual(tukey_Woody,size = 8, bracket.size = 1, hide.ns = T)+
+labs(subtitle = get_test_label(anova_Woody,
+detailed = TRUE),
+caption = get_pwc_label(tukey_Woody)) +
+scale_fill_manual(labels=c('No Burn', 'Late-Spring', 'Winter'),
+values=c("#333333", "#FF9900", "#3366FF")) +
+scale_color_manual(labels=c('No Burn', 'Late-Spring', 'Winter'),
+values=c("#333333", "#FF9900", "#3366FF")) +
+scale_x_discrete(labels=c('No Burn', 'Late-Spring', 'Winter')) +
+ylim(0,90) +
+=======
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+labs(x = "Treatment", y = "Total (%) Coverage", title = "Sedge")
+Sedge_Box
+ggsave("Figures/Chapter 1 - Soil Disturbance Seasonality/2021Sedge_Box.png",
+width = 10, height = 7)
+# Woody 2021 #
+Woody_Box =
+ggplot(Woody, aes(x = Treatment, y = Woody), colour = Treatment) +
+geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Treatment),
+position = position_jitterdodge(), alpha = 0.5) +
+stat_pvalue_manual(tukey_Woody, size = 8, bracket.size = 1,
+hide.ns = T)+
+labs(subtitle = get_test_label(anova_Woody,
+detailed = TRUE),
+caption = get_pwc_label(tukey_Woody)) +
+scale_fill_manual(labels=c('No-Till', 'Late-Spring', 'Winter'),
+values=c("#FF3399", "#FFFF00", "#3366FF")) +
+scale_x_discrete(labels=c('No-Till', 'Late-Spring', 'Winter')) +
+<<<<<<< HEAD
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+theme_classic() +
+theme(panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+panel.border = element_blank(),
+panel.background = element_blank(),
+plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+text=element_text(size=16),
+axis.title.x = element_text(size=15, face="bold", colour = "black"),
+axis.title.y = element_text(size=15, face="bold", colour = "black"),
+axis.text.x=element_text(size=15, face = "bold", color = "black"),
+axis.text.y=element_text(size=15, face = "bold", color = "black"),
+strip.text.x =
+element_text(size = 15, colour = "black", face = "bold"),
+legend.position = "none") +
+guides(fill = guide_legend(label.position = "bottom")) +
+<<<<<<< HEAD
+<<<<<<< HEAD
+labs(x = "", y = "Total (%) Coverage", title = "Woody")
+Woody_Box
+ggsave("Figures/Chapter 2 - Fire/2023Woody_Box.png",
+width = 10, height = 7)
+################## Save Figures Above using ggarrange ##########################
+CombinedFun_2023 =
+ggarrange(Forb_Box, Grass_Box, Sedge_Box, Woody_Box, ncol = 2, nrow = 2)
+annotate_figure(CombinedFun_2023, top = text_grob("2023", color = "black",
+face = "bold", size = 25))
+ggsave("Figures/Chapter 2 - Fire/2023_Fun.png",
+width = 12, height = 8)
+################################################################################
+################################################################################
+#########################      GRIN - Fire        ##############################
+#########################    Change in Cover      ##############################
+#########################  University of Florida  ##############################
+#########################     Gage LaPierre       ##############################
+#########################      2021 - 2023        ##############################
+=======
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+labs(x = "Treatment", y = "Total (%) Coverage", title = "Woody")
+Woody_Box
+ggsave("Figures/Chapter 1 - Soil Disturbance Seasonality/2021Woody_Box.png",
+width = 12, height = 8)
+################## Save Figures Above using ggarrange ##########################
+CombinedFun_2021 =
+ggarrange(Forb_Box, Grass_Box, Sedge_Box, Woody_Box, ncol = 2, nrow = 2)
+annotate_figure(CombinedFun_2021, top = text_grob("2021", color = "black",
+face = "bold", size = 25))
+ggsave("Figures/Chapter 1 - Soil Disturbance Seasonality/2021_Fun.png",
+width = 12, height = 8)
+################################################################################
+####################### Functional Groups Analysis #############################
+################################################################################
+########################### 2022 Data Set ######################################
+################################################################################
+# Sums CV data #
+GRIN_22M <- dplyr::select(GRIN_22, ID, Group, Coverage) %>% matrify()
+GRIN_22M <- tibble::rownames_to_column(GRIN_22M, "ID")
+# Create grouped treatment/environment table and summaries to fit species table#
+Treat = group_by(GRIN_22, ID, Treatment) %>% dplyr::summarize()
+###############################  Forbs 2022 ####################################
+Forb = select(GRIN_22M, Forb) %>%
+cbind(Treat)
+Forb <- ungroup(Forb)
+# Check Assumptions #
+model  <- lm(Forb ~ Treatment, data = Forb)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+# Compute Levene's Test
+Forb$Treatment = as.factor(Forb$Treatment)
+Forb %>% levene_test(Forb ~ Treatment)
+# Test for Significance #
+anova_Forb = Forb %>% kruskal_test(Forb ~ Treatment) %>%
+add_significance()
+summary(anova_Forb)
+tukey_Forb <- Forb %>%
+dunn_test(Forb ~ Treatment) %>%
+add_significance() %>%
+add_xy_position()
+tukey_Forb
+###############################  Grass 2022 ####################################
+Grass = select(GRIN_22M, Grass) %>%
+cbind(Treat)
+Grass <- ungroup(Grass)
+# Check Assumptions #
+model  <- lm(Grass ~ Treatment, data = Grass)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+# Compute Levene's Test
+Grass$Treatment = as.factor(Grass$Treatment)
+Grass %>% levene_test(Grass ~ Treatment)
+# Test for Significance #
+anova_Grass = Grass %>% anova_test(Grass ~ Treatment) %>%
+add_significance()
+summary(anova_Grass)
+tukey_Grass <- Grass %>%
+tukey_hsd(Grass ~ Treatment) %>%
+add_significance() %>%
+add_xy_position()
+tukey_Grass
+###############################  Sedges 2022 ###################################
+Sedge = select(GRIN_22M, Sedge) %>%
+cbind(Treat)
+Sedge <- ungroup(Sedge)
+# Check Assumptions #
+model  <- lm(Sedge ~ Treatment, data = Sedge)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+# Compute Levene's Test
+Sedge$Treatment = as.factor(Sedge$Treatment)
+Sedge %>% levene_test(Sedge ~ Treatment)
+# Test for Significance #
+anova_Sedge = Sedge %>% kruskal_test(Sedge ~ Treatment) %>%
+add_significance()
+summary(anova_Sedge)
+tukey_Sedge <- Sedge %>%
+dunn_test(Sedge ~ Treatment) %>%
+add_significance() %>%
+add_xy_position()
+tukey_Sedge
+###############################  Woody 2022  ###################################
+Woody = select(GRIN_22M, Woody) %>%
+cbind(Treat)
+Woody <- ungroup(Woody)
+# Check Assumptions #
+model  <- lm(Woody ~ Treatment, data = Woody)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+# Compute Levene's Test
+Woody$Treatment = as.factor(Woody$Treatment)
+Woody %>% levene_test(Woody ~ Treatment)
+# Test for Significance #
+anova_Woody = Woody %>% kruskal_test(Woody ~ Treatment) %>%
+add_significance()
+summary(anova_Woody)
+tukey_Woody <- Woody %>%
+dunn_test(Woody ~ Treatment) %>%
+add_significance() %>%
+add_xy_position()
+tukey_Woody
+################################################################################
+########### Coverage by Functional Group per Plot Box Plot #####################
+################################################################################
+# Forbs 2022 #
+Forb_Box =
+ggplot(Forb, aes(x = Treatment, y = Forb), colour = Treatment) +
+geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Treatment),
+position = position_jitterdodge(), alpha = 0.5) +
+stat_pvalue_manual(tukey_Forb,size = 8, bracket.size = 1,
+hide.ns = T)+
+labs(subtitle = get_test_label(anova_Forb,
+detailed = TRUE),
+caption = get_pwc_label(tukey_Forb)) +
+scale_fill_manual(labels=c('No-Till', 'Late-Spring', 'Winter'),
+values=c("#FF3399", "#FFFF00", "#3366FF")) +
+scale_x_discrete(labels=c('No-Till', 'Late-Spring', 'Winter')) +
+theme_classic() +
+theme(panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+panel.border = element_blank(),
+panel.background = element_blank(),
+plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+text=element_text(size=16),
+axis.title.x = element_text(size=15, face="bold", colour = "black"),
+axis.title.y = element_text(size=15, face="bold", colour = "black"),
+axis.text.x=element_text(size=15, face = "bold", color = "black"),
+axis.text.y=element_text(size=15, face = "bold", color = "black"),
+strip.text.x =
+element_text(size = 15, colour = "black", face = "bold"),
+legend.position = "none") +
+guides(fill = guide_legend(label.position = "bottom")) +
+labs(x = "Treatment", y = "Total (%) Coverage", title = "Forb")
+Forb_Box
+ggsave("Figures/Chapter 1 - Soil Disturbance Seasonality/2022Forb.png",
+width = 10, height = 7)
+tmp <- tabular(Treatment ~ Coverage* (mean+sd+std.error), data=Forb)
+tmp
+tmp <- tabular(Treatment ~ Forb* (mean+sd+std.error), data=Forb)
+tmp
+################################################################################
+################################################################################
+#########################   GRIN - Disturbance    ##############################
+#########################       Bare Ground        #############################
+#########################  University of Florida  ##############################
+#########################     Gage LaPierre       ##############################
+#########################      2021 - 2022       ###############################
+<<<<<<< HEAD
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+################################################################################
+################################################################################
+######################### Clears Environment & History  ########################
+rm(list=ls(all=TRUE))
+cat("\014")
+#########################     Installs Packages   ##############################
+<<<<<<< HEAD
+<<<<<<< HEAD
+list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont",
+"ggsignif", "multcompView", "ggpubr", "rstatix", "labdsv")
+=======
+list.of.packages <- c("tidyverse", "vegan", "agricolae")
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+=======
+list.of.packages <- c("tidyverse", "vegan", "agricolae")
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+new.packages <- list.of.packages[!(list.of.packages %in%
+installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+##########################     Loads Packages     ##############################
+library(tidyverse)
+library(vegan)
+<<<<<<< HEAD
+<<<<<<< HEAD
+library(labdsv)
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+=======
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+library(agricolae)
+##########################     Read in 2022 Data  ##############################
+GRIN = read.csv("Data/GRIN - 2020-2023.csv")
+GRIN$Coverage = as.numeric(GRIN$Coverage)
+GRIN$Plot = as.character(GRIN$Plot)
+str(GRIN)
+summary(GRIN)
+# Remove Seeding Treatment #
+GRIN = filter(GRIN, Treatment != 'S')
+# Remove Year Three #
+GRIN = filter(GRIN, Year != 3)
+# Reclasifys coverage data (CV) from 1-10 scale to percent scale #
+GRIN <- mutate(GRIN, Coverage = case_when(
+grepl(0, Coverage) ~ 0,
+grepl(1, Coverage) ~ 0.1,
+grepl(2, Coverage) ~ 0.5,
+grepl(3, Coverage) ~ 1.5,
+grepl(4, Coverage) ~ 3.5,
+grepl(5, Coverage) ~ 7.5,
+grepl(6, Coverage) ~ 17.5,
+grepl(7, Coverage) ~ 37.5,
+grepl(8, Coverage) ~ 62.5,
+grepl(9, Coverage) ~ 85,
+grepl(10, Coverage) ~ 97.5
+))
+# Filters data for just bare ground #
+bare = filter(GRIN, Group == "Bare")
+# Creates data sets by year #
+bare_21 = filter(bare, Year == 1)
+bare_22 = filter(bare, Year == 2)
+################################################################################
+################ Test for Significance across years ############################
+############################### 2021 Data ######################################
+# Check Assumptions #
+model  <- lm(Coverage ~ Treatment, data = bare_21)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+# Compute Levene's Test
+bare_21$Treatment = as.factor(bare_21$Treatment)
+bare_21 %>% levene_test(Coverage ~ Treatment)
+# Test for Significance #
+anova_bare21 = bare_21 %>% kruskal_test(Coverage ~ Treatment) %>%
+add_significance()
+<<<<<<< HEAD
+<<<<<<< HEAD
+summary(anova_ES)
+tukey_ES <- ES %>%
+tukey_hsd(Change_abundance ~ Fire) %>%
+add_significance() %>%
+add_xy_position()
+tukey_ES
+love_change_Box =
+ggplot(ES, aes(x = Fire, y = Change_abundance), colour = Fire) +
+geom_boxplot(aes(fill=Fire), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Fire), size = 3,
+position = position_jitterdodge(), alpha = 0.7) +
+stat_pvalue_manual(tukey_ES,size = 8, bracket.size = 1, hide.ns = T)+
+labs(subtitle = get_test_label(anova_ES, detailed = TRUE),
+caption = get_pwc_label(tukey_ES)) +
+ylim(-60,50) +
+scale_fill_manual(labels=c('No Burn', 'Late-Spring', 'Winter'),
+values=c("#333333", "#FF9900", "#3366FF")) +
+scale_color_manual(labels=c('No Burn', 'Late-Spring', 'Winter'),
+values=c("#333333", "#FF9900", "#3366FF")) +
+scale_x_discrete(labels=c('No Burn', 'Late-Spring', 'Winter')) +
+theme_classic() +
+theme(panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+panel.border = element_blank(),
+panel.background = element_blank(),
+plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+text=element_text(size=16),
+axis.title.x = element_text(size=15, face="bold", colour = "black"),
+axis.title.y = element_text(size=15, face="bold", colour = "black"),
+axis.text.x=element_text(size=15, face = "bold", color = "black"),
+axis.text.y=element_text(size=15, face = "bold", color = "black"),
+strip.text.x =
+element_text(size = 15, colour = "black", face = "bold"),
+legend.position = "none") +
+guides(fill = guide_legend(label.position = "bottom")) +
+labs(x = "", y = "Change in Coverage", title = "Eragrostis spectabilis")
+love_change_Box
+ggsave("Figures/Chapter 2 - Fire/change_love.png",
+width = 10, height = 7)
+################################################################################
+########################### Indiangrass ########################################
+################################################################################
+SS =
+Change_Abundance[which(Change_Abundance$Species == "Sorghastrum secundum"),]
+SS<-as.data.frame(SS)
+SS$Fire<-factor(SS$Fire)
+=======
+summary(anova_bare21)
+tukey_bare21 <- bare_21 %>%
+dunn_test(Coverage ~ Treatment) %>%
+add_significance() %>%
+add_xy_position()
+tukey_bare21
+############################### 2022 Data ######################################
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+=======
+summary(anova_bare21)
+tukey_bare21 <- bare_21 %>%
+dunn_test(Coverage ~ Treatment) %>%
+add_significance() %>%
+add_xy_position()
+tukey_bare21
+############################### 2022 Data ######################################
+>>>>>>> 5b7353d77f75d866ba6118a5293140abeb1fc260
+# Check Assumptions #
+model  <- lm(Coverage ~ Treatment, data = bare_22)
+# Create a QQ plot of residuals
+ggqqplot(residuals(model))
+# Compute Shapiro-Wilk test of normality
+shapiro_test(residuals(model))
+plot(model, 1)
+# Compute Levene's Test
+bare_22$Treatment = as.factor(bare_22$Treatment)
+bare_22 %>% levene_test(Coverage ~ Treatment)
+# Test for Significance #
+anova_bare22 = bare_22 %>% kruskal_test(Coverage ~ Treatment) %>%
+add_significance()
+summary(anova_bare22)
+tukey_bare22 <- bare_22 %>%
+dunn_test(Coverage ~ Treatment) %>%
+add_significance() %>%
+add_xy_position()
+tukey_bare22
+## Bare Ground Coverage 2021 ##
+BareBox21 =
+ggplot(bare_21, aes(x = Treatment, y = Coverage), colour = Treatment) +
+geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Treatment),
+position = position_jitterdodge(), size = 4, alpha = 0.5) +
+stat_pvalue_manual(tukey_bare21, hide.ns = T, size = 8, bracket.size = 1)+
+ylim(0, 100) +
+labs(subtitle = get_test_label(anova_bare21, detailed = TRUE),
+caption = get_pwc_label(tukey_bare21)) +
+scale_fill_manual(labels=c('No-Till', 'Late-Spring', 'Winter'),
+values=c("#FF3399", "#FFFF00", "#3366FF")) +
+scale_x_discrete(labels=c('No-Till', 'Late-Spring', 'Winter')) +
+theme_classic() +
+theme(panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+panel.border = element_blank(),
+panel.background = element_blank(),
+plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+text=element_text(size=16),
+axis.title.x = element_text(size=15, face="bold", colour = "black"),
+axis.title.y = element_text(size=15, face="bold", colour = "black"),
+axis.text.x=element_text(size=15, face = "bold", color = "black"),
+axis.text.y=element_text(size=15, face = "bold", color = "black"),
+strip.text.x =
+element_text(size = 15, colour = "black", face = "bold"),
+legend.position = "none") +
+guides(fill = guide_legend(label.position = "bottom")) +
+labs(x = "Treatment", y = "Bare Ground % Coverage", title = "2021")
+BareBox21
+ggsave("Figures/Chapter 1 - Soil Disturbance Seasonality/Bareground_box21.png",
+width = 10, height = 7)
+## Bare Ground Coverage 2022 ##
+BareBox22 =
+ggplot(bare_22, aes(x = Treatment, y = Coverage), colour = Treatment) +
+geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
+geom_point(aes(fill=Treatment),
+position = position_jitterdodge(), size = 4, alpha = 0.5) +
+stat_pvalue_manual(tukey_bare22, hide.ns = T, size = 8, bracket.size = 1) +
+ylim(0, 100) +
+labs(subtitle = get_test_label(anova_bare22, detailed = TRUE),
+caption = get_pwc_label(tukey_bare22)) +
+scale_fill_manual(labels=c('No-Till', 'Late-Spring', 'Winter'),
+values=c("#FF3399", "#FFFF00", "#3366FF")) +
+scale_x_discrete(labels=c('No-Till', 'Late-Spring', 'Winter')) +
+theme_classic() +
+theme(panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+panel.border = element_blank(),
+panel.background = element_blank(),
+plot.title = element_text(hjust = 0.5, face="bold", colour = "black"),
+text=element_text(size=16),
+axis.title.x = element_text(size=15, face="bold", colour = "black"),
+axis.title.y = ,
+axis.text.x=element_text(size=15, face = "bold", color = "black"),
+axis.ticks.y = element_blank(),
+axis.text.y = element_blank(),
+axis.line.y = element_blank(),
+strip.text.x =
+element_text(size = 15, colour = "black", face = "bold"),
+legend.position = "none") +
+guides(fill = guide_legend(label.position = "bottom")) +
+labs(x = "Treatment", y = "", title = "2022")
+BareBox22
+ggsave("Figures/Chapter 1 - Soil Disturbance Seasonality/Bareground_box22.png",
+width = 10, height = 7)
+tmp <- tabular(Treatment ~ Coverage* (mean+sd+std.error), data=bare_22)
+tmp
+################## Save Figures Above using ggarrange ##########################
+ggarrange(BareBox21, BareBox22, ncol = 2, nrow = 1)
+ggsave("Figures/Chapter 1 - Soil Disturbance Seasonality/2021-2022_Bare.png",
+width = 12, height = 7)
