@@ -236,7 +236,8 @@ for (name in names(pairwise.adonis_22)) {
 }
 
 # Save the workbook to an Excel file
-saveWorkbook(wb, "Figures/pairwise_adonis_23_same_sheet.xlsx", overwrite = TRUE)
+saveWorkbook(wb, "Figures/pairwise_adonis_22_same_sheet.xlsx", overwrite = TRUE)
+
 ##########################     2023 Data       #################################
 
 # Create species pivot table #
