@@ -1,0 +1,26 @@
+{
+    "id": "4DFB0906",
+    "path": "~/GitHub/FNPS---Seed-Mixture-Project/Scripts/Weather.R",
+    "project_path": "Scripts/Weather.R",
+    "type": "r_source",
+    "hash": "1658031894",
+    "contents": "",
+    "dirty": true,
+    "created": 1722487021317.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "24,18",
+        "scrollLine": "24"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1721684190,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1722487112377,
+    "read_only": false,
+    "read_only_alternatives": []
+}
