@@ -1,0 +1,26 @@
+{
+    "id": "5D9A1268",
+    "path": "~/GitHub/FNPS---Seed-Mixture-Project/Scripts/ChangeCover.R",
+    "project_path": "Scripts/ChangeCover.R",
+    "type": "r_source",
+    "hash": "4145009493",
+    "contents": "",
+    "dirty": false,
+    "created": 1722473504112.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "546,0",
+        "scrollLine": "22"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1722486670,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1722486670537,
+    "read_only": false,
+    "read_only_alternatives": []
+}
