@@ -148,8 +148,6 @@ love_change_Box =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "Change in Coverage", title = "Eragrostis spectabilis")
 love_change_Box
-ggsave("Figures/Lovechange.png", 
-       width = 10, height = 7)
 
 ################################################################################
 ########################### Indiangrass ########################################
@@ -215,8 +213,6 @@ SS_change_Box =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "Change in Coverage", title = "Sorghastrum secundum")
 SS_change_Box
-ggsave("Figures/change_indian.png", 
-       width = 10, height = 7)
 
 ################################################################################
 ########################### Broomsedge #########################################
@@ -279,8 +275,7 @@ AV_change_Box =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "Change in Coverage", title = "Andropogon virginicus")
 AV_change_Box
-ggsave("Figures/change_Brooms.png", 
-       width = 10, height = 7)
+
 ################################################################################
 ########################### Dalea Pina #########################################
 ################################################################################
@@ -344,8 +339,6 @@ DP_change_Box =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "Change in Coverage", title = "Dalea pinnata")
 DP_change_Box
-ggsave("Figures/change_Dalea.png", 
-       width = 10, height = 7)
 
 ################################################################################
 ########################### Splitbeard #########################################
@@ -410,8 +403,6 @@ AT_change_Box =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "Change in Coverage", title = "Andropogon ternarius")
 AT_change_Box
-ggsave("Figures/change_splitbeard.png", 
-       width = 10, height = 7)
 ################################################################################
 ########################### Pityopsis ##########################################
 ################################################################################
@@ -439,10 +430,10 @@ tukey_Pt <- Pt %>%
   add_xy_position()
 tukey_Pt
 
-tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=PT )
+tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=Pt )
 tmp
 
-write.csv.tabular(tmp, "Figures/PT_Change.csv")
+write.csv.tabular(tmp, "Figures/Pt_Change.csv")
 
 Pt_change_Box = 
   ggplot(Pt, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
@@ -475,8 +466,6 @@ Pt_change_Box =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "Change in Coverage", title = "Pityopsis graminifolia")
 Pt_change_Box
-ggsave("Figures/change_Pityopsis.png", 
-       width = 10, height = 7)
 
 ################################################################################
 ############################### Liatris ########################################
@@ -543,8 +532,6 @@ Liatris_change_Box =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "Change in Coverage", title = "Liatris gracilis")
 Liatris_change_Box
-ggsave("Figures/change_Liatris.png", 
-       width = 10, height = 7)
 
 ################## Save Figures Above using ggarrange ##########################
 Change = 

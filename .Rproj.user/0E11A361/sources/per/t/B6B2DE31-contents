@@ -1,7 +1,7 @@
 ################################################################################
 ################################################################################
 #########################   FNPS - Seed Mixture   ##############################
-#########################       Pityopsis         ##############################
+#########################       Obligates         ##############################
 #########################  University of Florida  ##############################
 #########################     Gage LaPierre       ##############################
 #########################      2021 - 2023        ##############################
@@ -151,9 +151,6 @@ PtBox22 =
   labs(x = "", y = "P. trayci % Coverage", title = "2022")
 PtBox22
 
-ggsave("Figures/Pt_box22.png", 
-       width = 12, height = 8)
-
 ## Lovegrass Coverage 2023 Boxplot ##
 PtBox23 = 
   ggplot(Pt_23, aes(x = Treatment, y = Coverage), colour = Treatment) +
@@ -188,9 +185,6 @@ PtBox23 =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "P. trayci % Coverage", title = "2023")
 PtBox23
-
-ggsave("Figures/Ptbox23.png", 
-       width = 12, height = 8)
 
 ################## Save Figures Above using ggarrange ##########################
 ggarrange(PtBox22, PtBox23, ncol = 2, nrow = 1)
@@ -303,9 +297,6 @@ LgBox22 =
   labs(x = "", y = "L. gracilis % Coverage", title = "2022")
 LgBox22
 
-ggsave("Figures/LG_box22.png", 
-       width = 12, height = 8)
-
 ## Lovegrass Coverage 2023 Boxplot ##
 LgBox23 = 
   ggplot(Lg_23, aes(x = Treatment, y = Coverage), colour = Treatment) +
@@ -340,9 +331,6 @@ LgBox23 =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "L. gracilis % Coverage", title = "2023")
 LgBox23
-
-ggsave("Figures/LG_box23.png", 
-       width = 12, height = 8)
 
 ################## Save Figures Above using ggarrange ##########################
 ggarrange(LgBox22, LgBox23, ncol = 2, nrow = 1)
@@ -455,9 +443,6 @@ DpBox22 =
   labs(x = "", y = "D. pinnata % Coverage", title = "2022")
 DpBox22
 
-ggsave("Figures/DP_box22.png", 
-       width = 12, height = 8)
-
 ## DP Coverage 2023 Boxplot ##
 DpBox23 = 
   ggplot(Dp_23, aes(x = Treatment, y = Coverage), colour = Treatment) +
@@ -492,9 +477,6 @@ DpBox23 =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "D. pinnata % Coverage", title = "2023")
 DpBox23
-
-ggsave("Figures/DPbox23.png", 
-       width = 12, height = 8)
 
 ################## Save Figures Above using ggarrange ##########################
 ggarrange(DpBox22, DpBox23, ncol = 2, nrow = 1)
@@ -607,9 +589,6 @@ SsBox22 =
   labs(x = "", y = "S. secundum % Coverage", title = "2022")
 SsBox22
 
-ggsave("Figures/Indiangrass_box22.png", 
-       width = 12, height = 8)
-
 ## Lovegrass Coverage 2023 Boxplot ##
 SsBox23 = 
   ggplot(Ss_23, aes(x = Treatment, y = Coverage), colour = Treatment) +
@@ -644,9 +623,6 @@ SsBox23 =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "S. secundum % Coverage", title = "2023")
 SsBox23
-
-ggsave("Figures/Indiangrass_box23.png", 
-       width = 12, height = 8)
 
 ################## Save Figures Above using ggarrange ##########################
 ggarrange(SsBox22, SsBox23, ncol = 2, nrow = 1)
@@ -759,9 +735,6 @@ AtBox22 =
   labs(x = "", y = "A. ternarius % Coverage", title = "2022")
 AtBox22
 
-ggsave("Figures/Split_box22.png", 
-       width = 12, height = 8)
-
 ## Lovegrass Coverage 2023 Boxplot ##
 AtBox23 = 
   ggplot(At_23, aes(x = Treatment, y = Coverage), colour = Treatment) +
@@ -796,9 +769,6 @@ AtBox23 =
   guides(fill = guide_legend(label.position = "bottom")) +
   labs(x = "", y = "A. ternarius % Coverage", title = "2023")
 AtBox23
-
-ggsave("Figures/Split_box23.png", 
-       width = 12, height = 8)
 
 ################## Save Figures Above using ggarrange ##########################
 ggarrange(AtBox22, AtBox23, ncol = 2, nrow = 1)

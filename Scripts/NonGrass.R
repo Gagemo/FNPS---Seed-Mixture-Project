@@ -106,13 +106,13 @@ shapiro_test(residuals(model))
 plot(model, 1)
 
 # Test for Significance #
-anova_PN = PN %>% anova_test(Change_abundance ~ Treatment) %>% 
+anova_PN = PN %>% kruskal_test(Change_abundance ~ Treatment) %>% 
   add_significance()
 anova_PN
 
 lm(formula = Change_abundance ~ Treatment, PN)
 tukey_PN <- PN %>% 
-  tukey_hsd(Change_abundance ~ Treatment) %>% 
+  dunn_test(Change_abundance ~ Treatment) %>% 
   add_significance() %>% 
   add_xy_position()
 tukey_PN
