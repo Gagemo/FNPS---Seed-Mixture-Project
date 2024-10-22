@@ -1,0 +1,28 @@
+{
+    "id": "B07831B9",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1729617542746.0,
+    "source_on_save": false,
+    "relative_order": 12,
+    "properties": {
+        "id": "77af19f6260a4ff1b4872a63a1b9e038",
+        "name": "tukey",
+        "title": "tukey",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2427273404616,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1729617542746,
+    "read_only": false,
+    "read_only_alternatives": []
+}
